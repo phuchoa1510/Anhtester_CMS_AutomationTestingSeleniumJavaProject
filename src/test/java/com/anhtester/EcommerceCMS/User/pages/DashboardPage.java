@@ -1,5 +1,5 @@
 package com.anhtester.EcommerceCMS.User.pages;
 
-public class DashboardPage {
+public class DashboardPage extends BasePage{
 
 }
