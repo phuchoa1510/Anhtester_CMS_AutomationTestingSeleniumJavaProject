@@ -23,6 +23,9 @@ public class BasePage {
     public void clickMenuDashboard() {
         WebUI.clickElement(menuDashboard);
     }
+    public void clickMenuManageProfile(){
+        WebUI.clickElement(menuManageProfile);
+    }
 
     public void clickClosePopup(){
         if (WebUI.checkElementExist(homePagePopup)){
