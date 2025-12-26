@@ -37,12 +37,13 @@ public class ManageProfilePage extends BasePage {
     public By inputAddress = By.xpath("//textarea[@placeholder='Your Address']");
     public By dropdownCountry = By.xpath("//textarea[@placeholder='Your Address']");
     public By inputdropdownCountrySearch = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
-    public By optionCountry = By.xpath("//a[@class = 'dropdown-item']/span[normalize-space() = ");
+    public By optionCountry = By.xpath("//a[@class = 'dropdown-item']/span[normalize-space() = '");
     public By dropdownCity = By.xpath("//label[normalize-space()='City']//ancestor::div/following-sibling::div/div/button");
     public By inputPostalCode = By.xpath("//input[@placeholder='Your Postal Code']");
     public By inputPhone = By.xpath("//input[@placeholder='+880']");
     public By buttonSave = By.xpath("//button[normalize-space()='Save']");
 
+    public By massageUpdateProfileSuccess = By.xpath("//span[@data-notify='message']");
 
     public void verifyManageProfilePageIsDisplayed() {
         boolean check = WebUI.checkElementExist(headerManageProfile);
@@ -57,9 +58,24 @@ public class ManageProfilePage extends BasePage {
         WebUI.clickElement(buttonUpdateProfile);
     }
 
-    public void addNewAddress(String address) {
+    public void addNewAddress(String address, String country, String postalCode, String phone) {
         WebUI.clickElement(buttonAddNewAddress);
         WebUI.setText(inputAddress, address);
-
+        WebUI.clickElement(dropdownCity);
+        WebUI.clickElement(By.xpath(  optionCountry + country + "']"));
+        WebUI.setText(inputPostalCode,postalCode);
+        WebUI.setText(inputPhone, phone);
+        WebUI.clickElement(buttonSave);
+    }
+    public void changeEmail(String email){
+        WebUI.setText(inputYourEmail, email);
+        WebUI.clickElement(buttonVerify);
+        WebUI.clickElement(buttonUpdateEmail);
+    }
+    public void verifyAlertUpdateProfileSuccessDisplayed(){
+        boolean isDisplayed = WebUI.checkElementExist(massageUpdateProfileSuccess,5,1000);
+        Assert.assertTrue(isDisplayed,"Alert message is not displayed");
+        String alertText = WebUI.getElementText(massageUpdateProfileSuccess);
+        Assert.assertEquals(alertText,"Your Profile has been updated successfully!","Alert message is not match expected");
     }
 }
