@@ -67,15 +67,18 @@ public class ManageProfilePage extends BasePage {
         WebUI.setText(inputPhone, phone);
         WebUI.clickElement(buttonSave);
     }
+
     public void changeEmail(String email){
         WebUI.setText(inputYourEmail, email);
         WebUI.clickElement(buttonVerify);
         WebUI.clickElement(buttonUpdateEmail);
     }
+
     public void verifyAlertUpdateProfileSuccessDisplayed(){
         boolean isDisplayed = WebUI.checkElementExist(massageUpdateProfileSuccess,5,1000);
         Assert.assertTrue(isDisplayed,"Alert message is not displayed");
         String alertText = WebUI.getElementText(massageUpdateProfileSuccess);
         Assert.assertEquals(alertText,"Your Profile has been updated successfully!","Alert message is not match expected");
     }
+
 }
