@@ -19,6 +19,13 @@ public class BasePage {
 
     public By iUnderstoodPopup = By.xpath("//button[normalize-space()='Ok. I Understood']");
 
+    public By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
+
+
+
+    public void navigateToMyPanel (){
+        WebUI.clickElement(buttonMyPanel);
+    }
 
     public void clickMenuDashboard() {
         WebUI.clickElement(menuDashboard);
