@@ -1,7 +1,6 @@
 package com.anhtester.listeners;
 
 import com.anhtester.drivers.DriverManager;
-import com.anhtester.helpers.PropertiesHelper;
 import io.qameta.allure.Allure;
 import io.qameta.allure.listener.TestLifecycleListener;
 import io.qameta.allure.model.Status;
@@ -39,20 +38,14 @@ public class AllureListener implements TestLifecycleListener {
 
     @Override
     public void beforeTestStop(TestResult result) {
-        if(PropertiesHelper.getValue("SCREENSHOT_SUCCESS").equals("true")) {
-            if (result.getStatus().equals(Status.PASSED)) {
-                if (DriverManager.getDriver() != null) {
-                    Allure.addAttachment(result.getName() + "_Passed_Screenshot", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES)));
-                }
+        if (result.getStatus().equals(Status.PASSED)) {
+            if (DriverManager.getDriver() != null) {
+                Allure.addAttachment(result.getName() + "_Passed_Screenshot", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES)));
             }
         }
-
-        if(PropertiesHelper.getValue("SCREENSHOT_FAILURE").equals("true")) {
-            if (result.getStatus().equals(Status.FAILED)) {
-                if (DriverManager.getDriver() != null) {
-                    //AllureManager.saveScreenshotPNG();
-                    Allure.addAttachment(result.getName() + "_Failed_Screenshot", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES)));
-                }
+        if (result.getStatus().equals(Status.FAILED)) {
+            if (DriverManager.getDriver() != null) {
+                Allure.addAttachment(result.getName() + "_Failed_Screenshot", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES)));
             }
         }
     }
