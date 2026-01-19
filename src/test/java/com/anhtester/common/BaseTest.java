@@ -13,6 +13,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+@Listeners(TestListener.class)
 public class BaseTest {
     public SoftAssert softAssert;
 
