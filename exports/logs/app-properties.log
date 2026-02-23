@@ -1,0 +1,737 @@
+[INFO] 17-02-2026 17:30:52 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 17-02-2026 17:30:52 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 17-02-2026 17:30:52 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 17-02-2026 17:30:53 [main] LogUtils - Launching Chrome browser...
+[INFO] 17-02-2026 17:31:16 [main] LogUtils - ===== Execution Started: testLoginFailed =====
+[INFO] 17-02-2026 17:31:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 17-02-2026 17:31:21 [main] LogUtils - Test case testLoginFailed is failed.
+[ERROR] 17-02-2026 17:31:21 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 17-02-2026 17:31:21 [main] LogUtils - Test case testLoginFailed is failed.
+[ERROR] 17-02-2026 17:31:21 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 17-02-2026 17:31:21 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 17-02-2026 17:32:25 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 17-02-2026 17:32:25 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 17-02-2026 17:32:25 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 17-02-2026 17:32:25 [main] LogUtils - Launching Chrome browser...
+[INFO] 17-02-2026 17:32:27 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 17-02-2026 17:32:30 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 17-02-2026 17:32:31 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 17-02-2026 17:32:31 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 17-02-2026 17:32:31 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 17-02-2026 17:32:31 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 17-02-2026 17:32:31 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:17:55 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:17:55 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:17:55 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:17:56 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 15:18:00 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 15:18:02 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 15:18:03 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:18:03 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 15:18:04 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:18:04 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 15:18:04 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:18:24 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:18:24 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:18:24 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:18:25 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 15:18:26 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 15:18:29 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 15:18:29 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:18:29 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 15:18:29 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:18:29 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 15:18:30 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:26:37 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:26:37 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:26:37 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:26:38 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 15:26:40 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 15:26:42 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 15:26:42 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:26:42 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 15:26:43 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:26:43 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 15:26:43 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:27:34 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:27:34 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 15:27:34 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 15:27:34 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 15:27:36 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 15:27:37 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 15:27:38 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:27:38 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 15:27:38 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 15:27:38 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 15:27:39 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:19:45 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:19:45 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:19:45 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:19:46 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:19:50 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:19:53 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:19:54 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:19:54 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:19:54 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:19:54 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:19:54 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:31:08 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:31:08 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:31:08 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:31:08 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:31:10 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:31:13 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:31:14 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:31:14 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:31:14 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:31:14 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:31:14 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:34:03 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:34:03 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:34:03 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:34:04 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:34:05 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:34:08 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:34:09 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:34:09 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:34:09 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:34:09 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:34:09 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:34:43 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:34:43 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:34:43 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:34:44 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:34:46 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:34:48 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:34:49 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:34:49 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:34:49 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:34:49 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:34:49 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:35:47 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:35:47 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:35:47 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:35:47 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:35:49 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:35:51 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:35:52 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:35:52 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:35:52 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:35:52 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:35:53 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:36:18 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:36:18 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 18-02-2026 17:36:18 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 18-02-2026 17:36:19 [main] LogUtils - Launching Chrome browser...
+[INFO] 18-02-2026 17:36:21 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 18-02-2026 17:36:23 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 18-02-2026 17:36:25 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:36:25 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 18-02-2026 17:36:25 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 18-02-2026 17:36:25 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 18-02-2026 17:36:25 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 11:27:22 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 11:27:22 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 11:27:22 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 11:27:23 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 11:27:28 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 22-02-2026 11:27:30 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 22-02-2026 11:27:31 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 22-02-2026 11:27:31 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 22-02-2026 11:27:31 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 22-02-2026 11:27:31 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 22-02-2026 11:27:31 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 20:44:12 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 20:44:12 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 20:44:12 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 20:44:13 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 20:44:16 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 22-02-2026 20:44:17 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 22-02-2026 20:44:18 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 22-02-2026 20:44:18 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[ERROR] 22-02-2026 20:44:19 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 22-02-2026 20:44:19 [main] LogUtils - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String, com.aventstack.extentreports.model.Media)" because the return value of "com.anhtester.reports.ExtentTestManager.getTest()" is null
+[INFO] 22-02-2026 20:44:19 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 20:56:03 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 20:56:03 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 20:56:03 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 20:56:04 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 20:56:06 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 22-02-2026 20:56:08 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 20:56:08 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 20:56:09 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 20:56:09 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 20:56:09 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 20:56:10 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 20:56:10 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 20:56:10 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 20:56:11 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 20:56:11 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 20:56:11 [main] LogUtils - +++++ Execution PASSED: testLoginSuccess +++++
+[INFO] 22-02-2026 20:56:11 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 21:02:47 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 21:02:47 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 21:02:47 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 21:02:47 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 21:02:49 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 22-02-2026 21:02:51 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 21:02:51 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:02:51 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:02:51 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:02:51 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:02:52 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 21:02:52 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 21:02:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 21:02:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 21:02:54 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 21:02:54 [main] LogUtils - +++++ Execution PASSED: testLoginSuccess +++++
+[INFO] 22-02-2026 21:02:54 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 21:56:31 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 21:56:31 [main] LogUtils - ======== ON START Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 21:56:31 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 21:56:32 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 21:56:34 [main] LogUtils - ===== Execution Started: testLoginSuccess =====
+[INFO] 22-02-2026 21:56:36 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 21:56:36 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:56:36 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:56:36 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:56:36 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:56:37 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 21:56:37 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 21:56:37 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 21:56:38 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 21:56:38 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 21:56:38 [main] LogUtils - +++++ Execution PASSED: testLoginSuccess +++++
+[INFO] 22-02-2026 21:56:39 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 21:56:40 [main] LogUtils - ===== Execution Started: testLoginFailed =====
+[INFO] 22-02-2026 21:56:41 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 21:56:41 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:56:41 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 21:56:41 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:56:41 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 21:56:42 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 21:56:42 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 21:56:42 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 21:56:42 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 21:56:43 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 21:56:43 [main] LogUtils - +++++ Execution PASSED: testLoginFailed +++++
+[INFO] 22-02-2026 21:56:43 [main] LogUtils - ======== ON FINISH Anhtester_CMS_AutomationTestingSeleniumJavaProject ========
+[INFO] 22-02-2026 22:29:16 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:29:16 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:29:16 ICT 2026
+[INFO] 22-02-2026 22:29:16 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:29:18 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 22-02-2026 22:29:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 22:29:20 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:29:21 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:29:21 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:29:21 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:29:21 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 22:29:21 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 22:29:22 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 22:29:22 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 22:29:23 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 22:29:23 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 22-02-2026 22:29:23 [main] LogUtils - ==> Status: 1
+[INFO] 22-02-2026 22:29:23 [main] LogUtils - Kết thúc bộ test: Sun Feb 22 22:29:23 ICT 2026
+[INFO] 22-02-2026 22:30:11 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:30:11 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:30:11 ICT 2026
+[INFO] 22-02-2026 22:30:11 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:30:13 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 22-02-2026 22:30:15 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 22:30:15 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:30:15 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:30:15 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:30:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:30:16 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 22:30:16 [main] LogUtils - Set text customer@example.comq on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 22:30:16 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 22:30:16 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 22-02-2026 22:30:17 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 22-02-2026 22:30:18 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 22-02-2026 22:30:19 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 22-02-2026 22:30:20 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 22-02-2026 22:30:21 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 22-02-2026 22:30:22 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 22-02-2026 22:30:22 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 22-02-2026 22:30:22 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Login failed or Dashboard not displayed expected [true] but found [false]
+[INFO] 22-02-2026 22:30:22 [main] LogUtils - Kết thúc bộ test: Sun Feb 22 22:30:22 ICT 2026
+[INFO] 22-02-2026 22:31:21 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:31:21 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:31:21 ICT 2026
+[INFO] 22-02-2026 22:31:21 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:31:29 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:31:29 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:31:29 ICT 2026
+[INFO] 22-02-2026 22:31:29 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:31:30 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 22-02-2026 22:31:32 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 22:31:32 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:31:32 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:31:32 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:31:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:31:33 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 22:31:33 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 22:31:33 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 22:31:33 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[ERROR] 22-02-2026 22:31:45 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[ERROR] 22-02-2026 22:31:45 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 22-02-2026 22:31:45 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element to be clickable. By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 22-02-2026 22:31:45 [main] LogUtils - Kết thúc bộ test: Sun Feb 22 22:31:45 ICT 2026
+[INFO] 22-02-2026 22:33:37 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:33:37 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:33:37 ICT 2026
+[INFO] 22-02-2026 22:33:37 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:33:39 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 22-02-2026 22:33:40 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 22:33:41 [main] LogUtils - Set text admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 22:33:42 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 22:33:43 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[ERROR] 22-02-2026 22:33:48 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[ERROR] 22-02-2026 22:33:48 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 22-02-2026 22:33:48 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element to be clickable. By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[ERROR] 22-02-2026 22:33:48 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 22-02-2026 22:33:48 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ad9657bb0f7f6a63b8b3f59dc119fe5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51160}, goog:processID: 11816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51160/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ad9657bb0f7f6a63b8b3f59dc119fe5
+[INFO] 22-02-2026 22:33:48 [main] LogUtils - Kết thúc bộ test: Sun Feb 22 22:33:48 ICT 2026
+[INFO] 22-02-2026 22:34:26 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-02-2026 22:34:26 [main] LogUtils - Setup môi trường onStart: Sun Feb 22 22:34:26 ICT 2026
+[INFO] 22-02-2026 22:34:26 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-02-2026 22:34:28 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-02-2026 22:34:30 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 22-02-2026 22:34:31 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-02-2026 22:34:31 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-02-2026 22:34:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 22-02-2026 22:34:34 [main] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - Get text of element By.xpath: //span[@data-notify='message']
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - ==> TEXT: Your Profile has been updated successfully!
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - ==> Status: 1
+[INFO] 22-02-2026 22:34:36 [main] LogUtils - Kết thúc bộ test: Sun Feb 22 22:34:36 ICT 2026
+[INFO] 23-02-2026 12:21:42 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 12:21:42 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:21:42 ICT 2026
+[INFO] 23-02-2026 12:21:42 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:21:45 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 12:21:48 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:21:48 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:21:48 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:21:48 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:21:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:21:50 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[ERROR] 23-02-2026 12:21:50 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 23-02-2026 12:21:50 [main] LogUtils - ==> Lý do: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO] 23-02-2026 12:21:50 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:21:51 [main] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 12:21:53 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:21:53 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:21:53 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:21:53 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:21:53 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:21:55 [main] LogUtils - Click on element By.xpath: //a[text()='Registration']/parent::li/preceding-sibling::li[1]/a
+[INFO] 23-02-2026 12:21:55 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:21:55 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:21:56 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:21:56 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:21:56 [main] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 12:21:56 [main] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:21:56 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:21:56 ICT 2026
+[INFO] 23-02-2026 12:26:46 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 12:26:46 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:26:46 ICT 2026
+[INFO] 23-02-2026 12:26:46 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:26:47 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 12:26:51 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:26:51 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:26:52 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:26:52 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:26:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:26:53 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[ERROR] 23-02-2026 12:26:53 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 23-02-2026 12:26:53 [main] LogUtils - ==> Lý do: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO] 23-02-2026 12:26:53 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:26:54 [main] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 12:26:56 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:26:56 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:26:56 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:26:56 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:26:56 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:26:57 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:26:57 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:26:57 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:26:57 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:27:00 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:27:00 [main] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 12:27:00 [main] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:27:00 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:27:00 ICT 2026
+[INFO] 23-02-2026 12:28:15 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 12:28:15 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:28:15 ICT 2026
+[INFO] 23-02-2026 12:28:15 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:28:16 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 12:28:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:28:20 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:28:20 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:28:20 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:28:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:28:22 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[ERROR] 23-02-2026 12:28:22 [main] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 23-02-2026 12:28:22 [main] LogUtils - ==> Lý do: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO] 23-02-2026 12:28:22 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:28:23 [main] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 12:28:25 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:28:25 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:28:25 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:28:25 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:28:25 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:28:27 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:28:27 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:28:27 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:28:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:28:29 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:28:29 [main] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 12:28:29 [main] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:28:29 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:28:29 ICT 2026
+[INFO] 23-02-2026 12:34:15 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 12:34:15 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:34:15 ICT 2026
+[INFO] 23-02-2026 12:34:15 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:34:16 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 12:34:19 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:34:19 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:34:20 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:34:20 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:34:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:34:21 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:34:21 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:34:21 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:34:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:34:24 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:34:24 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 12:34:24 [main] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:34:24 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:34:25 [main] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 12:34:26 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:34:26 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:34:26 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:34:26 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:34:26 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:34:28 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:34:28 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:34:28 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:34:28 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:34:30 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:34:30 [main] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 12:34:30 [main] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:34:30 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:34:30 ICT 2026
+[INFO] 23-02-2026 12:53:16 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 12:53:16 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:53:16 ICT 2026
+[INFO] 23-02-2026 12:53:16 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:53:16 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:53:18 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 12:53:18 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:21 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:53:23 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:53:24 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:53:24 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 12:53:24 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:53:26 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:53:26 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 12:53:26 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:53:26 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:53:26 ICT 2026
+[INFO] 23-02-2026 12:53:26 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 12:53:26 ICT 2026
+[INFO] 23-02-2026 12:53:26 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 12:53:27 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 12:53:28 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 12:53:28 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:29 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 12:53:29 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:29 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 12:53:30 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 12:53:30 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 12:53:30 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 12:53:30 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 12:53:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - Get text of element By.xpath: //span[@data-notify='message']
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - ==> TEXT: Your Profile has been updated successfully!
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 23-02-2026 12:53:41 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 12:53:42 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 12:53:42 ICT 2026
+[INFO] 23-02-2026 13:00:51 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 13:00:51 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:00:51 ICT 2026
+[INFO] 23-02-2026 13:00:51 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:01:04 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 13:01:04 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:01:04 ICT 2026
+[INFO] 23-02-2026 13:01:04 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:01:04 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:01:06 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 13:01:06 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:01:08 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:09 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:09 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:09 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:01:10 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 13:01:12 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:01:13 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:01:13 ICT 2026
+[INFO] 23-02-2026 13:01:13 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:01:13 ICT 2026
+[INFO] 23-02-2026 13:01:13 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:01:13 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 13:01:15 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:01:15 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:16 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:01:16 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:16 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:01:17 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:01:17 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:01:17 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:01:17 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:01:23 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:01:23 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:01:23 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 13:01:23 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 13:01:24 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 13:01:24 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 13:01:24 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 13:01:24 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 13:01:25 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 13:01:26 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 13:01:27 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 13:01:28 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 13:01:29 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 13:01:29 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 13:01:29 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 13:01:31 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:01:31 ICT 2026
+[INFO] 23-02-2026 13:07:08 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 13:07:08 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:07:08 ICT 2026
+[INFO] 23-02-2026 13:07:09 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:07:09 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:07:10 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 13:07:10 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 13:07:16 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:07:16 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:16 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:16 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:16 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:17 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:07:17 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:17 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:17 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:17 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:07:19 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:07:21 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 23-02-2026 13:07:21 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[INFO] 23-02-2026 13:07:22 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:07:22 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 13:07:22 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[WARN] 23-02-2026 13:07:22 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 13:07:23 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 13:07:24 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 13:07:25 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 13:07:26 [TestNG-test-Login Test-2] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 13:07:26 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is failed.
+[ERROR] 23-02-2026 13:07:26 [TestNG-test-Login Test-2] LogUtils - ==> Lý do: java.lang.AssertionError: Error message for invalid not displayed. expected [true] but found [false]
+[INFO] 23-02-2026 13:07:26 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:07:26 ICT 2026
+[INFO] 23-02-2026 13:07:26 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:07:26 ICT 2026
+[INFO] 23-02-2026 13:07:26 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:07:27 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 13:07:30 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:07:30 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:30 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:07:30 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:30 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:07:32 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:07:32 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:07:32 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:07:35 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 13:07:37 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 13:07:38 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 13:07:39 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 13:07:40 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 13:07:41 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 13:07:42 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 13:07:42 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 13:07:42 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 13:07:43 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:07:43 ICT 2026
+[INFO] 23-02-2026 13:09:26 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 13:09:26 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:09:26 ICT 2026
+[INFO] 23-02-2026 13:09:26 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:09:26 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:09:28 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 13:09:28 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:30 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:31 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:31 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:31 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:31 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:09:32 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:09:33 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 13:09:34 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:09:35 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:09:35 ICT 2026
+[INFO] 23-02-2026 13:09:35 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:09:35 ICT 2026
+[INFO] 23-02-2026 13:09:35 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:09:35 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 13:09:37 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:09:37 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:38 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:09:38 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:38 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:09:39 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:09:39 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:09:39 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:09:40 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 13:09:43 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 13:09:44 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 13:09:45 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 13:09:46 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 13:09:47 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 13:09:48 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 13:09:49 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 13:09:49 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 13:09:50 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:09:50 ICT 2026
+[INFO] 23-02-2026 13:15:08 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 13:15:08 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:15:08 ICT 2026
+[INFO] 23-02-2026 13:15:08 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:15:08 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 13:15:10 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 13:15:10 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 13:15:13 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:15:14 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:14 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:14 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:14 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:15:15 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:15:17 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:15:17 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:15:17 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:15:18 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:15:18 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:15:18 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 13:15:18 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:15:19 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:15:19 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:15:19 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 13:15:19 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:15:19 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:15:19 ICT 2026
+[INFO] 23-02-2026 13:15:19 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 13:15:19 ICT 2026
+[INFO] 23-02-2026 13:15:19 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Edge browser...
+[INFO] 23-02-2026 13:15:22 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 13:15:24 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 13:15:24 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:25 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 13:15:25 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:25 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 13:15:26 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 13:15:26 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 13:15:26 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 13:15:29 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 13:15:30 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:15:30 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 13:15:30 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 13:15:30 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 13:15:31 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 13:15:31 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - Get text of element By.xpath: //span[@data-notify='message']
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - ==> TEXT: Your Profile has been updated successfully!
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 13:15:33 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:15:33 ICT 2026

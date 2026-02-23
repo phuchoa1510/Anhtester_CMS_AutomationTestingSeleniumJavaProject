@@ -9,7 +9,7 @@ public class LoginPage extends BasePage {
 
     private BasePage basePage;
 
-    public By homePageButtonLogin = By.xpath("//a[text()='Registration']/parent::li/preceding-sibling::li[1]/a");
+    public By homePageButtonLogin = By.xpath("//a[text()='Login']");
     public By labelLoginToYourAccount = By.xpath("//h1[normalize-space()='Login to your account.']");
     public By inputEmail = By.xpath("//input[@id='email']");
     public By inputPassword = By.xpath("//input[@id='password']");
@@ -55,8 +55,8 @@ public class LoginPage extends BasePage {
 
     public DashboardPage loginCMS() {
         navigateToLoginUserPage();
-        enterEmail(PropertiesHelper.getValue("ADMIN_EMAIL"));
-        enterPassword(PropertiesHelper.getValue("ADMIN_PASSWORD"));
+        enterEmail(PropertiesHelper.getValue("USER_EMAIL"));
+        enterPassword(PropertiesHelper.getValue("USER_PASSWORD"));
         clickLoginButton();
         WebUI.waitForPageLoaded();
 

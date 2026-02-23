@@ -5,9 +5,7 @@ import com.anhtester.drivers.DriverManager;
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.helpers.SystemHelper;
 import com.anhtester.reports.AllureManager;
-import com.anhtester.reports.ExtentTestManager;
 import com.anhtester.utils.LogUtils;
-import com.aventstack.extentreports.Status;
 import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -24,6 +22,7 @@ import java.util.List;
 import static com.anhtester.constants.DataConfig.*;
 
 public class WebUI {
+
 
     public static void logConsole(Object message) {
         System.out.println(message);
@@ -51,7 +50,7 @@ public class WebUI {
         ((JavascriptExecutor) DriverManager.getDriver()).executeScript(script, DriverManager.getDriver().findElement(by));
     }
 
-    //Wait for Element
+    
 
     public static WebElement waitForElementVisible(By by) {
         WebElement element = null;
@@ -221,10 +220,7 @@ public class WebUI {
         DriverManager.getDriver().get(url);
         sleep(STEP_TIME);
         LogUtils.info("Open URL:  " + url);
-        ExtentTestManager.logMessage(Status.PASS, "Open URL: " + url);
-
         if (SCREENSHOT_ALL_STEP.equals("true")) {
-            ExtentTestManager.addScreenshot("openURL_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
 
@@ -235,9 +231,7 @@ public class WebUI {
         sleep(STEP_TIME);
         waitForElementToBeClickable(by).click();
         LogUtils.info("Click on element " + by);
-        ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
         if (SCREENSHOT_ALL_STEP.equals("true")) {
-            ExtentTestManager.addScreenshot("clickElement_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
     }
@@ -247,9 +241,7 @@ public class WebUI {
         sleep(STEP_TIME);
         waitForElementToBeClickable(by, seconds).click();
         LogUtils.info("Click on element " + by);
-        ExtentTestManager.logMessage(Status.PASS, "Click on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
-            ExtentTestManager.addScreenshot("clickElement_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
     }
@@ -259,9 +251,7 @@ public class WebUI {
         sleep(STEP_TIME);
         waitForElementVisible(by).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
-        ExtentTestManager.logMessage(Status.PASS, "Set text " + text + " on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
-            ExtentTestManager.addScreenshot("setText_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
     }
@@ -271,9 +261,7 @@ public class WebUI {
         sleep(STEP_TIME);
         waitForElementVisible(by, seconds).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
-        ExtentTestManager.logMessage(Status.PASS, "Set text " + text + " on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
-            ExtentTestManager.addScreenshot("setText_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
     }
@@ -285,11 +273,8 @@ public class WebUI {
         LogUtils.info("Get text of element " + by);
         String text = getWebElement(by).getText();
         LogUtils.info("==> TEXT: " + text);
-        ExtentTestManager.logMessage(Status.PASS, "Get text of element " + by);
-        ExtentTestManager.logMessage(Status.INFO, "==> Text: " + text);
         AllureManager.saveTextLog("==> TEXT: " + text);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
-            ExtentTestManager.addScreenshot("getElementText_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
         return text; //Trả về một giá trị kiểu String
@@ -301,11 +286,8 @@ public class WebUI {
         LogUtils.info("Get attribute of element " + by);
         String value = getWebElement(by).getAttribute(attributeName);
         LogUtils.info("==> Attribute value: " + value);
-        ExtentTestManager.logMessage(Status.PASS, "Get attribute of element " + by);
-        ExtentTestManager.logMessage(Status.INFO, "==> Attribute value: " + value);
         AllureManager.saveTextLog("==> Attribute value: " + value);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
-            ExtentTestManager.addScreenshot("getElementAttribute_" + SystemHelper.getDateTimeNowFormat());
             AllureManager.saveScreenshotPNG();
         }
         return value;
@@ -498,4 +480,3 @@ public class WebUI {
     }
 
 }
-
