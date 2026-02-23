@@ -1281,3 +1281,36 @@ Inhouse product
 [INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
 [INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 ==> Status: 1
 [INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:22:57 ICT 2026
+[INFO] 23-02-2026 22:35:53 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:35:53 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:35:53 ICT 2026
+[INFO] 23-02-2026 22:35:53 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:35:54 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:35:56 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:35:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:35:56 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:35:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:35:57 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:35:57 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:35:57 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:35:57 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:35:57 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:36:02 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:36:02 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:36:02 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:36:02 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:36:04 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 Get text of element By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 ==> TEXT: Laptop xịn 2025
+[INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:36:05 ICT 2026

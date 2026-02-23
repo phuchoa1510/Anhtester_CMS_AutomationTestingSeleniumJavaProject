@@ -2,6 +2,8 @@ package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
+import io.qameta.allure.Step;
+import org.apache.commons.collections4.Get;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -25,16 +27,19 @@ public class ProductPage extends BasePage{
         WebUI.clickElement(firstSearchResult);
         WebUI.waitForPageLoaded();
     }
+    @Step("Verify Product {0} Page Displayed")
     public void verifyProductTargetPageIsDisplayed(String productName){
         WebUI.checkElementExist(productTitle);
         String productTitleName = WebUI.getElementText(productTitle);
         Assert.assertEquals(productTitleName,productName,"Product title isn't displayed");
     }
+    @Step("Get Product Name")
     public String getProductName(){
         WebUI.checkElementExist(productTitle);
         String productName = WebUI.getElementText(productTitle);
         return productName;
     }
+    @Step("Get Seller Name")
     public String getProductSellerName(){
         WebUI.checkElementExist(sellerName);
         WebUI.moveToElement(sellerName);
@@ -42,12 +47,14 @@ public class ProductPage extends BasePage{
         String seller = fullTextSeller.split("\n")[1].trim();
         return seller;
     }
+    @Step("Get Price")
     public String getProductPrice(){
         WebUI.checkElementExist(productPrice);
         WebUI.moveToElement(productPrice);
         String price =  WebUI.getElementText(productPrice);
         return price;
     }
+    @Step("Get Description")
     public String getProductDescription(){
         WebUI.checkElementExist(productDescription);
         WebUI.moveToElement(productDescription);
