@@ -1,6 +1,7 @@
 package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.keywords.WebUI;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -45,11 +46,13 @@ public class ManageProfilePage extends BasePage {
 
     public By massageUpdateProfileSuccess = By.xpath("//span[@data-notify='message']");
 
+    @Step("Verify Mananage Profile page is Displayed")
     public void verifyManageProfilePageIsDisplayed() {
         boolean check = WebUI.checkElementExist(headerManageProfile);
         Assert.assertTrue(check, "Manage Profile Page is not displayed");
     }
 
+    @Step("Update basic profile information with name: {0}, phone: {1}, and password")
     public void fillDataBasicInfo(String yourName, String yourPhone, String newPassword, String confirmPassword) {
         WebUI.setText(inputYourName, yourName);
         WebUI.setText(inputYourPhone, yourPhone);
@@ -57,7 +60,7 @@ public class ManageProfilePage extends BasePage {
         WebUI.setText(inputConfirmPassword, confirmPassword);
         WebUI.clickElement(buttonUpdateProfile);
     }
-
+    @Step("Add new address in country: {1}")
     public void addNewAddress(String address, String country, String postalCode, String phone) {
         WebUI.clickElement(buttonAddNewAddress);
         WebUI.setText(inputAddress, address);
@@ -67,13 +70,14 @@ public class ManageProfilePage extends BasePage {
         WebUI.setText(inputPhone, phone);
         WebUI.clickElement(buttonSave);
     }
-
+    @Step("Change email to: {0}")
     public void changeEmail(String email){
         WebUI.setText(inputYourEmail, email);
         WebUI.clickElement(buttonVerify);
         WebUI.clickElement(buttonUpdateEmail);
     }
 
+    @Step("Verify Alert Update Profile Success Displayed")
     public void verifyAlertUpdateProfileSuccessDisplayed(){
         boolean isDisplayed = WebUI.checkElementExist(massageUpdateProfileSuccess,5,1000);
         Assert.assertTrue(isDisplayed,"Alert message is not displayed");

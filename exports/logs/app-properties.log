@@ -735,3 +735,549 @@ Session ID: 4ad9657bb0f7f6a63b8b3f59dc119fe5
 [INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is passed.
 [INFO] 23-02-2026 13:15:33 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Status: 1
 [INFO] 23-02-2026 13:15:33 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 13:15:33 ICT 2026
+[INFO] 23-02-2026 19:48:07 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 19:48:07 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 19:48:07 ICT 2026
+[INFO] 23-02-2026 19:48:07 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:48:07 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:48:10 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 19:48:10 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 19:48:13 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:48:13 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:13 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:13 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:13 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:14 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:48:14 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:14 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:14 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:14 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:48:16 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:48:17 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 19:48:17 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 19:48:17 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 19:48:18 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:48:18 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 19:48:18 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 19:48:18 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 19:48:18 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 19:48:18 ICT 2026
+[INFO] 23-02-2026 19:48:18 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 19:48:18 ICT 2026
+[INFO] 23-02-2026 19:48:18 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:48:19 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 19:48:20 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:48:21 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:21 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:48:21 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:21 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:48:22 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:48:22 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:48:23 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:48:23 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 19:48:25 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 19:48:26 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 19:48:26 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 19:48:27 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 19:48:28 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 19:48:29 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 19:48:30 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 19:48:31 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 19:48:31 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 19:48:31 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 19:48:31 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 19:48:31 ICT 2026
+[INFO] 23-02-2026 19:50:37 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 19:50:37 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 19:50:37 ICT 2026
+[INFO] 23-02-2026 19:50:37 [TestNG-test-Login Test-2] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:50:37 [TestNG-test-Login Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:50:39 [TestNG-test-Login Test-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 19:50:39 [TestNG-test-Login Test-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:41 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:50:44 [TestNG-test-Login Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-2] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Login Test-1] LogUtils - ==> Status: 1
+[INFO] 23-02-2026 19:50:46 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 19:50:46 ICT 2026
+[INFO] 23-02-2026 19:50:46 [main] LogUtils - Setup môi trường onStart: Mon Feb 23 19:50:46 ICT 2026
+[INFO] 23-02-2026 19:50:46 [TestNG-test-Manage Profile Test-1] LogUtils - Launching Chrome browser...
+[INFO] 23-02-2026 19:50:47 [TestNG-test-Manage Profile Test-1] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 19:50:48 [TestNG-test-Manage Profile Test-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 19:50:48 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:48 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 19:50:48 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:49 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 19:50:50 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 19:50:50 [TestNG-test-Manage Profile Test-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 19:50:50 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 19:50:50 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 19:50:53 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 19:50:54 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 19:50:55 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 19:50:56 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 19:50:57 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 19:50:58 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 19:50:58 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 19:50:58 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 19:50:59 [main] LogUtils - Kết thúc bộ test: Mon Feb 23 19:50:59 ICT 2026
+[INFO] 23-02-2026 21:47:07 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:47:07 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:47:07 ICT 2026
+[INFO] 23-02-2026 21:47:07 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:47:10 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[ERROR] 23-02-2026 21:47:10 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:47:10 [main] LogUtils - ==> Lý do: java.lang.NullPointerException
+[INFO] 23-02-2026 21:47:10 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:47:10 ICT 2026
+[INFO] 23-02-2026 21:48:27 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:48:27 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:48:27 ICT 2026
+[INFO] 23-02-2026 21:48:27 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:48:29 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:48:31 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[ERROR] 23-02-2026 21:48:33 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:48:33 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c570f067ad628d727e5ecb36fe48a56f, clickElement {id=f.B22B1AB34E33EF4EBF65DF4A265F01F4.d.DC1736C7F5B7CA35AA055BACE018087A.e.101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64334}, goog:processID: 14732, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64334/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c570f067ad628d727e5ecb36fe48a56f)] -> xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]]
+Session ID: c570f067ad628d727e5ecb36fe48a56f
+[INFO] 23-02-2026 21:48:34 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:48:34 ICT 2026
+[INFO] 23-02-2026 21:51:51 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:51:52 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:51:51 ICT 2026
+[INFO] 23-02-2026 21:51:52 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:51:53 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:51:55 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:51:56 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:51:56 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[ERROR] 23-02-2026 21:51:57 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:51:57 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cbbbfe9db61991746287e7abff84dec, clickElement {id=f.38192EA0BD5AB9B0A5843DC4E8C3A5A6.d.94FE5BA1CDFF3800809A07D1EABA1AD0.e.104}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55905}, goog:processID: 21984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55905/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9cbbbfe9db61991746287e7abff84dec)] -> xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]]
+Session ID: 9cbbbfe9db61991746287e7abff84dec
+[INFO] 23-02-2026 21:51:58 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:51:58 ICT 2026
+[INFO] 23-02-2026 21:52:31 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:52:31 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:52:31 ICT 2026
+[INFO] 23-02-2026 21:52:31 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:52:33 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:52:35 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 21:52:56 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:52:56 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:52:56 ICT 2026
+[INFO] 23-02-2026 21:52:56 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:52:58 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:53:00 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:53:01 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:53:01 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[ERROR] 23-02-2026 21:53:02 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:53:02 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb0ab660061268c17faf067005370873, clickElement {id=f.75EDC36DE11782BB4A3F74B186EF7401.d.E6B66BE30367616C7ED52388B99FA7AC.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64689}, goog:processID: 15824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64689/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bb0ab660061268c17faf067005370873)] -> xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]]
+Session ID: bb0ab660061268c17faf067005370873
+[INFO] 23-02-2026 21:53:03 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:53:03 ICT 2026
+[INFO] 23-02-2026 21:54:07 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:54:07 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:54:07 ICT 2026
+[INFO] 23-02-2026 21:54:07 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:54:09 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:54:12 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:54:20 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 21:54:20 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:54:20 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:54:20 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:54:22 [main] LogUtils - 🔹 Sheet name doesn't exist.
+[INFO] 23-02-2026 21:54:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:54:22 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:54:22 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:54:22 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[INFO] 23-02-2026 21:54:32 [main] LogUtils - 🔹 Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 21:54:32 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:54:32 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[INFO] 23-02-2026 21:54:32 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:54:32 ICT 2026
+[INFO] 23-02-2026 21:57:06 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:57:06 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:57:06 ICT 2026
+[INFO] 23-02-2026 21:57:06 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:57:07 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:57:09 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:57:10 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:57:10 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:57:10 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:57:18 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 21:57:18 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:57:18 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:57:18 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:57:19 [main] LogUtils - 🔹 Sheet name doesn't exist.
+[INFO] 23-02-2026 21:57:19 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:57:19 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:57:19 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:57:19 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 21:57:19 [main] LogUtils - no such element: Unable to locate element: {"method":"xpath","selector":"//small[normalize-space()='Sold by :']/parent::div"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8d5ec46d960122c620cb1e7ffd7c8d4, findElement {using=xpath, value=//small[normalize-space()='Sold by :']/parent::div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51785}, goog:processID: 19548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51785/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8d5ec46d960122c620cb1e7ffd7c8d4
+[INFO] 23-02-2026 21:57:30 [main] LogUtils - 🔹 Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 21:57:30 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:57:30 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[INFO] 23-02-2026 21:57:30 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:57:30 ICT 2026
+[INFO] 23-02-2026 21:58:17 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 21:58:17 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 21:58:17 ICT 2026
+[INFO] 23-02-2026 21:58:17 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 21:58:19 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:58:22 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 21:58:30 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 21:58:30 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:58:30 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:58:30 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:58:32 [main] LogUtils - 🔹 Sheet name doesn't exist.
+[INFO] 23-02-2026 21:58:32 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 21:58:32 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 21:58:32 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 21:58:32 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 21:58:32 [main] LogUtils - no such element: Unable to locate element: {"method":"xpath","selector":"//small[normalize-space()='Sold by :']/parent::div"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25c56f76545778f40ee2531157655e95, findElement {using=xpath, value=//small[normalize-space()='Sold by :']/parent::div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57062}, goog:processID: 16564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57062/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25c56f76545778f40ee2531157655e95
+[INFO] 23-02-2026 21:58:42 [main] LogUtils - 🔹 Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 21:58:42 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 21:58:42 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[INFO] 23-02-2026 21:58:43 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 21:58:43 ICT 2026
+[INFO] 23-02-2026 22:00:46 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:00:46 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:00:46 ICT 2026
+[INFO] 23-02-2026 22:00:46 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:00:48 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:00:50 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:00:56 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:00:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:00:56 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:00:56 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:00:57 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:00:57 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:00:57 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:00:57 [main] LogUtils - 🔹 checkElementExist: false --- By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 22:00:57 [main] LogUtils - no such element: Unable to locate element: {"method":"xpath","selector":"//small[normalize-space()='Sold by :']/parent::div"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0f9226af75c50e07bbc431ab15422e9, findElement {value=//small[normalize-space()='Sold by :']/parent::div, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56665}, goog:processID: 20724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56665/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0f9226af75c50e07bbc431ab15422e9
+[INFO] 23-02-2026 22:01:08 [main] LogUtils - 🔹 Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[ERROR] 23-02-2026 22:01:08 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 22:01:08 [main] LogUtils - ==> Lý do: java.lang.AssertionError: Timeout waiting for the element Visible. By.xpath: //small[normalize-space()='Sold by :']/parent::div
+[INFO] 23-02-2026 22:01:08 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:01:08 ICT 2026
+[INFO] 23-02-2026 22:03:55 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:03:55 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:03:55 ICT 2026
+[INFO] 23-02-2026 22:03:55 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:03:57 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:03:58 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:03:58 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:03:59 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:04:05 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:04:05 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:04:05 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:04:05 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //body/div[@class='aiz-main-wrapper d-flex flex-column']/section[@class='mb-4 pt-3']/div[@class='container']/div[@class='bg-white shadow-sm rounded p-3']/div[@class='row']/div[@class='col-xl-7 col-lg-6']/div[@class='text-left']/div[2]/div[1]
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 Get text of element By.xpath: //body/div[@class='aiz-main-wrapper d-flex flex-column']/section[@class='mb-4 pt-3']/div[@class='container']/div[@class='bg-white shadow-sm rounded p-3']/div[@class='row']/div[@class='col-xl-7 col-lg-6']/div[@class='text-left']/div[2]/div[1]
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:04:07 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:04:08 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:04:08 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:04:08 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:04:08 ICT 2026
+[INFO] 23-02-2026 22:11:33 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:11:33 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:11:33 ICT 2026
+[INFO] 23-02-2026 22:11:33 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:11:34 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:11:39 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:11:40 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:11:46 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:11:46 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:11:46 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:11:46 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:11:47 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:11:47 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:11:47 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:11:47 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:11:48 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:11:48 ICT 2026
+[INFO] 23-02-2026 22:12:13 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:12:13 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:12:13 ICT 2026
+[INFO] 23-02-2026 22:12:13 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:12:15 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:12:17 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:12:18 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:12:25 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:12:25 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:12:25 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:12:25 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:12:26 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:12:26 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:12:26 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:12:26 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:12:27 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:12:27 ICT 2026
+[INFO] 23-02-2026 22:14:39 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:14:39 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:14:39 ICT 2026
+[INFO] 23-02-2026 22:14:39 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:14:41 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:14:43 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:14:44 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:14:44 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:14:44 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:14:49 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:14:49 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:14:49 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:14:49 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:14:51 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:14:52 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:14:52 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:14:52 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:14:52 ICT 2026
+[INFO] 23-02-2026 22:18:31 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:18:31 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:18:31 ICT 2026
+[INFO] 23-02-2026 22:18:32 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:18:33 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:18:35 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:18:36 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[ERROR] 23-02-2026 22:18:38 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 22:18:38 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78810277f9ef1ea5b3b2a9b25d0763be, clickElement {id=f.25C7D91F02DF3F1C6CDE23EA2BE8B2D8.d.5E75F652D32A5EE8A89EB50C010A36AF.e.112}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51872}, goog:processID: 20472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51872/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78810277f9ef1ea5b3b2a9b25d0763be)] -> xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]]
+Session ID: 78810277f9ef1ea5b3b2a9b25d0763be
+[INFO] 23-02-2026 22:18:38 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:18:38 ICT 2026
+[INFO] 23-02-2026 22:19:24 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:19:24 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:19:24 ICT 2026
+[INFO] 23-02-2026 22:19:25 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:19:26 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:19:28 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:19:29 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[ERROR] 23-02-2026 22:19:30 [main] LogUtils - Test case getandWriteProductInfo is failed.
+[ERROR] 23-02-2026 22:19:30 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0dad3acda10cdf6ef26ae9bded725be2, clickElement {id=f.0D3575BAF03E46CF928F266DAD62C269.d.EEDCAFBE3FC7F31417A3458A078E2C36.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49405}, goog:processID: 4108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49405/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0dad3acda10cdf6ef26ae9bded725be2)] -> xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]]
+Session ID: 0dad3acda10cdf6ef26ae9bded725be2
+[INFO] 23-02-2026 22:19:31 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:19:31 ICT 2026
+[INFO] 23-02-2026 22:22:45 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:22:45 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:22:45 ICT 2026
+[INFO] 23-02-2026 22:22:45 [main] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:22:46 [main] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:22:48 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:22:49 [main] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:22:54 [main] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:22:54 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:22:54 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:22:54 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:22:56 [main] LogUtils - 🔹 checkElementExist: true --- By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 Get text of element By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 ==> TEXT: Laptop xịn 2025
+[INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:22:57 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:22:57 ICT 2026

@@ -2,6 +2,7 @@ package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -20,16 +21,16 @@ public class LoginPage extends BasePage {
 
     public By errorMessageInvalid = By.xpath("//div[@role='alert']");
 
+
     public void verifyLoginPageDisplayed() {
         boolean check = WebUI.checkElementExist(labelLoginToYourAccount);
         Assert.assertTrue(check, "Login page is not displayed.");
     }
-
+    @Step("Navigate to Login page")
     public void navigateToLoginUserPage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
-        basePage = new BasePage();
-        basePage.clickClosePopup();
+        clickClosePopup();
         WebUI.clickElement(homePageButtonLogin);
     }
 
@@ -45,6 +46,7 @@ public class LoginPage extends BasePage {
         WebUI.clickElement(buttonLogin);
     }
 
+    @Step("Login CMS with email: {0}")
     public void loginCMS(String email, String password) {
         navigateToLoginUserPage();
         enterEmail(email);
@@ -53,6 +55,7 @@ public class LoginPage extends BasePage {
         WebUI.waitForPageLoaded();
     }
 
+    @Step("Login CMS with default account")
     public DashboardPage loginCMS() {
         navigateToLoginUserPage();
         enterEmail(PropertiesHelper.getValue("USER_EMAIL"));
@@ -63,11 +66,13 @@ public class LoginPage extends BasePage {
         return new DashboardPage();
     }
 
+    @Step("Verify login successful and Dashboard displayed")
     public void verifyLoginSuccess() {
         boolean check = WebUI.checkElementExist(By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']"), 5, 1000);
         Assert.assertTrue(check, "Login failed or Dashboard not displayed");
     }
 
+    @Step("Verify login failed and error message displayed")
     public void verifyLoginFailed() {
         WebUI.waitForPageLoaded();
         boolean check = WebUI.checkElementExist(errorMessageInvalid, 5, 1000);

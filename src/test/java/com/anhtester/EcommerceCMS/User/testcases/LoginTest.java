@@ -17,11 +17,11 @@ public class LoginTest extends BaseTest {
     @Description("Verify user can login with valid credentials")
     @Severity(SeverityLevel.CRITICAL)
     @Link( name = "https://drive.google.com/drive/u/0/home")
-        @Test(priority = 1)
-        public void testLoginSuccess() {
-            loginPage = new LoginPage();
-            loginPage.loginCMS(PropertiesHelper.getValue("USER_EMAIL"), PropertiesHelper.getValue("USER_PASSWORD"));
-            loginPage.verifyLoginSuccess();
+    @Test(priority = 1)
+    public void testLoginSuccess() {
+        loginPage = new LoginPage();
+        loginPage.loginCMS(PropertiesHelper.getValue("USER_EMAIL"), PropertiesHelper.getValue("USER_PASSWORD"));
+        loginPage.verifyLoginSuccess();
         }
     @Description("Verify user can login with invalid credentials")
     @Severity(SeverityLevel.CRITICAL)

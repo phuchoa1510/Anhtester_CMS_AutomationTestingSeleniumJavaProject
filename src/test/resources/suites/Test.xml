@@ -7,7 +7,6 @@
         </classes>
     </test>
     <test name="Manage Profile Test" parallel="methods" thread-count="3">
-        <parameter name="BROWSER" value="edge"/>
         <classes>
             <class name="com.anhtester.EcommerceCMS.User.testcases.ManageProfileTest"/>
         </classes>

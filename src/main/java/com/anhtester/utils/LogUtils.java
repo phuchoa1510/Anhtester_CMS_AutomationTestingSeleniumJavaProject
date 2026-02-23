@@ -9,7 +9,7 @@ public class LogUtils {
 
     //Info Level Logs
     public static void info(String message) {
-        logger.info(message);
+        logger.info( "🔹 " +message);
     }
 
     public static void info(Object object) {

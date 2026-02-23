@@ -50,7 +50,7 @@ public class WebUI {
         ((JavascriptExecutor) DriverManager.getDriver()).executeScript(script, DriverManager.getDriver().findElement(by));
     }
 
-    
+
 
     public static WebElement waitForElementVisible(By by) {
         WebElement element = null;
