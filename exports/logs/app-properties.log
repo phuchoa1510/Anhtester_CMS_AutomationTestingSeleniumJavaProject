@@ -1314,3 +1314,186 @@ Inhouse product
 [INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
 [INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 ==> Status: 1
 [INFO] 23-02-2026 22:36:05 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:36:05 ICT 2026
+[INFO] 23-02-2026 22:45:59 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:45:59 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:45:59 ICT 2026
+[INFO] 23-02-2026 22:45:59 [TestNG-test-Login Test-2] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:45:59 [TestNG-test-Login Test-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:46:01 [TestNG-test-Login Test-2] LogUtils - 🔹 Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 22:46:01 [TestNG-test-Login Test-1] LogUtils - 🔹 Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-2] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-2] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-2] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:03 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-2] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-2] LogUtils - 🔹 Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-1] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:46:05 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-2] LogUtils - 🔹 Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-2] LogUtils - 🔹 Test case testLoginFailed is passed.
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-2] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-1] LogUtils - 🔹 Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-1] LogUtils - 🔹 Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Login Test-1] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:46:07 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:46:07 ICT 2026
+[INFO] 23-02-2026 22:46:07 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:46:07 ICT 2026
+[INFO] 23-02-2026 22:46:07 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:46:08 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 22:46:10 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:46:10 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:10 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:10 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:10 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:11 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:46:11 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:46:11 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:46:13 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:46:14 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 22:46:14 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 22:46:14 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 22:46:15 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 22:46:15 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 22:46:15 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 22:46:15 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Update Profile']
+[WARN] 23-02-2026 22:46:15 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-02-2026 22:46:16 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-02-2026 22:46:17 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-02-2026 22:46:18 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-02-2026 22:46:19 [TestNG-test-Manage Profile Test-1] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-02-2026 22:46:20 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 23-02-2026 22:46:20 [TestNG-test-Manage Profile Test-1] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-02-2026 22:46:20 [TestNG-test-Manage Profile Test-1] LogUtils - ==> Lý do: java.lang.AssertionError: Alert message is not displayed expected [true] but found [false]
+[INFO] 23-02-2026 22:46:22 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:46:22 ICT 2026
+[INFO] 23-02-2026 22:46:22 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:46:22 ICT 2026
+[INFO] 23-02-2026 22:46:22 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:46:23 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:46:24 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:46:24 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:24 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:46:24 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:25 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:46:25 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:46:25 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:46:25 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:46:25 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:46:31 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:46:31 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:46:31 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:46:31 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:46:32 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:46:32 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:46:32 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:46:32 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:46:33 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop xịn 2025
+[INFO] 23-02-2026 22:46:34 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:46:34 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:46:34 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:46:34 ICT 2026
+[INFO] 23-02-2026 22:47:37 [main] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:47:37 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:47:37 ICT 2026
+[INFO] 23-02-2026 22:47:37 [TestNG-test-Login Test-2] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:47:37 [TestNG-test-Login Test-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:47:40 [TestNG-test-Login Test-1] LogUtils - 🔹 Bắt đầu chạy test case: testLoginSuccess
+[INFO] 23-02-2026 22:47:40 [TestNG-test-Login Test-2] LogUtils - 🔹 Bắt đầu chạy test case: testLoginFailed
+[INFO] 23-02-2026 22:47:40 [TestNG-test-Login Test-1] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:47:40 [TestNG-test-Login Test-2] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:47:42 [TestNG-test-Login Test-2] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:47:42 [TestNG-test-Login Test-2] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:43 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:43 [TestNG-test-Login Test-2] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:43 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:43 [TestNG-test-Login Test-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:47:43 [TestNG-test-Login Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:44 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:44 [TestNG-test-Login Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:44 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-2] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-2] LogUtils - 🔹 Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-1] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:47:45 [TestNG-test-Login Test-2] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:47:46 [TestNG-test-Login Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-2] LogUtils - 🔹 Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-2] LogUtils - 🔹 Test case testLoginFailed is passed.
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-2] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-1] LogUtils - 🔹 Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-1] LogUtils - 🔹 Test case testLoginSuccess is passed.
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Login Test-1] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:47:47 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:47:47 ICT 2026
+[INFO] 23-02-2026 22:47:47 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:47:47 ICT 2026
+[INFO] 23-02-2026 22:47:47 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:47:48 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Bắt đầu chạy test case: testUpdateProfile
+[INFO] 23-02-2026 22:47:48 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:47:50 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:47:50 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:50 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:47:50 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:50 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:47:51 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //a[text()='Login']
+[INFO] 23-02-2026 22:47:52 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-02-2026 22:47:52 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-02-2026 22:47:52 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text Customer Example on element By.xpath: //input[@placeholder='Your name']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456789 on element By.xpath: //input[@placeholder='Your Phone']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@placeholder='New Password']
+[INFO] 23-02-2026 22:47:55 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Set text 123456 on element By.xpath: //input[@placeholder='Confirm Password']
+[INFO] 23-02-2026 22:47:56 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Get text of element By.xpath: //span[@data-notify='message']
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 ==> TEXT: Your Profile has been updated successfully!
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 Test case testUpdateProfile is passed.
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Manage Profile Test-1] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:47:57 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:47:57 ICT 2026
+[INFO] 23-02-2026 22:47:57 [main] LogUtils - 🔹 Setup môi trường onStart: Mon Feb 23 22:47:57 ICT 2026
+[INFO] 23-02-2026 22:47:57 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Launching Chrome browser...
+[INFO] 23-02-2026 22:47:58 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Bắt đầu chạy test case: getandWriteProductInfo
+[INFO] 23-02-2026 22:47:58 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Open URL:  https://cms.anhtester.com
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //header//img[@alt='Active eCommerce CMS']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:48:00 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Set text Laptop Dell XPS 15 on element By.xpath: //input[@id='search']
+[INFO] 23-02-2026 22:48:05 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Click on element By.xpath: //ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]
+[INFO] 23-02-2026 22:48:05 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:48:06 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:48:06 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:48:07 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //h1
+[INFO] 23-02-2026 22:48:07 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //h1
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop Dell XPS 15
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //small[normalize-space()='Sold by:']/parent::div
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: $1,500.00
+[INFO] 23-02-2026 22:48:08 [TestNG-test-Get Product Info-1] LogUtils - 🔹 checkElementExist: true --- By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:48:09 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Get text of element By.xpath: //a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div
+[INFO] 23-02-2026 22:48:09 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> TEXT: Laptop xịn 2025
+[INFO] 23-02-2026 22:48:09 [TestNG-test-Get Product Info-1] LogUtils - 🔹 Test case getandWriteProductInfo is passed.
+[INFO] 23-02-2026 22:48:09 [TestNG-test-Get Product Info-1] LogUtils - 🔹 ==> Status: 1
+[INFO] 23-02-2026 22:48:09 [main] LogUtils - 🔹 Kết thúc bộ test: Mon Feb 23 22:48:09 ICT 2026

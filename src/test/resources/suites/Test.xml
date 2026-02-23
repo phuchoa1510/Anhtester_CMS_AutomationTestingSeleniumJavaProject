@@ -11,4 +11,13 @@
             <class name="com.anhtester.EcommerceCMS.User.testcases.ManageProfileTest"/>
         </classes>
     </test>
+    <test name="Get Product Info" parallel="methods" thread-count="2">
+        <classes>
+            <class name="com.anhtester.EcommerceCMS.User.testcases.GetProductInfoTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.anhtester.listeners.TestListener"/>
+    </listeners>
+
 </suite>

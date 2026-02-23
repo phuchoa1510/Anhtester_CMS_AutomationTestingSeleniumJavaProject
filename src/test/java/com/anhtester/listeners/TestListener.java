@@ -44,7 +44,6 @@ public class TestListener implements ITestListener {
             CaptureHelper.startRecord(result.getName());
         }
 
-        //Bắt đầu ghi 1 TCs mới vào Extent Report
     }
 
     @Override
