@@ -28,9 +28,7 @@ public class LoginPage extends BasePage {
     }
     @Step("Navigate to Login page")
     public void navigateToLoginUserPage() {
-        WebUI.openURL(PropertiesHelper.getValue("URL"));
-        WebUI.waitForPageLoaded();
-        clickClosePopup();
+        navigateHomePage();
         WebUI.clickElement(homePageButtonLogin);
     }
 
@@ -54,7 +52,6 @@ public class LoginPage extends BasePage {
         clickLoginButton();
         WebUI.waitForPageLoaded();
     }
-
     @Step("Login CMS with default account")
     public DashboardPage loginCMS() {
         navigateToLoginUserPage();
@@ -62,16 +59,13 @@ public class LoginPage extends BasePage {
         enterPassword(PropertiesHelper.getValue("USER_PASSWORD"));
         clickLoginButton();
         WebUI.waitForPageLoaded();
-
         return new DashboardPage();
     }
-
     @Step("Verify login successful and Dashboard displayed")
     public void verifyLoginSuccess() {
         boolean check = WebUI.checkElementExist(By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']"), 5, 1000);
         Assert.assertTrue(check, "Login failed or Dashboard not displayed");
     }
-
     @Step("Verify login failed and error message displayed")
     public void verifyLoginFailed() {
         WebUI.waitForPageLoaded();

@@ -5,7 +5,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-public class ManageProfilePage extends BasePage {
+public class ProfilePage extends BasePage {
 
     public By headerManageProfile = By.xpath("//h1[normalize-space()='Manage Profile']");
     public By headerBasicInfo = By.xpath("//h1[normalize-space()='Manage Profile']");

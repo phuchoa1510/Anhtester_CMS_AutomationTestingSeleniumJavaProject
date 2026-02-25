@@ -18,9 +18,6 @@ public class ProductPage extends BasePage{
 
     public void navigateToTargetProductPage(String productName){
         navigateHomePage();
-        WebUI.waitForPageLoaded();
-        clickClosePopup();
-        verifyHomePageIsDisplayed();
         WebUI.checkElementExist(inputSearch);
         WebUI.setText(inputSearch,productName);
         WebUI.waitForElementToBeClickable(firstSearchResult);

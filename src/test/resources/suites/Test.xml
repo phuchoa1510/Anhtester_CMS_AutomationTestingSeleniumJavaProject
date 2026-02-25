@@ -8,7 +8,7 @@
     </test>
     <test name="Manage Profile Test" parallel="methods" thread-count="3">
         <classes>
-            <class name="com.anhtester.EcommerceCMS.User.testcases.ManageProfileTest"/>
+            <class name="com.anhtester.EcommerceCMS.User.testcases.ProfileTest"/>
         </classes>
     </test>
     <test name="Get Product Info" parallel="methods" thread-count="2">
