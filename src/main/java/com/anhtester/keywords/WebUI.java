@@ -51,7 +51,6 @@ public class WebUI {
     }
 
 
-
     public static WebElement waitForElementVisible(By by) {
         WebElement element = null;
         try {

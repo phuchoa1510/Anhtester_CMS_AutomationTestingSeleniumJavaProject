@@ -40,7 +40,7 @@ public class AllureListener implements TestLifecycleListener {
 
     @Override
     public void beforeTestStop(TestResult result) {
-        if(PropertiesHelper.getValue("SCREENSHOT_SUCCESS").equals("true")) {
+        if (PropertiesHelper.getValue("SCREENSHOT_SUCCESS").equals("true")) {
             if (result.getStatus().equals(Status.PASSED)) {
                 if (DriverManager.getDriver() != null) {
                     Allure.addAttachment(result.getName() + "_Passed_Screenshot", new ByteArrayInputStream(((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES)));
@@ -48,7 +48,7 @@ public class AllureListener implements TestLifecycleListener {
             }
         }
 
-        if(PropertiesHelper.getValue("SCREENSHOT_FAILURE").equals("true")) {
+        if (PropertiesHelper.getValue("SCREENSHOT_FAILURE").equals("true")) {
             if (result.getStatus().equals(Status.FAILED)) {
                 if (DriverManager.getDriver() != null) {
                     //AllureManager.saveScreenshotPNG();

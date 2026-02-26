@@ -40,7 +40,7 @@ public class TestListener implements ITestListener {
         LogUtils.info("Bắt đầu chạy test case: " + result.getName());
         //count_total++;
         //Write log to file
-        if(PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
+        if (PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
             CaptureHelper.startRecord(result.getName());
         }
 
@@ -55,7 +55,7 @@ public class TestListener implements ITestListener {
         //Write status to report
         //Extent Report
 
-        if(PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
+        if (PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
             CaptureHelper.stopRecord();
         }
     }
@@ -71,7 +71,7 @@ public class TestListener implements ITestListener {
         //Write log to file
         //Write status to report
         //Extent Report
-        if(PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
+        if (PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
             CaptureHelper.stopRecord();
         }
     }
@@ -80,7 +80,7 @@ public class TestListener implements ITestListener {
     public void onTestSkipped(ITestResult result) {
         LogUtils.warn("Test case " + result.getName() + " is skipped.");
 
-        if(PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
+        if (PropertiesHelper.getValue("VIDEO_RECORD").equals("true")) {
             CaptureHelper.stopRecord();
         }
     }

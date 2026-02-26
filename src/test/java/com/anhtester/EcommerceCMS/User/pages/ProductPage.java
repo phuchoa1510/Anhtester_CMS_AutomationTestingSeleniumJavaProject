@@ -7,23 +7,30 @@ import org.apache.commons.collections4.Get;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ProductPage extends BasePage{
 
-    public By inputSearch = By.xpath("//input[@id='search']");
-    public By firstSearchResult = By.xpath("//ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]");
     public By productTitle = By.xpath("//h1");
+
     public By sellerName = By.xpath("//small[normalize-space()='Sold by:']/parent::div");
+
     public By productPrice = By.xpath("//div[normalize-space()='Price:']/parent::div/following-sibling::div//strong");
+
     public By productDescription = By.xpath("//a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div");
 
-    public void navigateToTargetProductPage(String productName){
-        navigateHomePage();
-        WebUI.checkElementExist(inputSearch);
-        WebUI.setText(inputSearch,productName);
-        WebUI.waitForElementToBeClickable(firstSearchResult);
-        WebUI.clickElement(firstSearchResult);
-        WebUI.waitForPageLoaded();
-    }
+    public By buttonAddtoCart = By.xpath("//span[normalize-space()='Add to cart']");
+
+    public By addToCartModal = By.xpath("//div[@id='addToCart-modal-body']");
+
+    public By productAddedName = By.xpath("//h6");
+
+    public By productAddedPrice = By.xpath("//h6/parent::div/div/div/div/strong");
+
+    public By messageAddToCartSuccess = By.xpath("//h3[normalize-space()='Item added to your cart!']");
+
     @Step("Verify Product {0} Page Displayed")
     public void verifyProductTargetPageIsDisplayed(String productName){
         WebUI.checkElementExist(productTitle);
@@ -58,7 +65,19 @@ public class ProductPage extends BasePage{
         String description =  WebUI.getElementText(productDescription);
         return description;
     }
+    @Step("Add product to cart")
+    public void addProductToCart(){
+        WebUI.checkElementExist(buttonAddtoCart);
+        WebUI.scrollToElement(buttonAddtoCart);
+        WebUI.clickElement(buttonAddtoCart);
+    }
 
+    @Step("Verify product add right product to cart success")
+    public void verifyProductAddToCartSuccess(){
+        WebUI.checkElementExist(addToCartModal);
+        boolean check = WebUI.checkElementExist(messageAddToCartSuccess);
+        Assert.assertTrue(check,"Add product to cart failed");
+    }
 
 }
 

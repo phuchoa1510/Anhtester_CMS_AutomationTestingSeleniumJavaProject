@@ -2,7 +2,7 @@ package com.anhtester.constants;
 
 import com.anhtester.helpers.PropertiesHelper;
 
-public class    DataConfig {
+public class DataConfig {
     //"final" nghĩa là HẰNG giá trị: không thể cập nhật lại
     public static final int WAIT_TIMEOUT = Integer.parseInt(PropertiesHelper.getValue("WAIT_TIMEOUT"));
     public static final double STEP_TIME = Double.parseDouble(PropertiesHelper.getValue("STEP_TIME"));

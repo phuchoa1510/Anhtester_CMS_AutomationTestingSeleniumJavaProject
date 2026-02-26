@@ -60,29 +60,31 @@ public class ProfilePage extends BasePage {
         WebUI.setText(inputConfirmPassword, confirmPassword);
         WebUI.clickElement(buttonUpdateProfile);
     }
+
     @Step("Add new address in country: {1}")
     public void addNewAddress(String address, String country, String postalCode, String phone) {
         WebUI.clickElement(buttonAddNewAddress);
         WebUI.setText(inputAddress, address);
         WebUI.clickElement(dropdownCity);
-        WebUI.clickElement(By.xpath(  optionCountry + country + "']"));
-        WebUI.setText(inputPostalCode,postalCode);
+        WebUI.clickElement(By.xpath(optionCountry + country + "']"));
+        WebUI.setText(inputPostalCode, postalCode);
         WebUI.setText(inputPhone, phone);
         WebUI.clickElement(buttonSave);
     }
+
     @Step("Change email to: {0}")
-    public void changeEmail(String email){
+    public void changeEmail(String email) {
         WebUI.setText(inputYourEmail, email);
         WebUI.clickElement(buttonVerify);
         WebUI.clickElement(buttonUpdateEmail);
     }
 
     @Step("Verify Alert Update Profile Success Displayed")
-    public void verifyAlertUpdateProfileSuccessDisplayed(){
-        boolean isDisplayed = WebUI.checkElementExist(massageUpdateProfileSuccess,5,1000);
-        Assert.assertTrue(isDisplayed,"Alert message is not displayed");
+    public void verifyAlertUpdateProfileSuccessDisplayed() {
+        boolean isDisplayed = WebUI.checkElementExist(massageUpdateProfileSuccess, 5, 1000);
+        Assert.assertTrue(isDisplayed, "Alert message is not displayed");
         String alertText = WebUI.getElementText(massageUpdateProfileSuccess);
-        Assert.assertEquals(alertText,"Your Profile has been updated successfully!","Alert message is not match expected");
+        Assert.assertEquals(alertText, "Your Profile has been updated successfully!", "Alert message is not match expected");
     }
 
 }
