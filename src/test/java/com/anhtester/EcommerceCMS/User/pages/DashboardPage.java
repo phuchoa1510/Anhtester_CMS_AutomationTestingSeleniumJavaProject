@@ -12,6 +12,9 @@ public class DashboardPage extends BasePage {
 
     public By menuManageProfile = By.xpath("//div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']");
 
+    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
+
+    public By newestOrderCode = By.xpath("//tbody/tr[1]/td[1]/a");
 
     public void clickMenuDashboard() {
         WebUI.clickElement(menuDashboard);
@@ -25,5 +28,6 @@ public class DashboardPage extends BasePage {
         boolean check = WebUI.checkElementExist(headerDashboardPage);
         Assert.assertTrue(check, "Dashboard Page is not displayed");
     }
+
 
 }
