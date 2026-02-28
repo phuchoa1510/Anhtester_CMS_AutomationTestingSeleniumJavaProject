@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
     @Test(priority = 1)
     public void testLoginSuccess() {
         loginPage = new LoginPage();
-        loginPage.loginCMS(PropertiesHelper.getValue("USER_EMAIL"), PropertiesHelper.getValue("USER_PASSWORD"));
+        loginPage.loginCMS();
         loginPage.verifyLoginSuccess();
     }
 

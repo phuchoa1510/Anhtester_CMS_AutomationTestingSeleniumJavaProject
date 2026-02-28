@@ -14,7 +14,7 @@ public class DashboardPage extends BasePage {
 
     public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
 
-    public By newestOrderCode = By.xpath("//tbody/tr[1]/td[1]/a");
+    public By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
 
     public void clickMenuDashboard() {
         WebUI.clickElement(menuDashboard);
@@ -27,6 +27,15 @@ public class DashboardPage extends BasePage {
     public void verifyDashboardPageDisplayed() {
         boolean check = WebUI.checkElementExist(headerDashboardPage);
         Assert.assertTrue(check, "Dashboard Page is not displayed");
+    }
+
+    public void clickMenuPurchaseHistory() {
+        WebUI.clickElement(menuPurchaseHistory);
+    }
+
+    public String getNewestOrderCode() {
+        String newestOrderCode = WebUI.getElementText(newestOrder);
+        return newestOrderCode;
     }
 
 

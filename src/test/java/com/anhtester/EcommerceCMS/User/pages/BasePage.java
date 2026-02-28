@@ -19,6 +19,8 @@ public class BasePage {
 
     public By buttonViewCart = By.xpath("//a[normalize-space()='View cart']");
 
+    public By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
+
     public void clickClosePopup() {
         if (WebUI.checkElementExist(homePagePopup)) {
             WebUI.clickElement(homePagePopup);
@@ -26,6 +28,11 @@ public class BasePage {
         if (WebUI.checkElementExist(iUnderstoodPopup)) {
             WebUI.clickElement(iUnderstoodPopup);
         }
+    }
+    public void navigateToDashboardPage() {
+        WebUI.clickElement(buttonMyPanel);
+        WebUI.waitForPageLoaded();
+        clickClosePopup();
     }
 
     public void navigateHomePage() {
