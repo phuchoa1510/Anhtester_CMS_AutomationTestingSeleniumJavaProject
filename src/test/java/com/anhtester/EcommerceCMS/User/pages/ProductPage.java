@@ -31,6 +31,8 @@ public class ProductPage extends BasePage{
 
     public By messageAddToCartSuccess = By.xpath("//h3[normalize-space()='Item added to your cart!']");
 
+    public By buttonCloseModal = By.xpath("//div[@id='addToCart-modal-body']/preceding-sibling::button");
+
     @Step("Verify Product {0} Page Displayed")
     public void verifyProductTargetPageIsDisplayed(String productName){
         WebUI.checkElementExist(productTitle);
@@ -74,9 +76,11 @@ public class ProductPage extends BasePage{
 
     @Step("Verify product add right product to cart success")
     public void verifyProductAddToCartSuccess(){
+        WebUI.waitForElementVisible(addToCartModal,5);
         WebUI.checkElementExist(addToCartModal);
-        boolean check = WebUI.checkElementExist(messageAddToCartSuccess);
+        boolean check = WebUI.checkElementExist(messageAddToCartSuccess,3,2);
         Assert.assertTrue(check,"Add product to cart failed");
+        WebUI.clickElement(buttonCloseModal);
     }
 
 }

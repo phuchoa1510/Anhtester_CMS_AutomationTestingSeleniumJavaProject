@@ -5,11 +5,13 @@ import com.anhtester.keywords.WebUI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
+import javax.swing.text.DocumentFilter;
+
 public class BasePage {
 
     public By homePagePopup = By.xpath("//i[@class='la la-close fs-20']");
 
-    public By iUnderstoodPopup = By.xpath("//button[normalize-space()='Ok. I Understood']");
+    public By iUnderstood = By.xpath("//button[normalize-space()='Ok. I Understood']");
 
     public By buttonCart = By.xpath("//div[@id = 'cart_items']");
 
@@ -23,22 +25,29 @@ public class BasePage {
 
     public void clickClosePopup() {
         if (WebUI.checkElementExist(homePagePopup)) {
+            WebUI.scrollToElement(homePagePopup);
             WebUI.clickElement(homePagePopup);
         }
-        if (WebUI.checkElementExist(iUnderstoodPopup)) {
-            WebUI.clickElement(iUnderstoodPopup);
+    }
+    public void clickCloseIUnderstood() {
+        if (WebUI.checkElementExist(iUnderstood)) {
+            WebUI.scrollToElement(iUnderstood);
+            WebUI.clickElement(iUnderstood);
         }
     }
     public void navigateToDashboardPage() {
         WebUI.clickElement(buttonMyPanel);
         WebUI.waitForPageLoaded();
-        clickClosePopup();
+
     }
 
     public void navigateHomePage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
+        clickCloseIUnderstood();
         clickClosePopup();
+        WebUI.sleep(3);
+
     }
 
     public void navigateToCartPage() {
@@ -52,4 +61,5 @@ public class BasePage {
             WebUI.clickElement(buttonViewCart);
         }
     }
+
 }

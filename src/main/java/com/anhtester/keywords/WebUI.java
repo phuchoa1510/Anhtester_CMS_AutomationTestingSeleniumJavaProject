@@ -24,6 +24,11 @@ import static com.anhtester.constants.DataConfig.*;
 public class WebUI {
 
 
+    public static void openNewTab(String newUrl){
+        DriverManager.getDriver().switchTo().newWindow(WindowType.TAB);
+        DriverManager.getDriver().get(newUrl);
+    }
+
     public static void logConsole(Object message) {
         System.out.println(message);
     }

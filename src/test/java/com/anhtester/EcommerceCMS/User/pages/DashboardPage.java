@@ -29,14 +29,5 @@ public class DashboardPage extends BasePage {
         Assert.assertTrue(check, "Dashboard Page is not displayed");
     }
 
-    public void clickMenuPurchaseHistory() {
-        WebUI.clickElement(menuPurchaseHistory);
-    }
-
-    public String getNewestOrderCode() {
-        String newestOrderCode = WebUI.getElementText(newestOrder);
-        return newestOrderCode;
-    }
-
 
 }

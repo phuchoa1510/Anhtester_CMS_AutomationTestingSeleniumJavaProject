@@ -20,7 +20,7 @@ public class CartPage extends BasePage {
     public By productInCart = By.xpath("//section[@id='cart-summary']//li");
     public By productTax = By.xpath("//section[@id ='cart-summary']//li[1]/div/div[3]/span[2]");
     public By productTotal = By.xpath("//section[@id ='cart-summary']//li[1]/div/div[5]/span[2]");
-    public By subTotal = By.xpath("//section[@id ='cart-summary']//span[normalize-space()= 'Subtotal']/following-sibling::span");
+    public By subTotal = By.xpath("//section[@id ='cart-summary']/descendant::span[normalize-space()= 'Subtotal']/following-sibling::span");
 
     //Locator for step Delivery Info
     public By buttonHomeDeliveryType = By.xpath("//span/span[normalize-space()='Home Delivery']");
@@ -44,19 +44,21 @@ public class CartPage extends BasePage {
     public By checkboxAgreeTermAndConditions = By.xpath("//span[normalize-space() = 'I agree to the']/preceding-sibling::span");
     public By buttonCompleteOrder = By.xpath("//button[normalize-space()='Complete Order']");
     public By messageOrderSuccess = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
-    public By paymentSubtotal = By.xpath("//th[normalize-space()='Subtotal']/parent::tr/td/span");
+    public By paymentSubtotal = By.xpath("//th[normalize-space()='Subtotal']/following-sibling::td/span");
     public By numberOfItems = By.xpath("//h3[normalize-space()='Summary']/parent::div/div/span");
     public By totalShipping = By.xpath("//th[normalize-space()='Total Shipping']/parent::tr/td/span");
     public By total = By.xpath("//span[normalize-space()='Total']/parent::th/following-sibling::td/strong/span");
 
     //Locator for step Confirmation
-    public By messageOrderConfirm = By.xpath("Your order has been placed successfully");
+    public By orderConfirm = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
     public By orderCode = By.xpath("//h2/span");
+
+    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
+    public By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
 
 
     public void verifyCartPageIsDisplayed() {
         WebUI.waitForPageLoaded();
-        clickClosePopup();
         boolean check = WebUI.checkElementExist(stepInCart);
         Assert.assertTrue(check, "Cart page is not displayed");
     }
@@ -64,15 +66,15 @@ public class CartPage extends BasePage {
     public void myCartStep(int totalItems, String productname1, String productName2) {
         List<WebElement> listItems = WebUI.getWebElements(productInCart);
         List<String> productPrice = new ArrayList<>();
+        List<String> productList = new ArrayList<>();
         Assert.assertEquals(totalItems, listItems.size(), "The number of items in Cart is incorrect.");
         for (int i = 1; i <= listItems.size(); i++) {
-            List<String> productList = new ArrayList<>();
-            String xpathProductName = ("//section[@id ='cart-summary']//li[" + i + "]/div/div[1]/span[2]");
+            String xpathProductName = ("//section[@id ='cart-summary']/descendant::li[" + i + "]/div/div[1]/span[2]");
             String name = WebUI.getElementText(By.xpath(xpathProductName));
             productList.add(name);
-            Assert.assertEquals(productList.get(0), productname1, "The product name is incorrect.");
-            Assert.assertEquals(productList.get(1), productName2, "The product name is incorrect.");
         }
+        Assert.assertEquals(productList.get(0), productname1, "The product name is incorrect.");
+        Assert.assertEquals(productList.get(1), productName2, "The product name is incorrect.");
         for (int i = 1; i <= listItems.size(); i++) {
             String xpathProductPrice = "//section[@id ='cart-summary']//li[" + i + "]/div/div[2]/span[2]";
             String xpathProductQuanity = "//section[@id ='cart-summary']//li[" + i + "]/div/div[4]/div/input";
@@ -80,12 +82,12 @@ public class CartPage extends BasePage {
                     .replace("$", "")
                     .replace(",", "")
                     .split("\\.")[0];
-            String quantity = WebUI.getElementText(By.xpath(xpathProductQuanity));
+            String quantity = WebUI.getElementAttribute(By.xpath(xpathProductQuanity),"value");
             productPrice.add(price);
             productPrice.add(quantity);
         }
-        int i = 0;
-        int totalPrice = (Integer.parseInt(productPrice.get(i)) * Integer.parseInt(productPrice.get(i++))) + (Integer.parseInt(productPrice.get((i++) + 1)) * Integer.parseInt(productPrice.get((i++) + 2)));
+        int totalPrice = (Integer.parseInt(productPrice.get(0)) * Integer.parseInt(productPrice.get(1))) + (Integer.parseInt(productPrice.get(2)) * Integer.parseInt(productPrice.get(3)));
+        WebUI.scrollToElement(subTotal);
         int subTotalPrice = Integer.parseInt((WebUI.getElementText(subTotal))
                 .replace("$", "")
                 .replace(",", "")
@@ -114,19 +116,6 @@ public class CartPage extends BasePage {
     }
 
     public void paymentStep(String additional, String couponCode) {
-        int subTotalPrice = Integer.parseInt((WebUI.getElementText(subTotal))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        int totalPrice = Integer.parseInt((WebUI.getElementText(total))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        int totalShippingPrice = Integer.parseInt((WebUI.getElementText(totalShipping))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        Assert.assertTrue((subTotalPrice + totalShippingPrice) == totalPrice, "The Total is incorrect.");
         WebUI.scrollToElement(inputAdditionalInfo);
         WebUI.setText(inputAdditionalInfo, additional);
         WebUI.scrollToElement(inputCoupoCode);
@@ -135,16 +124,42 @@ public class CartPage extends BasePage {
         WebUI.clickElement(buttonCashOnDelivery);
         WebUI.scrollToElement(checkboxAgreeTermAndConditions);
         WebUI.clickElement(checkboxAgreeTermAndConditions);
+        WebUI.moveToElement(paymentSubtotal);
+        WebUI.waitForElementVisible(paymentSubtotal);
+        int subTotalPrice = Integer.parseInt((WebUI.getElementText(paymentSubtotal))
+                .replace("$", "")
+                .replace(",", "")
+                .split("\\.")[0]);
+        WebUI.scrollToElement(total);
+        int totalPrice = Integer.parseInt((WebUI.getElementText(total))
+                .replace("$", "")
+                .replace(",", "")
+                .split("\\.")[0]);
+        WebUI.scrollToElement(totalShipping);
+        int totalShippingPrice = Integer.parseInt((WebUI.getElementText(totalShipping))
+                .replace("$", "")
+                .replace(",", "")
+                .split("\\.")[0]);
+        Assert.assertTrue((subTotalPrice + totalShippingPrice) == totalPrice, "The Total is incorrect.");
         WebUI.clickElement(buttonCompleteOrder);
     }
 
-    public void completeOrderStep(String newestOrderCode) {
+    public void completeOrderStep() {
         WebUI.waitForPageLoaded();
-        clickClosePopup();
-        WebUI.checkElementExist(messageOrderConfirm);
+        boolean check = WebUI.checkElementExist(orderConfirm);
+        Assert.assertTrue(check, "The Order Confirm is not found.");
+    }
+    public void verifyOrderSuccess() {
         WebUI.scrollToElement(orderCode);
         String code = WebUI.getElementText(orderCode);
-        Assert.assertEquals(orderCode,newestOrderCode,"The order was not found in the purchase history..");
+        WebUI.openURL("https://cms.anhtester.com/purchase_history");
+        WebUI.waitForPageLoaded();
+        WebUI.moveToElement(menuPurchaseHistory);
+        WebUI.waitForElementToBeClickable(menuPurchaseHistory);
+        WebUI.clickElement(menuPurchaseHistory);
+        WebUI.waitForPageLoaded();
+        String newestOrderCode = WebUI.getElementText(newestOrder);
+        Assert.assertEquals(code, newestOrderCode, "The order was unsuccessful.");
     }
 
 }

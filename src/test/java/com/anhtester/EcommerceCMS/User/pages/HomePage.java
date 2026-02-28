@@ -2,6 +2,7 @@ package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.keywords.WebUI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.testng.Assert;
 
 public class HomePage extends BasePage {
@@ -15,15 +16,12 @@ public class HomePage extends BasePage {
 
     public By iconAnhtester = By.xpath("//header//img[@alt='Active eCommerce CMS']");
 
-    public By firstSearchResult = By.xpath("//ul[@class ='list-group list-group-raw']/li[@class='list-group-item'][1]");
+    String firstSearchResult = "//div[@id ='search-content']/descendant::ul/li[1]/a/div/div[2]/div[normalize-space()='";
 
     public void clickiconAnhtester() {
         WebUI.clickElement(iconAnhtester);
     }
 
-    public void navigateToMyPanel() {
-        WebUI.clickElement(buttonMyPanel);
-    }
 
     public void verifyHomePageIsDisplayed() {
         boolean isDisplayLogo = WebUI.checkElementExist(iconAnhtester);
@@ -32,11 +30,27 @@ public class HomePage extends BasePage {
     }
 
     public void navigateToProductPage(String productName) {
-        navigateHomePage();
-        WebUI.checkElementExist(inputSearch);
-        WebUI.setText(inputSearch, productName);
-        WebUI.waitForElementToBeClickable(firstSearchResult);
-        WebUI.clickElement(firstSearchResult);
+        int attempts = 0;
+        while (attempts < 5) {
+            try {
+                WebUI.setText(inputSearch, productName);
+                break;
+            } catch (StaleElementReferenceException e) {
+                attempts++;
+            }
+        }
+        WebUI.sleep(3);
+        String xpathFisrtSearch = firstSearchResult + productName +"']";
+        By firstSearch = By.xpath(xpathFisrtSearch);
+        while (attempts < 5) {
+            try {
+                WebUI.waitForElementToBeClickable(firstSearch,10);
+                WebUI.clickElement(firstSearch);
+                break;
+            } catch (StaleElementReferenceException e) {
+                attempts++;
+            }
+        }
         WebUI.waitForPageLoaded();
     }
 

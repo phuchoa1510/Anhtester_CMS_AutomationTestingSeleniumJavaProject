@@ -3,6 +3,7 @@ package com.anhtester.EcommerceCMS.User.testcases;
 import com.anhtester.EcommerceCMS.User.pages.*;
 import com.anhtester.common.BaseTest;
 import com.anhtester.helpers.ExcelHelper;
+import org.testng.annotations.Test;
 
 public class OrderTest extends BaseTest {
 
@@ -13,7 +14,9 @@ public class OrderTest extends BaseTest {
     private HomePage homePage;
     private BasePage basePage;
 
+    @Test
     public void OrderSuccessTest(){
+        cartPage  = new CartPage();
         loginPage = new LoginPage();
         basePage = new BasePage();
         dashboardPage = new DashboardPage();
@@ -27,18 +30,18 @@ public class OrderTest extends BaseTest {
         homePage.navigateToProductPage(excel.getCellData(0,1));
         productPage.verifyProductTargetPageIsDisplayed(excel.getCellData(0,1));
         productPage.addProductToCart();
+        productPage.verifyProductAddToCartSuccess();
         homePage.navigateToProductPage(excel.getCellData(0,2));
         productPage.verifyProductTargetPageIsDisplayed(excel.getCellData(0,2));
         productPage.addProductToCart();
+        productPage.verifyProductAddToCartSuccess();
         basePage.navigateToCartPage();
         cartPage.verifyCartPageIsDisplayed();
         cartPage.myCartStep(2,excel.getCellData(0,1),excel.getCellData(0,2));
         cartPage.shippingInfoStep("1");
         cartPage.deliveryInfoStep();
         cartPage.paymentStep("","");
-        dashboardPage.navigateToDashboardPage();
-        dashboardPage.clickMenuPurchaseHistory();
-        String newestOrderCode = dashboardPage.getNewestOrderCode();
-        cartPage.completeOrderStep(newestOrderCode);
+        cartPage.completeOrderStep();
+        cartPage.verifyOrderSuccess();
     }
 }

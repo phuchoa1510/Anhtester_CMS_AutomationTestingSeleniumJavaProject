@@ -68,6 +68,7 @@ public class LoginPage extends BasePage {
     public void verifyLoginSuccess() {
         boolean check = WebUI.checkElementExist(By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']"), 5, 1000);
         Assert.assertTrue(check, "Login failed or Dashboard not displayed");
+        WebUI.waitForPageLoaded();
     }
 
     @Step("Verify login failed and error message displayed")
