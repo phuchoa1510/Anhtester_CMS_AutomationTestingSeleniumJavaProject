@@ -1,8 +1,9 @@
 # Anhtester_CMS_AutomationTestingSeleniumJavaProject
 
-Testcases:
-Login Test
-GetProductInfo
-UpdateProfileTest
-OrderTest(Add product -> My cart -> Shipping Info -> Delivery Info -> Payment -> Confirmation)
+## Test Cases
 
+- Login Test
+- Get Product Info
+- Update Profile Test
+- Order Test  
+  (Add Product → My Cart → Shipping Info → Delivery Info → Payment → Confirmation)
