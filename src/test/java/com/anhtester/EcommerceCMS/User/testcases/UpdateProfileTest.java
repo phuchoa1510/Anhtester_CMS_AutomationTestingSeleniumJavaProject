@@ -1,6 +1,5 @@
 package com.anhtester.EcommerceCMS.User.testcases;
 
-import com.anhtester.EcommerceCMS.User.pages.BasePage;
 import com.anhtester.EcommerceCMS.User.pages.DashboardPage;
 import com.anhtester.EcommerceCMS.User.pages.LoginPage;
 import com.anhtester.EcommerceCMS.User.pages.ProfilePage;
@@ -11,7 +10,7 @@ import org.testng.annotations.Test;
 @Epic("Ecommerce CMS")
 @Feature("Manange user profile feature")
 @Story("Update user profile with data")
-public class ProfileTest extends BaseTest {
+public class UpdateProfileTest extends BaseTest {
 
     private ProfilePage profilePage;
     private LoginPage loginPage;

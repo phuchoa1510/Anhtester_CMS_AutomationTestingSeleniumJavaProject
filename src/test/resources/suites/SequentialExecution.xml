@@ -7,7 +7,7 @@
         <classes>
             <class name="com.anhtester.EcommerceCMS.User.testcases.LoginTest"/>
             <class name="com.anhtester.EcommerceCMS.User.testcases.OrderTest"/>
-            <class name="com.anhtester.EcommerceCMS.User.testcases.ProfileTest"/>
+            <class name="com.anhtester.EcommerceCMS.User.testcases.UpdateProfileTest"/>
             <class name="com.anhtester.EcommerceCMS.User.testcases.GetProductInfoTest"/>
         </classes>
     </test>
@@ -16,7 +16,7 @@
         <classes>
             <class name="com.anhtester.EcommerceCMS.User.testcases.LoginTest"/>
             <class name="com.anhtester.EcommerceCMS.User.testcases.OrderTest"/>
-            <class name="com.anhtester.EcommerceCMS.User.testcases.ProfileTest"/>
+            <class name="com.anhtester.EcommerceCMS.User.testcases.UpdateProfileTest"/>
             <class name="com.anhtester.EcommerceCMS.User.testcases.GetProductInfoTest"/>
         </classes>
     </test>
