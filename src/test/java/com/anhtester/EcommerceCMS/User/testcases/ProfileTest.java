@@ -8,6 +8,7 @@ import com.anhtester.common.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
+@Epic("Ecommerce CMS")
 @Feature("Manange user profile feature")
 @Story("Update user profile with data")
 public class ProfileTest extends BaseTest {
@@ -18,7 +19,6 @@ public class ProfileTest extends BaseTest {
 
     @Test
     @Description("Update user profile")
-    @Link(name = "https://drive.google.com/drive/u/0/home")
     @Severity(SeverityLevel.CRITICAL)
     public void testUpdateProfile() {
         loginPage = new LoginPage();

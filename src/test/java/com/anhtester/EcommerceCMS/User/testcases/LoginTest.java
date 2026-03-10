@@ -7,6 +7,7 @@ import com.anhtester.helpers.PropertiesHelper;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
+@Epic("Ecommerce CMS")
 @Feature("Login user feature")
 @Story("Login with valid and invalid credentials")
 
@@ -16,7 +17,6 @@ public class LoginTest extends BaseTest {
 
     @Description("Verify user can login with valid credentials")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(name = "https://drive.google.com/drive/u/0/home")
     @Test(priority = 1)
     public void testLoginSuccess() {
         loginPage = new LoginPage();
@@ -26,7 +26,6 @@ public class LoginTest extends BaseTest {
 
     @Description("Verify user can login with invalid credentials")
     @Severity(SeverityLevel.CRITICAL)
-    @Link(name = "https://drive.google.com/drive/u/0/home")
     @Test(priority = 2)
     public void testLoginFailed() {
         loginPage = new LoginPage();

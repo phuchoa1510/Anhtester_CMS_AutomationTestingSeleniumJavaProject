@@ -4668,3 +4668,70 @@ Session ID: f6e23e95d7f9465893ea6763dc3041f4
 [INFO] 28-02-2026 22:35:49 [main] LogUtils - Test case OrderSuccessTest is passed.
 [INFO] 28-02-2026 22:35:49 [main] LogUtils - ==> Status: 1
 [INFO] 28-02-2026 22:35:49 [main] LogUtils - Kết thúc bộ test: Sat Feb 28 22:35:49 ICT 2026
+[INFO] 10-03-2026 16:09:42 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 10-03-2026 16:09:42 [TestNG-tests-2] LogUtils - Setup môi trường onStart: Tue Mar 10 16:09:42 ICT 2026
+[INFO] 10-03-2026 16:09:42 [TestNG-tests-1] LogUtils - Setup môi trường onStart: Tue Mar 10 16:09:42 ICT 2026
+[INFO] 10-03-2026 16:09:42 [TestNG-tests-1] LogUtils - Launching Chrome browser...
+[INFO] 10-03-2026 16:09:42 [TestNG-tests-2] LogUtils - Launching Edge browser...
+[INFO] 10-03-2026 16:09:45 [TestNG-tests-1] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 10-03-2026 16:09:45 [TestNG-tests-1] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 10-03-2026 16:09:45 [TestNG-tests-2] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 10-03-2026 16:09:45 [TestNG-tests-2] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 10-03-2026 16:09:47 [TestNG-tests-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:48 [TestNG-tests-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:52 [TestNG-tests-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 10-03-2026 16:09:52 [TestNG-tests-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 10-03-2026 16:09:52 [TestNG-tests-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2026 16:09:52 [TestNG-tests-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2026 16:09:52 [TestNG-tests-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2026 16:09:53 [TestNG-tests-2] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-1] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-1] LogUtils - ==> Status: 1
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - ==> Status: 1
+[ERROR] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - Test case testLoginSuccess is failed.
+[ERROR] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "java.util.concurrent.ScheduledThreadPoolExecutor.awaitTermination(long, java.util.concurrent.TimeUnit)" because "this.screenCaptureTimer" is null
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-2] LogUtils - Launching Edge browser...
+[INFO] 10-03-2026 16:09:54 [TestNG-tests-1] LogUtils - Launching Chrome browser...
+[INFO] 10-03-2026 16:09:55 [TestNG-tests-1] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 10-03-2026 16:09:55 [TestNG-tests-1] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 10-03-2026 16:09:56 [TestNG-tests-2] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 10-03-2026 16:09:56 [TestNG-tests-2] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 10-03-2026 16:09:57 [TestNG-tests-1] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 10-03-2026 16:09:57 [TestNG-tests-1] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:57 [TestNG-tests-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:57 [TestNG-tests-1] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:58 [TestNG-tests-2] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 10-03-2026 16:09:58 [TestNG-tests-2] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:58 [TestNG-tests-1] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:58 [TestNG-tests-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 10-03-2026 16:09:58 [TestNG-tests-2] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:09:59 [TestNG-tests-2] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 10-03-2026 16:10:02 [TestNG-tests-1] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 10-03-2026 16:10:02 [TestNG-tests-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2026 16:10:02 [TestNG-tests-1] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2026 16:10:02 [TestNG-tests-2] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 10-03-2026 16:10:03 [TestNG-tests-2] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 10-03-2026 16:10:03 [TestNG-tests-2] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-1] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-1] LogUtils - Test case testLoginFailed is passed.
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-1] LogUtils - ==> Status: 1
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-1] LogUtils - Kết thúc bộ test: Tue Mar 10 16:10:04 ICT 2026
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-2] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-2] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-2] LogUtils - Test case testLoginFailed is passed.
+[INFO] 10-03-2026 16:10:04 [TestNG-tests-2] LogUtils - ==> Status: 1
+[INFO] 10-03-2026 16:10:05 [TestNG-tests-2] LogUtils - Kết thúc bộ test: Tue Mar 10 16:10:05 ICT 2026

@@ -1,6 +1,7 @@
 package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.keywords.WebUI;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.testng.Assert;
@@ -18,17 +19,20 @@ public class HomePage extends BasePage {
 
     String firstSearchResult = "//div[@id ='search-content']/descendant::ul/li[1]/a/div/div[2]/div[normalize-space()='";
 
+    @Step("Click icon Anhtester")
     public void clickiconAnhtester() {
         WebUI.clickElement(iconAnhtester);
     }
 
 
+    @Step("Verify Home Page displayed")
     public void verifyHomePageIsDisplayed() {
         boolean isDisplayLogo = WebUI.checkElementExist(iconAnhtester);
         boolean isDisplayInputSearch = WebUI.checkElementExist(inputSearch);
         Assert.assertTrue(isDisplayLogo && isDisplayInputSearch, "Home page isn't displayed");
     }
 
+    @Step("Navigate to Product Page: {0}")
     public void navigateToProductPage(String productName) {
         int attempts = 0;
         while (attempts < 5) {

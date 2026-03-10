@@ -3,8 +3,14 @@ package com.anhtester.EcommerceCMS.User.testcases;
 import com.anhtester.EcommerceCMS.User.pages.*;
 import com.anhtester.common.BaseTest;
 import com.anhtester.helpers.ExcelHelper;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
+import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 
+@Epic("Ecommerce CMS")
+@Feature("Order Management")
 public class OrderTest extends BaseTest {
 
     private DashboardPage dashboardPage;
@@ -15,6 +21,8 @@ public class OrderTest extends BaseTest {
     private BasePage basePage;
 
     @Test
+    @Story("Place order successfully")
+    @Description("Verify that user can add products to cart and complete the order successfully")
     public void OrderSuccessTest(){
         cartPage  = new CartPage();
         loginPage = new LoginPage();

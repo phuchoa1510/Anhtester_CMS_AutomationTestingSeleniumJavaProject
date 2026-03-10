@@ -10,6 +10,7 @@ import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
 
+@Epic("Ecommerce CMS")
 @Feature("Product Manage")
 @Story("Search a ramdom product and get details")
 
@@ -19,7 +20,6 @@ public class GetProductInfoTest extends BaseTest {
 
     @Description("Find Product :Laptop Dell XPS 15 and get details ")
     @Severity(SeverityLevel.NORMAL)
-    @Link(name = "https://cms.anhtester.com/product/laptop-dell-xps-15-51")
     @Test
     public void getandWriteProductInfo() {
         productpage = new ProductPage();

@@ -1,7 +1,8 @@
 package com.anhtester.EcommerceCMS.User.pages;
 
+import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
-import org.apache.xmlbeans.impl.xb.xsdschema.AppinfoDocument;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -17,96 +18,97 @@ public class CartPage extends BasePage {
     public By stepInCart = By.xpath("//div[@class='col active']");
     public By buttonContinueToShipping = By.xpath("//a[normalize-space()='Continue to Shipping']");
     public By buttonContinueToDeliveryInfo = By.xpath("//button[normalize-space()='Continue to Delivery Info']");
-    public By productInCart = By.xpath("//section[@id='cart-summary']//li");
-    public By productTax = By.xpath("//section[@id ='cart-summary']//li[1]/div/div[3]/span[2]");
-    public By productTotal = By.xpath("//section[@id ='cart-summary']//li[1]/div/div[5]/span[2]");
-    public By subTotal = By.xpath("//section[@id ='cart-summary']/descendant::span[normalize-space()= 'Subtotal']/following-sibling::span");
+    public By productInCartItems = By.xpath("//section[@id='cart-summary']//li");
+    public By subTotal = By.xpath("//section[@id='cart-summary']//span[normalize-space()='Subtotal']/following-sibling::span");
 
     //Locator for step Delivery Info
     public By buttonHomeDeliveryType = By.xpath("//span/span[normalize-space()='Home Delivery']");
-    public By buttonAddNewAddress = By.xpath("//div/div/div/div/div[normalize-space() = 'Add New Address']");
-    public By inputAddress = By.xpath("//textarea[@placeholder='Your Address']");
-    public By inputCountry = By.xpath("//button[@title='Select your country']");
-    public By inputSearchCountry = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
-    public By inputState = By.xpath("//body[1]/div[7]/div[1]/div[1]/form[1]/div[1]/div[1]/div[3]/div[2]/div[1]/button[1]");
-    public By inputSearchState = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
-    public By inputCity = By.xpath("//body[1]/div[7]/div[1]/div[1]/form[1]/div[1]/div[1]/div[4]/div[2]/div[1]/button[1]");
-    public By inputSearhCity = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
-    public By inputPostalCode = By.xpath("//input[@placeholder='Your Postal Code']");
-    public By inputPhone = By.xpath("//input[@placeholder='+880']");
-    public By buttonSave = By.xpath("//button[normalize-space()='Save']");
 
     //Locator for step Payment
     public By buttonContinueToPayment = By.xpath("//button[normalize-space()='Continue to Payment']");
     public By inputAdditionalInfo = By.xpath("//textarea[@placeholder='Type your text']");
-    public By inputCoupoCode = By.xpath("//input[@placeholder='Have coupon code? Enter here']");
-    public By buttonCashOnDelivery = By.xpath("//span/span/span[normalize-space() ='Cash on Delivery']");
-    public By checkboxAgreeTermAndConditions = By.xpath("//span[normalize-space() = 'I agree to the']/preceding-sibling::span");
+    public By inputCouponCode = By.xpath("//input[@placeholder='Have coupon code? Enter here']");
+    public By buttonCashOnDelivery = By.xpath("//span/span/span[normalize-space()='Cash on Delivery']");
+    public By checkboxAgreeTermAndConditions = By.xpath("//span[normalize-space()='I agree to the']/preceding-sibling::span");
     public By buttonCompleteOrder = By.xpath("//button[normalize-space()='Complete Order']");
-    public By messageOrderSuccess = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
     public By paymentSubtotal = By.xpath("//th[normalize-space()='Subtotal']/following-sibling::td/span");
-    public By numberOfItems = By.xpath("//h3[normalize-space()='Summary']/parent::div/div/span");
     public By totalShipping = By.xpath("//th[normalize-space()='Total Shipping']/parent::tr/td/span");
-    public By total = By.xpath("//span[normalize-space()='Total']/parent::th/following-sibling::td/strong/span");
+    public By totalOrderAmount = By.xpath("//span[normalize-space()='Total']/parent::th/following-sibling::td/strong/span");
 
     //Locator for step Confirmation
-    public By orderConfirm = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
-    public By orderCode = By.xpath("//h2/span");
+    public By orderConfirmMessage = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
+    public By orderCodeDisplay = By.xpath("//h2/span");
 
-    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
-    public By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
+    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']");
+    public By newestOrderCode = By.xpath("//tbody/tr[1]/td[1]/a");
 
-
+    @Step("Verify Cart page is displayed")
     public void verifyCartPageIsDisplayed() {
         WebUI.waitForPageLoaded();
-        boolean check = WebUI.checkElementExist(stepInCart);
-        Assert.assertTrue(check, "Cart page is not displayed");
+        Assert.assertTrue(WebUI.checkElementExist(stepInCart), "Cart page is not displayed");
     }
 
-    public void myCartStep(int totalItems, String productname1, String productName2) {
-        List<WebElement> listItems = WebUI.getWebElements(productInCart);
-        List<String> productPrice = new ArrayList<>();
-        List<String> productList = new ArrayList<>();
-        Assert.assertEquals(totalItems, listItems.size(), "The number of items in Cart is incorrect.");
-        for (int i = 1; i <= listItems.size(); i++) {
-            String xpathProductName = ("//section[@id ='cart-summary']/descendant::li[" + i + "]/div/div[1]/span[2]");
-            String name = WebUI.getElementText(By.xpath(xpathProductName));
-            productList.add(name);
-        }
-        Assert.assertEquals(productList.get(0), productname1, "The product name is incorrect.");
-        Assert.assertEquals(productList.get(1), productName2, "The product name is incorrect.");
-        for (int i = 1; i <= listItems.size(); i++) {
-            String xpathProductPrice = "//section[@id ='cart-summary']//li[" + i + "]/div/div[2]/span[2]";
-            String xpathProductQuanity = "//section[@id ='cart-summary']//li[" + i + "]/div/div[4]/div/input";
-            String price = (WebUI.getElementText(By.xpath(xpathProductPrice)))
-                    .replace("$", "")
-                    .replace(",", "")
-                    .split("\\.")[0];
-            String quantity = WebUI.getElementAttribute(By.xpath(xpathProductQuanity),"value");
-            productPrice.add(price);
-            productPrice.add(quantity);
-        }
-        int totalPrice = (Integer.parseInt(productPrice.get(0)) * Integer.parseInt(productPrice.get(1))) + (Integer.parseInt(productPrice.get(2)) * Integer.parseInt(productPrice.get(3)));
-        WebUI.scrollToElement(subTotal);
-        int subTotalPrice = Integer.parseInt((WebUI.getElementText(subTotal))
+    private int parsePrice(By locator) {
+        String text = WebUI.getElementText(locator)
                 .replace("$", "")
                 .replace(",", "")
-                .split("\\.")[0]);
-        Assert.assertTrue(totalPrice == subTotalPrice, "The Subtotal price is incorrect.");
+                .trim();
+        if (text.contains(".")) {
+            text = text.split("\\.")[0];
+        }
+        return Integer.parseInt(text);
+    }
+
+    private int parsePrice(String text) {
+        text = text.replace("$", "")
+                .replace(",", "")
+                .trim();
+        if (text.contains(".")) {
+            text = text.split("\\.")[0];
+        }
+        return Integer.parseInt(text);
+    }
+
+    @Step("Check products in My Cart step: Expected {0} items, Expected names: {1}")
+    public void myCartStep(int expectedTotalItems, String... expectedProductNames) {
+        List<WebElement> listItems = WebUI.getWebElements(productInCartItems);
+        Assert.assertEquals(listItems.size(), expectedTotalItems, "The number of items in Cart is incorrect.");
+
+        int calculatedSubtotal = 0;
+        for (int i = 1; i <= listItems.size(); i++) {
+            By productNameLocator = By.xpath("//section[@id='cart-summary']//li[" + i + "]/div/div[1]/span[2]");
+            By productPriceLocator = By.xpath("//section[@id='cart-summary']//li[" + i + "]/div/div[2]/span[2]");
+            By productQuantityLocator = By.xpath("//section[@id='cart-summary']//li[" + i + "]/div/div[4]/div/input");
+
+            String actualName = WebUI.getElementText(productNameLocator);
+            if (i <= expectedProductNames.length) {
+                Assert.assertEquals(actualName, expectedProductNames[i - 1], "The product name at item " + i + " is incorrect.");
+            }
+
+            int price = parsePrice(productPriceLocator);
+            int quantity = Integer.parseInt(WebUI.getElementAttribute(productQuantityLocator, "value"));
+            calculatedSubtotal += (price * quantity);
+        }
+
+        int actualSubtotal = parsePrice(subTotal);
+        Assert.assertEquals(actualSubtotal, calculatedSubtotal, "The Subtotal price is incorrect.");
+
         WebUI.scrollToElement(buttonContinueToShipping);
         WebUI.clickElement(buttonContinueToShipping);
         WebUI.waitForPageLoaded();
     }
 
-    public void shippingInfoStep(String chosen) {
-        String addressChosenDyamic = "//form[@data-toggle= 'validator']/div/div/div[" + chosen + "]";
-        WebUI.scrollToElement(By.xpath(addressChosenDyamic));
-        WebUI.clickElement(By.xpath(addressChosenDyamic));
+    @Step("Shipping Info step: Choose address at index {0}")
+    public void shippingInfoStep(String addressIndex) {
+        By addressOption = By.xpath("//form[@data-toggle='validator']/div/div/div[" + addressIndex + "]");
+        WebUI.scrollToElement(addressOption);
+        WebUI.clickElement(addressOption);
         WebUI.scrollToElement(buttonContinueToDeliveryInfo);
         WebUI.clickElement(buttonContinueToDeliveryInfo);
         WebUI.waitForPageLoaded();
     }
 
+    @Step("Delivery Info step: Choose Home Delivery and proceed to payment")
     public void deliveryInfoStep() {
         WebUI.scrollToElement(buttonHomeDeliveryType);
         WebUI.clickElement(buttonHomeDeliveryType);
@@ -115,51 +117,42 @@ public class CartPage extends BasePage {
         WebUI.waitForPageLoaded();
     }
 
-    public void paymentStep(String additional, String couponCode) {
+    @Step("Payment step with additional info: {0} and coupon: {1}")
+    public void paymentStep(String additionalInfo, String couponCode) {
         WebUI.scrollToElement(inputAdditionalInfo);
-        WebUI.setText(inputAdditionalInfo, additional);
-        WebUI.scrollToElement(inputCoupoCode);
-        WebUI.setText(inputCoupoCode, couponCode);
+        WebUI.setText(inputAdditionalInfo, additionalInfo);
+        WebUI.scrollToElement(inputCouponCode);
+        WebUI.setText(inputCouponCode, couponCode);
         WebUI.scrollToElement(buttonCashOnDelivery);
         WebUI.clickElement(buttonCashOnDelivery);
         WebUI.scrollToElement(checkboxAgreeTermAndConditions);
         WebUI.clickElement(checkboxAgreeTermAndConditions);
-        WebUI.moveToElement(paymentSubtotal);
+
         WebUI.waitForElementVisible(paymentSubtotal);
-        int subTotalPrice = Integer.parseInt((WebUI.getElementText(paymentSubtotal))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        WebUI.scrollToElement(total);
-        int totalPrice = Integer.parseInt((WebUI.getElementText(total))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        WebUI.scrollToElement(totalShipping);
-        int totalShippingPrice = Integer.parseInt((WebUI.getElementText(totalShipping))
-                .replace("$", "")
-                .replace(",", "")
-                .split("\\.")[0]);
-        Assert.assertTrue((subTotalPrice + totalShippingPrice) == totalPrice, "The Total is incorrect.");
+        int subTotalPrice = parsePrice(paymentSubtotal);
+        int totalShippingPrice = parsePrice(totalShipping);
+        int actualTotalPrice = parsePrice(totalOrderAmount);
+
+        Assert.assertEquals(actualTotalPrice, (subTotalPrice + totalShippingPrice), "The Total order amount is incorrect.");
         WebUI.clickElement(buttonCompleteOrder);
     }
 
+    @Step("Complete Order step and verify success message")
     public void completeOrderStep() {
         WebUI.waitForPageLoaded();
-        boolean check = WebUI.checkElementExist(orderConfirm);
-        Assert.assertTrue(check, "The Order Confirm is not found.");
+        Assert.assertTrue(WebUI.checkElementExist(orderConfirmMessage), "The Order Confirm message is not found.");
     }
+
+    @Step("Verify order success in Purchase History")
     public void verifyOrderSuccess() {
-        WebUI.scrollToElement(orderCode);
-        String code = WebUI.getElementText(orderCode);
-        WebUI.openURL("https://cms.anhtester.com/purchase_history");
+        WebUI.scrollToElement(orderCodeDisplay);
+        String expectedOrderCode = WebUI.getElementText(orderCodeDisplay);
+        
+        WebUI.openURL(PropertiesHelper.getValue("URL") + "/purchase_history");
         WebUI.waitForPageLoaded();
-        WebUI.moveToElement(menuPurchaseHistory);
-        WebUI.waitForElementToBeClickable(menuPurchaseHistory);
-        WebUI.clickElement(menuPurchaseHistory);
-        WebUI.waitForPageLoaded();
-        String newestOrderCode = WebUI.getElementText(newestOrder);
-        Assert.assertEquals(code, newestOrderCode, "The order was unsuccessful.");
+        
+        String actualNewestOrderCode = WebUI.getElementText(newestOrderCode);
+        Assert.assertEquals(actualNewestOrderCode, expectedOrderCode, "The order was unsuccessful or not found in history.");
     }
 
 }

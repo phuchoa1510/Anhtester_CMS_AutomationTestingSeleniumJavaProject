@@ -2,6 +2,7 @@ package com.anhtester.EcommerceCMS.User.pages;
 
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
@@ -23,33 +24,39 @@ public class BasePage {
 
     public By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
 
+    @Step("Click close popup")
     public void clickClosePopup() {
         if (WebUI.checkElementExist(homePagePopup)) {
             WebUI.scrollToElement(homePagePopup);
             WebUI.clickElement(homePagePopup);
         }
     }
+
+    @Step("Click close I Understood")
     public void clickCloseIUnderstood() {
         if (WebUI.checkElementExist(iUnderstood)) {
             WebUI.scrollToElement(iUnderstood);
             WebUI.clickElement(iUnderstood);
         }
     }
+
+    @Step("Navigate to Dashboard page")
     public void navigateToDashboardPage() {
         WebUI.clickElement(buttonMyPanel);
         WebUI.waitForPageLoaded();
 
     }
 
+    @Step("Navigate to Home page")
     public void navigateHomePage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
         clickCloseIUnderstood();
         clickClosePopup();
         WebUI.sleep(3);
-
     }
 
+    @Step("Navigate to Cart page")
     public void navigateToCartPage() {
         int quantity = Integer.parseInt(WebUI.getElementText(quantityInCart));
         if (quantity == 0) {
