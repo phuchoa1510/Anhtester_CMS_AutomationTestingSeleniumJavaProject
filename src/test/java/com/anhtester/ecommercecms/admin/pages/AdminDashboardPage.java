@@ -1,4 +1,4 @@
-package com.anhtester.EcommerceCMS.Admin.pages;
+package com.anhtester.ecommercecms.admin.pages;
 
 import org.openqa.selenium.By;
 

@@ -1,15 +1,9 @@
-package com.anhtester.EcommerceCMS.User.pages;
+package com.anhtester.ecommercecms.user.pages;
 
-import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
-import org.apache.commons.collections4.Get;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class ProductPage extends BasePage{
 

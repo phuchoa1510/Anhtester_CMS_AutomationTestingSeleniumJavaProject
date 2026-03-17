@@ -1,9 +1,9 @@
-package com.anhtester.EcommerceCMS.User.testcases;
+package com.anhtester.ecommercecms.user.testcases;
 
 
-import com.anhtester.EcommerceCMS.User.pages.LoginPage;
-import com.anhtester.EcommerceCMS.User.pages.ProfilePage;
-import com.anhtester.EcommerceCMS.User.pages.UserDashboardPage;
+import com.anhtester.ecommercecms.user.pages.LoginPage;
+import com.anhtester.ecommercecms.user.pages.ProfilePage;
+import com.anhtester.ecommercecms.user.pages.UserDashboardPage;
 import com.anhtester.common.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;

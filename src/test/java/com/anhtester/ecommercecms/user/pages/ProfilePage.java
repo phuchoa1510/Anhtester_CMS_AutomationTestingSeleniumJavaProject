@@ -1,4 +1,4 @@
-package com.anhtester.EcommerceCMS.User.pages;
+package com.anhtester.ecommercecms.user.pages;
 
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;

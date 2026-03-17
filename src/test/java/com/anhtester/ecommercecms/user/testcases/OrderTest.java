@@ -1,6 +1,6 @@
-package com.anhtester.EcommerceCMS.User.testcases;
+package com.anhtester.ecommercecms.user.testcases;
 
-import com.anhtester.EcommerceCMS.User.pages.*;
+import com.anhtester.ecommercecms.user.pages.*;
 import com.anhtester.common.BaseTest;
 import com.anhtester.helpers.ExcelHelper;
 import io.qameta.allure.Epic;
@@ -45,7 +45,7 @@ public class OrderTest extends BaseTest {
         productPage.verifyProductAddToCartSuccess();
         basePage.navigateToCartPage();
         cartPage.verifyCartPageIsDisplayed();
-        cartPage.myCartStep(2,excel.getCellData(0,1),excel.getCellData(0,2));
+        cartPage.checkMyCartStep(2,excel.getCellData(0,1),excel.getCellData(0,2));
         cartPage.shippingInfoStep("1");
         cartPage.deliveryInfoStep();
         cartPage.paymentStep("","");

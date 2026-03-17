@@ -1,31 +1,20 @@
-package com.anhtester.EcommerceCMS.User.pages;
+package com.anhtester.ecommercecms.user.pages;
 
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
-import javax.swing.text.DocumentFilter;
 
 public class BasePage {
 
-    private By homePagePopup = By.xpath("//i[@class='la la-close fs-20']");
-
-    private By iUnderstood = By.xpath("//button[normalize-space()='Ok. I Understood']");
-
-    private By buttonCart = By.xpath("//div[@id = 'cart_items']");
-
-    private By quantityInCart = By.xpath("//span[normalize-space() ='Cart']/preceding-sibling::span");
-
-    private By cartItemsDropdownMenu = By.xpath("//div[normalize-space() ='Cart Items']");
-
-    private By buttonViewCart = By.xpath("//a[normalize-space()='View cart']");
-
-    private By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
-
-    private By buttonLogout = By.xpath("//a[normalize-space()='My Panel']/parent::li/following-sibling::li/a[normalize-space()='Logout']");
+    private final By homePagePopup = By.xpath("//i[@class='la la-close fs-20']");
+    private final By iUnderstood = By.xpath("//button[normalize-space()='Ok. I Understood']");
+    private final By buttonCart = By.xpath("//div[@id = 'cart_items']");
+    private final By quantityInCart = By.xpath("//span[normalize-space() ='Cart']/preceding-sibling::span");
+    private final By cartItemsDropdownMenu = By.xpath("//div[normalize-space() ='Cart Items']");
+    private final By buttonViewCart = By.xpath("//a[normalize-space()='View cart']");
+    private final By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
 
     @Step("Click close popup")
     public void clickClosePopup() {
@@ -51,33 +40,26 @@ public class BasePage {
     }
 
     @Step("Navigate to Home page")
-    public HomePage navigateHomePage() {
+    public void navigateHomePage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
         clickCloseIUnderstood();
         clickClosePopup();
-        WebUI.sleep(3);
-        return new HomePage();
+        WebUI.sleep(1); // Giảm sleep xuống mức tối thiểu nếu cần, hoặc thay bằng wait
     }
 
     @Step("Navigate to Cart page")
     public CartPage navigateToCartPage() {
         int quantity = Integer.parseInt(WebUI.getElementText(quantityInCart));
         if (quantity == 0) {
-            System.out.println("Not Product in Cart");
+            System.out.println("No Product in Cart");
         } else {
             WebUI.clickElement(buttonCart);
             boolean check = WebUI.checkElementExist(cartItemsDropdownMenu);
-            Assert.assertTrue(check, "Cart Items Dropdown Menu is not present");
+            Assert.assertTrue(check,"Cart Items Dropdown Menu is not present");
             WebUI.clickElement(buttonViewCart);
         }
         return new CartPage();
-    }
-
-    @Step("Logout user account")
-    public void logout() {
-        WebUI.checkElementExist(buttonLogout);
-        WebUI.clickElement(buttonLogout);
     }
 
 }
