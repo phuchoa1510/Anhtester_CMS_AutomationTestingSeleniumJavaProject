@@ -12,35 +12,35 @@ import java.util.List;
 
 public class CartPage extends BasePage {
 
-    public By buttonHome = By.xpath("//a[contains(text(),'Home')]");
+    private By buttonHome = By.xpath("//a[contains(text(),'Home')]");
 
     //Locator for step My Cart
-    public By stepInCart = By.xpath("//div[@class='col active']");
-    public By buttonContinueToShipping = By.xpath("//a[normalize-space()='Continue to Shipping']");
-    public By buttonContinueToDeliveryInfo = By.xpath("//button[normalize-space()='Continue to Delivery Info']");
-    public By productInCartItems = By.xpath("//section[@id='cart-summary']//li");
-    public By subTotal = By.xpath("//section[@id='cart-summary']//span[normalize-space()='Subtotal']/following-sibling::span");
+    private By stepInCart = By.xpath("//div[@class='col active']");
+    private By buttonContinueToShipping = By.xpath("//a[normalize-space()='Continue to Shipping']");
+    private By buttonContinueToDeliveryInfo = By.xpath("//button[normalize-space()='Continue to Delivery Info']");
+    private By productInCartItems = By.xpath("//section[@id='cart-summary']//li");
+    private By subTotal = By.xpath("//section[@id='cart-summary']//span[normalize-space()='Subtotal']/following-sibling::span");
 
     //Locator for step Delivery Info
-    public By buttonHomeDeliveryType = By.xpath("//span/span[normalize-space()='Home Delivery']");
+    private By buttonHomeDeliveryType = By.xpath("//span/span[normalize-space()='Home Delivery']");
 
     //Locator for step Payment
-    public By buttonContinueToPayment = By.xpath("//button[normalize-space()='Continue to Payment']");
-    public By inputAdditionalInfo = By.xpath("//textarea[@placeholder='Type your text']");
-    public By inputCouponCode = By.xpath("//input[@placeholder='Have coupon code? Enter here']");
-    public By buttonCashOnDelivery = By.xpath("//span/span/span[normalize-space()='Cash on Delivery']");
-    public By checkboxAgreeTermAndConditions = By.xpath("//span[normalize-space()='I agree to the']/preceding-sibling::span");
-    public By buttonCompleteOrder = By.xpath("//button[normalize-space()='Complete Order']");
-    public By paymentSubtotal = By.xpath("//th[normalize-space()='Subtotal']/following-sibling::td/span");
-    public By totalShipping = By.xpath("//th[normalize-space()='Total Shipping']/parent::tr/td/span");
-    public By totalOrderAmount = By.xpath("//span[normalize-space()='Total']/parent::th/following-sibling::td/strong/span");
+    private By buttonContinueToPayment = By.xpath("//button[normalize-space()='Continue to Payment']");
+    private By inputAdditionalInfo = By.xpath("//textarea[@placeholder='Type your text']");
+    private By inputCouponCode = By.xpath("//input[@placeholder='Have coupon code? Enter here']");
+    private By buttonCashOnDelivery = By.xpath("//span/span/span[normalize-space()='Cash on Delivery']");
+    private By checkboxAgreeTermAndConditions = By.xpath("//span[normalize-space()='I agree to the']/preceding-sibling::span");
+    private By buttonCompleteOrder = By.xpath("//button[normalize-space()='Complete Order']");
+    private By paymentSubtotal = By.xpath("//th[normalize-space()='Subtotal']/following-sibling::td/span");
+    private By totalShipping = By.xpath("//th[normalize-space()='Total Shipping']/parent::tr/td/span");
+    private By totalOrderAmount = By.xpath("//span[normalize-space()='Total']/parent::th/following-sibling::td/strong/span");
 
     //Locator for step Confirmation
-    public By orderConfirmMessage = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
-    public By orderCodeDisplay = By.xpath("//h2/span");
+    private By orderConfirmMessage = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
+    private By orderCodeDisplay = By.xpath("//h2/span");
 
-    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']");
-    public By newestOrderCode = By.xpath("//tbody/tr[1]/td[1]/a");
+    private By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']");
+    private By newestOrderCode = By.xpath("//tbody/tr[1]/td[1]/a");
 
     @Step("Verify Cart page is displayed")
     public void verifyCartPageIsDisplayed() {

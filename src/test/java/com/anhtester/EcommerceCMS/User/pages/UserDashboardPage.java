@@ -5,26 +5,28 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-public class DashboardPage extends BasePage {
+public class UserDashboardPage extends BasePage {
 
     private By headerDashboardPage = By.xpath("//h1[normalize-space()='Dashboard']");
 
-    public By menuDashboard = By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']");
+    private By menuDashboard = By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']");
 
-    public By menuManageProfile = By.xpath("//div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']");
+    private By menuManageProfile = By.xpath("//div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']");
 
-    public By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
+    private By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
 
-    public By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
+    private By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
 
     @Step("Click menu Dashboard")
-    public void clickMenuDashboard() {
+    public UserDashboardPage clickMenuDashboard() {
         WebUI.clickElement(menuDashboard);
+        return this;
     }
 
     @Step("Click menu Manage Profile")
-    public void clickMenuManageProfile() {
+    public ProfilePage clickMenuManageProfile() {
         WebUI.clickElement(menuManageProfile);
+        return new ProfilePage();
     }
 
     @Step("Verify Dashboard page displayed")

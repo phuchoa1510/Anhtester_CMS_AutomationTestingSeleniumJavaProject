@@ -21,13 +21,13 @@ public class GetProductInfoTest extends BaseTest {
     @Description("Find Product :Laptop Dell XPS 15 and get details ")
     @Severity(SeverityLevel.NORMAL)
     @Test
-    public void getandWriteProductInfo() {
+    public void getProductInfo() {
         productpage = new ProductPage();
         homepage = new HomePage();
         homepage.navigateToProductPage("Laptop Dell XPS 15");
         productpage.verifyProductTargetPageIsDisplayed("Laptop Dell XPS 15");
         ExcelHelper excel = new ExcelHelper();
-        excel.setExcelFile("src/test/resources/testdata/testData.xlsx", "Sheet1");
+        excel.setExcelFile("src/test/resources/testdata/testData.xlsx", "Product_get_list");
         String productName = productpage.getProductName();
         String sellerName = productpage.getProductSellerName();
         String productPrice = productpage.getProductPrice();

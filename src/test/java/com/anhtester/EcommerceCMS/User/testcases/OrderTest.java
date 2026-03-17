@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 @Feature("Order Management")
 public class OrderTest extends BaseTest {
 
-    private DashboardPage dashboardPage;
+    private UserDashboardPage userDashboardPage;
     private ProductPage productPage;
     private CartPage cartPage;
     private LoginPage loginPage;
@@ -27,7 +27,7 @@ public class OrderTest extends BaseTest {
         cartPage  = new CartPage();
         loginPage = new LoginPage();
         basePage = new BasePage();
-        dashboardPage = new DashboardPage();
+        userDashboardPage = new UserDashboardPage();
         productPage = new ProductPage();
         homePage = new HomePage();
         loginPage = new LoginPage();

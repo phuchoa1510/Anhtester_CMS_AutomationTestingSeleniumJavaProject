@@ -13,25 +13,25 @@ import java.util.List;
 
 public class ProductPage extends BasePage{
 
-    public By productTitle = By.xpath("//h1");
+    private By productTitle = By.xpath("//h1");
 
-    public By sellerName = By.xpath("//small[normalize-space()='Sold by:']/parent::div");
+    private By sellerName = By.xpath("//small[normalize-space()='Sold by:']/parent::div");
 
-    public By productPrice = By.xpath("//div[normalize-space()='Price:']/parent::div/following-sibling::div//strong");
+    private By productPrice = By.xpath("//div[normalize-space()='Price:']/parent::div/following-sibling::div//strong");
 
-    public By productDescription = By.xpath("//a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div");
+    private By productDescription = By.xpath("//a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']/div/div");
 
-    public By buttonAddtoCart = By.xpath("//span[normalize-space()='Add to cart']");
+    private By buttonAddtoCart = By.xpath("//span[normalize-space()='Add to cart']");
 
-    public By addToCartModal = By.xpath("//div[@id='addToCart-modal-body']");
+    private By addToCartModal = By.xpath("//div[@id='addToCart-modal-body']");
 
-    public By productAddedName = By.xpath("//h6");
+    private By productAddedName = By.xpath("//h6");
 
-    public By productAddedPrice = By.xpath("//h6/parent::div/div/div/div/strong");
+    private By productAddedPrice = By.xpath("//h6/parent::div/div/div/div/strong");
 
-    public By messageAddToCartSuccess = By.xpath("//h3[normalize-space()='Item added to your cart!']");
+    private By messageAddToCartSuccess = By.xpath("//h3[normalize-space()='Item added to your cart!']");
 
-    public By buttonCloseModal = By.xpath("//div[@id='addToCart-modal-body']/preceding-sibling::button");
+    private By buttonCloseModal = By.xpath("//div[@id='addToCart-modal-body']/preceding-sibling::button");
 
     @Step("Verify Product {0} Page Displayed")
     public void verifyProductTargetPageIsDisplayed(String productName){

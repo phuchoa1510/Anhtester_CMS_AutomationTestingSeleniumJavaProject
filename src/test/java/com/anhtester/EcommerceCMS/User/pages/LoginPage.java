@@ -10,16 +10,16 @@ public class LoginPage extends BasePage {
 
     private BasePage basePage;
 
-    public By homePageButtonLogin = By.xpath("//a[text()='Login']");
-    public By labelLoginToYourAccount = By.xpath("//h1[normalize-space()='Login to your account.']");
-    public By inputEmail = By.xpath("//input[@id='email']");
-    public By inputPassword = By.xpath("//input[@id='password']");
-    public By checkboxRememberMe = By.xpath("//span[@class='aiz-square-check']");
-    public By linkForgotPassword = By.xpath("//a[normalize-space()='Forgot password?']");
-    public By buttonLogin = By.xpath("//button[normalize-space()='Login']");
-    public By linkRegisterNow = By.xpath("//a[normalize-space()='Register Now']");
+    private By homePageButtonLogin = By.xpath("//a[text()='Login']");
+    private By labelLoginToYourAccount = By.xpath("//h1[normalize-space()='Login to your account.']");
+    private By inputEmail = By.xpath("//input[@id='email']");
+    private By inputPassword = By.xpath("//input[@id='password']");
+    private By checkboxRememberMe = By.xpath("//span[@class='aiz-square-check']");
+    private By linkForgotPassword = By.xpath("//a[normalize-space()='Forgot password?']");
+    private By buttonLogin = By.xpath("//button[normalize-space()='Login']");
+    private By linkRegisterNow = By.xpath("//a[normalize-space()='Register Now']");
 
-    public By errorMessageInvalid = By.xpath("//div[@role='alert']");
+    private By errorMessageInvalid = By.xpath("//div[@role='alert']");
 
 
     public void verifyLoginPageDisplayed() {
@@ -55,13 +55,13 @@ public class LoginPage extends BasePage {
     }
 
     @Step("Login CMS with default account")
-    public DashboardPage loginCMS() {
+    public UserDashboardPage loginCMS() {
         navigateToLoginUserPage();
         enterEmail(PropertiesHelper.getValue("USER_EMAIL"));
         enterPassword(PropertiesHelper.getValue("USER_PASSWORD"));
         clickLoginButton();
         WebUI.waitForPageLoaded();
-        return new DashboardPage();
+        return new UserDashboardPage();
     }
 
     @Step("Verify login successful and Dashboard displayed")
