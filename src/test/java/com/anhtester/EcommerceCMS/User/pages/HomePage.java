@@ -24,6 +24,11 @@ public class HomePage extends BasePage {
         WebUI.clickElement(iconAnhtester);
     }
 
+    @Step("Navigate to Login page")
+    public void navigateToLoginUserPage() {
+        navigateHomePage();
+        WebUI.clickElement(homePageButtonLogin);
+    }
 
     @Step("Verify Home Page displayed")
     public void verifyHomePageIsDisplayed() {
@@ -33,7 +38,7 @@ public class HomePage extends BasePage {
     }
 
     @Step("Navigate to Product Page: {0}")
-    public void navigateToProductPage(String productName) {
+    public ProductPage navigateToProductPage(String productName) {
         int attempts = 0;
         while (attempts < 5) {
             try {
@@ -56,6 +61,7 @@ public class HomePage extends BasePage {
             }
         }
         WebUI.waitForPageLoaded();
+        return new ProductPage();
     }
 
 }

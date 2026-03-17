@@ -4,6 +4,7 @@ import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import javax.swing.text.DocumentFilter;
@@ -24,6 +25,8 @@ public class BasePage {
 
     private By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
 
+    private By buttonLogout = By.xpath("//a[normalize-space()='My Panel']/parent::li/following-sibling::li/a[normalize-space()='Logout']");
+
     @Step("Click close popup")
     public void clickClosePopup() {
         if (WebUI.checkElementExist(homePagePopup)) {
@@ -41,32 +44,40 @@ public class BasePage {
     }
 
     @Step("Navigate to Dashboard page")
-    public void navigateToDashboardPage() {
+    public UserDashboardPage navigateToDashboardPage() {
         WebUI.clickElement(buttonMyPanel);
         WebUI.waitForPageLoaded();
-
+        return new UserDashboardPage();
     }
 
     @Step("Navigate to Home page")
-    public void navigateHomePage() {
+    public HomePage navigateHomePage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
         clickCloseIUnderstood();
         clickClosePopup();
         WebUI.sleep(3);
+        return new HomePage();
     }
 
     @Step("Navigate to Cart page")
-    public void navigateToCartPage() {
+    public CartPage navigateToCartPage() {
         int quantity = Integer.parseInt(WebUI.getElementText(quantityInCart));
         if (quantity == 0) {
             System.out.println("Not Product in Cart");
         } else {
             WebUI.clickElement(buttonCart);
             boolean check = WebUI.checkElementExist(cartItemsDropdownMenu);
-            Assert.assertTrue(check,"Cart Items Dropdown Menu is not present");
+            Assert.assertTrue(check, "Cart Items Dropdown Menu is not present");
             WebUI.clickElement(buttonViewCart);
         }
+        return new CartPage();
+    }
+
+    @Step("Logout user account")
+    public void logout() {
+        WebUI.checkElementExist(buttonLogout);
+        WebUI.clickElement(buttonLogout);
     }
 
 }

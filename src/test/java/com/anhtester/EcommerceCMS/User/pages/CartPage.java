@@ -47,7 +47,6 @@ public class CartPage extends BasePage {
         WebUI.waitForPageLoaded();
         Assert.assertTrue(WebUI.checkElementExist(stepInCart), "Cart page is not displayed");
     }
-
     private int parsePrice(By locator) {
         String text = WebUI.getElementText(locator)
                 .replace("$", "")

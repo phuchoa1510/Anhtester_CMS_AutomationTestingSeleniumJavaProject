@@ -28,7 +28,7 @@ public class LoginPage extends BasePage {
     }
 
     @Step("Navigate to Login page")
-    public void navigateToLoginUserPage() {
+    public void navigateToLoginPage() {
         navigateHomePage();
         WebUI.clickElement(homePageButtonLogin);
     }
@@ -47,7 +47,7 @@ public class LoginPage extends BasePage {
 
     @Step("Login CMS with email: {0}")
     public void loginCMS(String email, String password) {
-        navigateToLoginUserPage();
+        navigateToLoginPage();
         enterEmail(email);
         enterPassword(password);
         clickLoginButton();
@@ -55,13 +55,11 @@ public class LoginPage extends BasePage {
     }
 
     @Step("Login CMS with default account")
-    public UserDashboardPage loginCMS() {
-        navigateToLoginUserPage();
-        enterEmail(PropertiesHelper.getValue("USER_EMAIL"));
-        enterPassword(PropertiesHelper.getValue("USER_PASSWORD"));
-        clickLoginButton();
-        WebUI.waitForPageLoaded();
-        return new UserDashboardPage();
+    public void loginCMSDefault() {
+        loginCMS(
+                PropertiesHelper.getValue("USER_EMAIL"),
+                PropertiesHelper.getValue("USER_PASSWORD")
+        );
     }
 
     @Step("Verify login successful and Dashboard displayed")
