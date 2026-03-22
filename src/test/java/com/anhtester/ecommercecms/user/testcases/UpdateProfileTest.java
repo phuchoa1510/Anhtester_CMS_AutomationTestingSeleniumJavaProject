@@ -4,14 +4,14 @@ package com.anhtester.ecommercecms.user.testcases;
 import com.anhtester.ecommercecms.user.pages.LoginPage;
 import com.anhtester.ecommercecms.user.pages.ProfilePage;
 import com.anhtester.ecommercecms.user.pages.UserDashboardPage;
-import com.anhtester.common.BaseTest;
+import com.anhtester.common.BaseTestOld;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
 @Epic("Ecommerce CMS")
 @Feature("Manange user profile feature")
 @Story("Update user profile with data")
-public class UpdateProfileTest extends BaseTest {
+public class UpdateProfileTest extends BaseTestOld {
 
     private ProfilePage profilePage;
     private LoginPage loginPage;

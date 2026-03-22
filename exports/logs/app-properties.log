@@ -4771,3 +4771,21 @@ Session ID: f6e23e95d7f9465893ea6763dc3041f4
 [INFO] 17-03-2026 16:57:26 [main] LogUtils - Test case testLoginSuccess is passed.
 [INFO] 17-03-2026 16:57:26 [main] LogUtils - ==> Status: 1
 [INFO] 17-03-2026 16:57:26 [main] LogUtils - Kết thúc bộ test: Tue Mar 17 16:57:26 ICT 2026
+[INFO] 22-03-2026 19:26:44 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-03-2026 19:26:45 [main] LogUtils - Setup môi trường onStart: Sun Mar 22 19:26:44 ICT 2026
+[INFO] 22-03-2026 19:26:45 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-03-2026 19:26:49 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 22-03-2026 19:26:49 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-03-2026 19:26:51 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-03-2026 19:26:51 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 19:26:51 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 19:26:51 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 19:26:51 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 19:26:53 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 22-03-2026 19:26:53 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-03-2026 19:26:53 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-03-2026 19:26:53 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-03-2026 19:26:54 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-03-2026 19:26:54 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 22-03-2026 19:26:54 [main] LogUtils - ==> Status: 1
+[INFO] 22-03-2026 19:26:55 [main] LogUtils - Kết thúc bộ test: Sun Mar 22 19:26:55 ICT 2026

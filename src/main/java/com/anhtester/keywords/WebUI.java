@@ -222,7 +222,6 @@ public class WebUI {
     @Step("Open URL {0}")
     public static void openURL(String url) {
         DriverManager.getDriver().get(url);
-        sleep(STEP_TIME);
         LogUtils.info("Open URL:  " + url);
         if (SCREENSHOT_ALL_STEP.equals("true")) {
             AllureManager.saveScreenshotPNG();
@@ -232,7 +231,6 @@ public class WebUI {
 
     @Step("Click on element {0}")
     public static void clickElement(By by) {
-        sleep(STEP_TIME);
         waitForElementToBeClickable(by).click();
         LogUtils.info("Click on element " + by);
         if (SCREENSHOT_ALL_STEP.equals("true")) {
@@ -242,7 +240,6 @@ public class WebUI {
 
     @Step("Click on element {0} with timeout {1} seconds")
     public static void clickElement(By by, int seconds) {
-        sleep(STEP_TIME);
         waitForElementToBeClickable(by, seconds).click();
         LogUtils.info("Click on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
@@ -252,7 +249,6 @@ public class WebUI {
 
     @Step("Set text {1} on element {0}")
     public static void setText(By by, String text) {
-        sleep(STEP_TIME);
         waitForElementVisible(by).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
@@ -262,7 +258,6 @@ public class WebUI {
 
     @Step("Set text {1} on element {0} with timeout {2} seconds")
     public static void setText(By by, String text, int seconds) {
-        sleep(STEP_TIME);
         waitForElementVisible(by, seconds).sendKeys(text);
         LogUtils.info("Set text " + text + " on element " + by);
         if (PropertiesHelper.getValue("SCREENSHOT_ALL_STEP").equals("true")) {
@@ -273,7 +268,6 @@ public class WebUI {
     @Step("Get text of element {0}")
     public static String getElementText(By by) {
         waitForElementVisible(by);
-        sleep(STEP_TIME);
         LogUtils.info("Get text of element " + by);
         String text = getWebElement(by).getText();
         LogUtils.info("==> TEXT: " + text);
