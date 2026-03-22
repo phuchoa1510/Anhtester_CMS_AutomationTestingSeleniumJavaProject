@@ -2,7 +2,7 @@ package com.anhtester.ecommercecms.user.testcases;
 
 import com.anhtester.ecommercecms.user.pages.HomePage;
 import com.anhtester.ecommercecms.user.pages.ProductPage;
-import com.anhtester.common.BaseTestOld;
+import com.anhtester.common.BaseTest;
 import com.anhtester.helpers.ExcelHelper;
 import io.qameta.allure.*;
 
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 @Feature("Product Manage")
 @Story("Search a ramdom product and get details")
 
-public class GetProductInfoTest extends BaseTestOld {
+public class GetProductInfoTest extends BaseTest {
     private ProductPage productpage;
     private HomePage homepage;
 

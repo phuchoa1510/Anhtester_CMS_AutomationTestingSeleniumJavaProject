@@ -1,7 +1,7 @@
 package com.anhtester.ecommercecms.user.testcases;
 
 import com.anhtester.ecommercecms.user.pages.*;
-import com.anhtester.common.BaseTestOld;
+import com.anhtester.common.BaseTest;
 import com.anhtester.helpers.ExcelHelper;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 @Epic("Ecommerce CMS")
 @Feature("Order Management")
-public class OrderTest extends BaseTestOld {
+public class OrderTest extends BaseTest {
 
     private UserDashboardPage userDashboardPage;
     private ProductPage productPage;

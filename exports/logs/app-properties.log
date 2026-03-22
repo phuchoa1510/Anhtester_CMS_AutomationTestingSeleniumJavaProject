@@ -4789,3 +4789,36 @@ Session ID: f6e23e95d7f9465893ea6763dc3041f4
 [INFO] 22-03-2026 19:26:54 [main] LogUtils - Test case testLoginSuccess is passed.
 [INFO] 22-03-2026 19:26:54 [main] LogUtils - ==> Status: 1
 [INFO] 22-03-2026 19:26:55 [main] LogUtils - Kết thúc bộ test: Sun Mar 22 19:26:55 ICT 2026
+[INFO] 22-03-2026 22:37:18 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-03-2026 22:37:18 [main] LogUtils - Setup môi trường onStart: Sun Mar 22 22:37:18 ICT 2026
+[INFO] 22-03-2026 22:37:18 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-03-2026 22:37:21 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccess
+[INFO] 22-03-2026 22:37:21 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-03-2026 22:37:23 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-03-2026 22:37:23 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 22:37:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 22:37:23 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 22:37:24 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 22:37:25 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 22-03-2026 22:37:25 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-03-2026 22:37:25 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-03-2026 22:37:26 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-03-2026 22:37:27 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-03-2026 22:37:27 [main] LogUtils - Test case testLoginSuccess is passed.
+[INFO] 22-03-2026 22:37:27 [main] LogUtils - ==> Status: 1
+[INFO] 22-03-2026 22:37:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 22-03-2026 22:37:28 [main] LogUtils - Bắt đầu chạy test case: testLoginFailed
+[INFO] 22-03-2026 22:37:28 [main] LogUtils - Current Directory: C:\Users\vanco\OneDrive\Desktop\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 22-03-2026 22:37:29 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 22-03-2026 22:37:29 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 22:37:29 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 22-03-2026 22:37:29 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 22:37:29 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 22-03-2026 22:37:31 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 22-03-2026 22:37:31 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-03-2026 22:37:31 [main] LogUtils - Set text 123 on element By.xpath: //input[@id='password']
+[INFO] 22-03-2026 22:37:31 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-03-2026 22:37:32 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 22-03-2026 22:37:32 [main] LogUtils - Test case testLoginFailed is passed.
+[INFO] 22-03-2026 22:37:32 [main] LogUtils - ==> Status: 1
+[INFO] 22-03-2026 22:37:32 [main] LogUtils - Kết thúc bộ test: Sun Mar 22 22:37:32 ICT 2026

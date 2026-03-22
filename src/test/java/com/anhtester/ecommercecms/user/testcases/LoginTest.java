@@ -1,7 +1,8 @@
 package com.anhtester.ecommercecms.user.testcases;
 
+import com.anhtester.common.BaseTest;
 import com.anhtester.ecommercecms.user.pages.LoginPage;
-import com.anhtester.common.BaseTestOld;
+
 import com.anhtester.helpers.PropertiesHelper;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 @Feature("Login user feature")
 @Story("Login with valid and invalid credentials")
 
-public class LoginTest extends BaseTestOld {
+public class LoginTest extends BaseTest {
 
     private LoginPage loginPage;
 
