@@ -24,7 +24,7 @@ jobs:
 
     - name: Run Tests
       # Chạy với headless=true và tắt video để tránh lỗi trên server Linux
-      run: mvn test -DsuiteXmlFile=suites/SuiteLoginTest.xml -DBROWSER=chrome -DHEADLESS=true -DVIDEO_RECORD=false
+      run: mvn test -DsuiteXmlFile=suites/ParallelExcution.xml -DBROWSER=chrome -DHEADLESS=true -DVIDEO_RECORD=false
 
     - name: Get Allure history
       uses: actions/checkout@v4
