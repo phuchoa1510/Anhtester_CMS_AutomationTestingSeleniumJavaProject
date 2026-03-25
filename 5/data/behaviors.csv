@@ -1,0 +1,5 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","Ecommerce CMS","0","Login user feature","4","0","Login with valid and invalid credentials","0"
+"2","Ecommerce CMS","0","Order Management","0","0","Place order successfully","0"
+"0","Ecommerce CMS","2","Product Manage","0","0","Search a ramdom product and get details","0"
+"0","Ecommerce CMS","0","Manange user profile feature","2","0","Update user profile with data","0"
