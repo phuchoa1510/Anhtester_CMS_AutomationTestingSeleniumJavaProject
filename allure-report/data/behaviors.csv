@@ -1,0 +1,4 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Login user feature","2","0","Login with valid and invalid credentials","0"
+"0","","3","Manange user profile feature","1","0","Update user profile with data","0"
+"0","","0","Product Manage","1","0","Search a ramdom product and get details","0"
