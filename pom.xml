@@ -151,7 +151,7 @@
                             <suiteXmlFile>suites/SuiteLoginTest.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <argLine>
-                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.24/aspectjweaver-1.9.24.jar"
+                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.jar"
                         </argLine>
                         <testFailureIgnore>true</testFailureIgnore>
                         <systemPropertyVariables>

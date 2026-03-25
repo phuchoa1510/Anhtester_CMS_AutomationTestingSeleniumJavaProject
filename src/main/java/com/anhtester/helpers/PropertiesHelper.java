@@ -62,9 +62,13 @@ public class PropertiesHelper {
     }
 
     public static String getValue(String key) {
-        String value = null;
+        String value = System.getProperty(key); // Ưu tiên lấy từ System Property (-Dkey=value)
+        if (value != null && !value.isEmpty()) {
+            return value;
+        }
+
         try {
-            if (file == null) {
+            if (properties == null) {
                 properties = new Properties();
                 linkFile = SystemHelper.getCurrentDir() + relPropertiesFilePathDefault;
                 file = new FileInputStream(linkFile);
