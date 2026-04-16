@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite New" parallel="classes" thread-count="3">
+    
+    <listeners>
+        <listener class-name="com.anhtester.listeners.TestListener" />
+        <listener class-name="com.anhtester.listeners.AllureListener" />
+    </listeners>
+
+    <test name="Login and Order Flow">
+        <parameter name="BROWSER" value="chrome" />
+        <classes>
+            <class name="com.anhtester.ecommercecms.user.testcases.LoginTest" />
+            <class name="com.anhtester.ecommercecms.user.testcases.OrderTest" />
+            <class name="com.anhtester.ecommercecms.user.testcases.UpdateProfileTest" />
+        </classes>
+    </test>
+</suite>

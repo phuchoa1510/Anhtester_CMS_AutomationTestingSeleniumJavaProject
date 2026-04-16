@@ -2,6 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Ecommerce CMS Sequential Suite" parallel="none" thread-count="1" verbose="1">
 
+    <listeners>
+        <listener class-name="com.anhtester.listeners.TestListener"/>
+        <listener class-name="com.anhtester.listeners.AnnotationTransformer"/>
+    </listeners>
+
     <test name="Regression Tests Sequential">
         <parameter name="BROWSER" value="chrome"/>
         <classes>

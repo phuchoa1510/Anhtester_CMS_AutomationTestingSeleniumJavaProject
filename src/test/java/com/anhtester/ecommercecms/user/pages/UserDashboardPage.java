@@ -3,19 +3,13 @@ package com.anhtester.ecommercecms.user.pages;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class UserDashboardPage extends BasePage {
 
     private By headerDashboardPage = By.xpath("//h1[normalize-space()='Dashboard']");
-
     private By menuDashboard = By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']");
-
     private By menuManageProfile = By.xpath("//div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']");
-
-    private By menuPurchaseHistory = By.xpath("//span[normalize-space()='Purchase History']/ancestor::body");
-
-    private By newestOrder = By.xpath("//tbody/tr[1]/td[1]/a");
+    private By menuPurchaseHistory = By.xpath("//section/descendant::span[normalize-space() ='Purchase History']");
 
     @Step("Click menu Dashboard")
     public UserDashboardPage clickMenuDashboard() {
@@ -29,10 +23,13 @@ public class UserDashboardPage extends BasePage {
         return new ProfilePage();
     }
 
-    @Step("Verify Dashboard page displayed")
-    public void verifyDashboardPageDisplayed() {
-        boolean check = WebUI.checkElementExist(headerDashboardPage);
-        Assert.assertTrue(check, "Dashboard Page is not displayed");
+    public boolean isDashboardPageDisplayed() {
+        return WebUI.checkElementExist(headerDashboardPage);
+    }
+
+    public PurchaseHistoryPage clickMenuPurchaseHistory() {
+        WebUI.clickElement(menuPurchaseHistory);
+        return new PurchaseHistoryPage();
     }
 
 

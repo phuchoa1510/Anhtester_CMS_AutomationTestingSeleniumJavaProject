@@ -1,77 +1,55 @@
 package com.anhtester.ecommercecms.user.pages;
 
-import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
+import com.anhtester.utils.LogUtils;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class LoginPage extends BasePage {
 
+    private By inputField(String id) {
+        return By.xpath("//input[@id='" + id + "']");
+    }
+    private By buttonWithText(String text) {
+        return By.xpath("//button[normalize-space()='" + text + "']");
+    }
+
     private final By homePageButtonLogin = By.xpath("//a[text()='Login']");
     private final By labelLoginToYourAccount = By.xpath("//h1[normalize-space()='Login to your account.']");
-    private final By inputEmail = By.xpath("//input[@id='email']");
-    private final By inputPassword = By.xpath("//input[@id='password']");
-    private final By checkboxRememberMe = By.xpath("//span[@class='aiz-square-check']");
-    private final By linkForgotPassword = By.xpath("//a[normalize-space()='Forgot password?']");
-    private final By buttonLogin = By.xpath("//button[normalize-space()='Login']");
-    private final By linkRegisterNow = By.xpath("//a[normalize-space()='Register Now']");
     private final By errorMessageInvalid = By.xpath("//div[@role='alert']");
-    private final By menuActiveDashboard = By.xpath("//div[@class='d-flex align-items-start']//a[@class='aiz-side-nav-link active']");
-
-    public void verifyLoginPageDisplayed() {
-        boolean check = WebUI.checkElementExist(labelLoginToYourAccount);
-        Assert.assertTrue(check, "Login page is not displayed.");
-    }
+    private final By userDashboardMenu = By.xpath("//h1[normalize-space()='Dashboard']");
 
     @Step("Navigate to Login page")
-    public void navigateToLoginPage() {
+    public LoginPage navigateToLoginPage() {
         navigateHomePage();
         WebUI.clickElement(homePageButtonLogin);
+        return this;
     }
 
-    private void enterEmail(String email) {
-        WebUI.setText(inputEmail, email);
-    }
-
-    private void enterPassword(String password) {
-        WebUI.setText(inputPassword, password);
-    }
-
-    private void clickLoginButton() {
-        WebUI.clickElement(buttonLogin);
-    }
-
-    @Step("Login CMS with email: {0}")
+    @Step("Login CMS with email: {0} and password: {1}")
     public void loginCMS(String email, String password) {
         navigateToLoginPage();
-        enterEmail(email);
-        enterPassword(password);
-        clickLoginButton();
+        WebUI.setText(inputField("email"), email);
+        WebUI.setText(inputField("password"), password);
+        WebUI.clickElement(buttonWithText("Login"));
         WebUI.waitForPageLoaded();
     }
+    @Step("Check Login Success (Auto-detect Dashboard)")
+    public boolean isLoginSuccess() {
+        boolean isUser = WebUI.checkElementExist(userDashboardMenu, 5, 1000);
 
-    @Step("Login CMS with default account")
-    public UserDashboardPage loginCMS() {
-        loginCMS(
-                PropertiesHelper.getValue("USER_EMAIL"),
-                PropertiesHelper.getValue("USER_PASSWORD")
-        );
-        return new UserDashboardPage();
+        if (isUser) LogUtils.info(">> Nhận diện: Đã đăng nhập vào USER DASHBOARD.");
+        
+        return isUser;
     }
 
-    @Step("Verify login successful and Dashboard displayed")
-    public void verifyLoginSuccess() {
-        boolean check = WebUI.checkElementExist(menuActiveDashboard, 5, 1000);
-        Assert.assertTrue(check, "Login failed or Dashboard not displayed");
-        WebUI.waitForPageLoaded();
+    @Step("Check Login Failed (Error message displayed)")
+    public boolean isLoginFailed() {
+        return WebUI.checkElementExist(errorMessageInvalid, 5, 1000);
     }
 
-    @Step("Verify login failed and error message displayed")
-    public void verifyLoginFailed() {
-        WebUI.waitForPageLoaded();
-        boolean check = WebUI.checkElementExist(errorMessageInvalid, 5, 1000);
-        Assert.assertTrue(check, "Error message for invalid not displayed.");
+    @Step("Get error message text")
+    public String getErrorMessage() {
+        return WebUI.getElementText(errorMessageInvalid);
     }
-
 }

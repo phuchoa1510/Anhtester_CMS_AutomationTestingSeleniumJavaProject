@@ -1,55 +1,75 @@
 package com.anhtester.ecommercecms.user.testcases;
 
-import com.anhtester.ecommercecms.user.pages.*;
 import com.anhtester.common.BaseTest;
-import com.anhtester.helpers.ExcelHelper;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
-import io.qameta.allure.Description;
+import com.anhtester.dataprovider.DataProviderManager;
+import com.anhtester.ecommercecms.user.pages.*;
+import com.anhtester.helpers.PropertiesHelper;
+import com.anhtester.reports.AllureManager;
+import com.anhtester.utils.LogUtils;
+import io.qameta.allure.*;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Epic("Ecommerce CMS")
+import java.util.Hashtable;
+
+@Epic("Regression Test CMS")
 @Feature("Order Management")
 public class OrderTest extends BaseTest {
 
-    private UserDashboardPage userDashboardPage;
-    private ProductPage productPage;
-    private CartPage cartPage;
-    private LoginPage loginPage;
-    private HomePage homePage;
-    private BasePage basePage;
+    LoginPage loginPage;
+    HomePage homePage;
+    ProductPage productPage;
+    CartPage cartPage;
 
-    @Test
-    @Story("Place order successfully")
-    @Description("Verify that user can add products to cart and complete the order successfully")
-    public void OrderSuccessTest(){
-        cartPage  = new CartPage();
+    @Test(priority = 1, dataProvider = "getOrderData", dataProviderClass = DataProviderManager.class)
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify that user can place an order successfully with dynamic products from Excel")
+    public void testOrderSuccess(Hashtable<String, String> data) {
+        String scenario = data.get("ScenarioName") == null ? "" : String.valueOf(data.get("ScenarioName"));
+        String productName = data.get("ProductName") == null ? "" : String.valueOf(data.get("ProductName"));
+        String addressIndex = data.get("AddressIndex") == null ? "1" : String.valueOf(data.get("AddressIndex"));
+        String note = data.get("OrderNote") == null ? "Order Note" : String.valueOf(data.get("OrderNote"));
+        String expectedResult = data.get("ExpectedResult") == null ? "" : String.valueOf(data.get("ExpectedResult")).toLowerCase();
+
+        LogUtils.info(">>> BẮT ĐẦU TEST CASE: " + scenario);
+        AllureManager.saveTextLog("Scenario: " + scenario + " | Product: " + productName);
+
         loginPage = new LoginPage();
-        basePage = new BasePage();
-        userDashboardPage = new UserDashboardPage();
-        productPage = new ProductPage();
         homePage = new HomePage();
-        loginPage = new LoginPage();
-        loginPage.loginCMS();
-        loginPage.verifyLoginSuccess();
-        ExcelHelper excel = new ExcelHelper();
-        excel.setExcelFile("src/test/resources/testdata/testData.xlsx", "Product_list");
-        homePage.navigateToProductPage(excel.getCellData(0,1));
-        productPage.verifyProductTargetPageIsDisplayed(excel.getCellData(0,1));
-        productPage.addProductToCart();
-        productPage.verifyProductAddToCartSuccess();
-        homePage.navigateToProductPage(excel.getCellData(0,2));
-        productPage.verifyProductTargetPageIsDisplayed(excel.getCellData(0,2));
-        productPage.addProductToCart();
-        productPage.verifyProductAddToCartSuccess();
-        basePage.navigateToCartPage();
-        cartPage.verifyCartPageIsDisplayed();
-        cartPage.checkMyCartStep(2,excel.getCellData(0,1),excel.getCellData(0,2));
-        cartPage.shippingInfoStep("1");
-        cartPage.deliveryInfoStep();
-        cartPage.paymentStep("","");
-        cartPage.completeOrderStep();
-        cartPage.verifyOrderSuccess();
+
+
+        loginPage.loginCMS(
+                PropertiesHelper.getValue("USER_EMAIL"),
+                PropertiesHelper.getValue("USER_PASSWORD")
+        );
+
+
+        productPage = homePage.navigateToProductPage(productName);
+        Assert.assertTrue(productPage.isProductPageDisplayed(productName), "LỖI: Trang sản phẩm không hiển thị đúng tên: " + productName);
+        productPage.addToCart(1);
+        Assert.assertTrue(productPage.isSuccessMessageDisplayed(), "LỖI: Không thấy thông báo thêm sản phẩm vào giỏ hàng!");
+
+
+        cartPage = productPage.navigateToCartPage();
+        Assert.assertTrue(cartPage.isCartPageDisplayed(), "LỖI: Trang giỏ hàng không hiển thị!");
+
+        cartPage.clickContinueToShipping()
+                .shippingInfoStep(addressIndex)
+                .deliveryInfoStep()
+                .paymentStep(note)
+                .completeOrder();
+
+
+        if (expectedResult.equals("success")) {
+            Assert.assertTrue(cartPage.isOrderConfirmMessageDisplayed(), "LỖI: Trang xác nhận đặt hàng không hiển thị!");
+            String orderCode = cartPage.getOrderCode();
+            LogUtils.info("Mã đơn hàng vừa đặt: " + orderCode);
+
+
+            cartPage.goToPurchaseHistory();
+            String newestOrderCode = cartPage.getNewestOrderCode();
+            Assert.assertEquals(newestOrderCode, orderCode, "LỖI: Mã đơn hàng trong lịch sử không khớp với mã vừa đặt!");
+            LogUtils.info("KẾT QUẢ: " + scenario + " ==> [PASS]");
+        }
     }
 }

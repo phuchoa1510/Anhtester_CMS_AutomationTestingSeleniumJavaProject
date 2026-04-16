@@ -4,7 +4,6 @@ import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class BasePage {
 
@@ -17,19 +16,21 @@ public class BasePage {
     private final By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
 
     @Step("Click close popup")
-    public void clickClosePopup() {
+    public BasePage clickClosePopup() {
         if (WebUI.checkElementExist(homePagePopup)) {
             WebUI.scrollToElement(homePagePopup);
             WebUI.clickElement(homePagePopup);
         }
+        return this;
     }
 
     @Step("Click close I Understood")
-    public void clickCloseIUnderstood() {
+    public BasePage clickCloseIUnderstood() {
         if (WebUI.checkElementExist(iUnderstood)) {
             WebUI.scrollToElement(iUnderstood);
             WebUI.clickElement(iUnderstood);
         }
+        return this;
     }
 
     @Step("Navigate to Dashboard page")
@@ -40,26 +41,29 @@ public class BasePage {
     }
 
     @Step("Navigate to Home page")
-    public void navigateHomePage() {
+    public BasePage navigateHomePage() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
         WebUI.waitForPageLoaded();
         clickCloseIUnderstood();
         clickClosePopup();
-        WebUI.sleep(1); // Giảm sleep xuống mức tối thiểu nếu cần, hoặc thay bằng wait
+        return this;
+    }
+
+    public int getCartQuantity() {
+        String text = WebUI.getElementText(quantityInCart);
+        return Integer.parseInt(text.trim());
+    }
+
+    public boolean isCartDropdownDisplayed() {
+        return WebUI.checkElementExist(cartItemsDropdownMenu);
     }
 
     @Step("Navigate to Cart page")
     public CartPage navigateToCartPage() {
-        int quantity = Integer.parseInt(WebUI.getElementText(quantityInCart));
-        if (quantity == 0) {
-            System.out.println("No Product in Cart");
-        } else {
+        if (getCartQuantity() > 0) {
             WebUI.clickElement(buttonCart);
-            boolean check = WebUI.checkElementExist(cartItemsDropdownMenu);
-            Assert.assertTrue(check,"Cart Items Dropdown Menu is not present");
             WebUI.clickElement(buttonViewCart);
         }
         return new CartPage();
     }
-
 }

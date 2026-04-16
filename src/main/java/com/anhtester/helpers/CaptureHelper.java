@@ -19,17 +19,19 @@ import static org.monte.media.VideoFormatKeys.*;
 
 public class CaptureHelper extends ScreenRecorder {
 
-    // Record with Monte Media library
+
     public static ScreenRecorder screenRecorder;
     public String name;
 
-    //Hàm xây dựng
+
     public CaptureHelper(GraphicsConfiguration cfg, Rectangle captureArea, Format fileFormat, Format screenFormat, Format mouseFormat, Format audioFormat, File movieFolder, String name) throws IOException, AWTException {
         super(cfg, captureArea, fileFormat, screenFormat, mouseFormat, audioFormat, movieFolder);
         this.name = name;
     }
 
-    //Hàm này bắt buộc để ghi đè custom lại hàm trong thư viên viết sẵn
+    private static File lastFile;
+
+
     @Override
     protected File createMovieFile(Format fileFormat) throws IOException {
 
@@ -39,12 +41,13 @@ public class CaptureHelper extends ScreenRecorder {
             throw new IOException("\"" + movieFolder + "\" is not a directory.");
         }
 
-        return new File(movieFolder, name + "_" + SystemHelper.getDateTimeNowFormat() + "." + Registry.getInstance().getExtension(fileFormat));
+        lastFile = new File(movieFolder, name + "_" + SystemHelper.getDateTimeNowFormat() + "." + Registry.getInstance().getExtension(fileFormat));
+        return lastFile;
     }
 
-    // Start record video
+
     public static void startRecord(String recordName) {
-        //Tạo thư mục để lưu file video vào
+
         File file = new File(SystemHelper.getCurrentDir() + PropertiesHelper.getValue("VIDEO_RECORD_PATH"));
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int width = screenSize.width;
@@ -63,10 +66,22 @@ public class CaptureHelper extends ScreenRecorder {
         }
     }
 
-    // Stop record video
+
     public static void stopRecord() {
         try {
             screenRecorder.stop();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+    public static void stopRecord(boolean cleanIfPassed) {
+        try {
+            screenRecorder.stop();
+            if (cleanIfPassed && lastFile != null) {
+                lastFile.delete();
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
