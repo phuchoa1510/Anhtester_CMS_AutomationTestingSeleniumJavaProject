@@ -23,7 +23,7 @@ jobs:
         cache: maven
 
     - name: Run Tests=
-      run: mvn test -DsuiteXmlFile=suites/ParallelExcution.xml -DBROWSER=chrome -DHEADLESS=true -DVIDEO_RECORD=false
+      run: mvn test -Dtest=com.anhtester.ecommercecms.user.testcases.LoginTest -DBROWSER=chrome -DHEADLESS=true -DVIDEO_RECORD=false
 
     - name: Get Allure history
       uses: actions/checkout@v4
