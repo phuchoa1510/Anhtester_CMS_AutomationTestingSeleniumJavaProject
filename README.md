@@ -10,7 +10,7 @@
 - **Báo cáo:** Allure Report
 
 ## 📂 Cấu trúc dự án
-- `src/main/java`: Chứa mã nguồn chính của dự án.
+- `src/main/java`: Chứa các mã nguồn của dự án.
 - `src/test/java`: Chứa các kịch bản kiểm thử (Test Cases).
 - `exports/`: Nơi lưu trữ kết quả chạy test:
     - `logs/`: Các tệp ghi nhật ký.
