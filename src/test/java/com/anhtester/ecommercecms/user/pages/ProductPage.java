@@ -16,18 +16,10 @@ public class ProductPage extends BasePage {
         return By.xpath("//a[contains(@class, 'd-block text-reset') and contains(text(), '" + name + "')]");
     }
 
-    private final By sellerName = By.xpath("//small[normalize-space()='Sold by:']/parent::div");
+    private final By sellerName = By.xpath("//div/small[normalize-space()= 'Sold by:']/parent::div");
     private final By productPrice = By.xpath("//div[normalize-space()='Price:']/parent::div/following-sibling::div//strong");
     private final By productDescription = By.xpath("//a[normalize-space()='Description']/parent::div/following-sibling::div/div[@id='tab_default_1']");
 
-
-    @Step("Select product by name: {0}")
-    public ProductPage selectProduct(String productName) {
-        WebUI.scrollToElement(productItemByName(productName));
-        WebUI.clickElement(productItemByName(productName));
-        WebUI.waitForPageLoaded();
-        return this;
-    }
 
     @Step("Add product to cart with quantity: {0}")
     public ProductPage addToCart(int quantity) {
@@ -55,7 +47,7 @@ public class ProductPage extends BasePage {
         if (fullTextSeller.contains("\n")) {
             return fullTextSeller.split("\n")[1].trim();
         }
-        return fullTextSeller.replace("Sold by:", "").trim();
+        return fullTextSeller;
     }
 
     public String getProductPrice() {

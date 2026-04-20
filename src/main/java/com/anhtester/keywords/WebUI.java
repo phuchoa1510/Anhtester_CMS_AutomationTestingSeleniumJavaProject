@@ -23,6 +23,10 @@ import static com.anhtester.constants.DataConfig.*;
 
 public class WebUI {
 
+    public static void refreshPage() {
+        DriverManager.getDriver().navigate().refresh();
+    }
+
     public static void openNewTab(String newUrl) {
         DriverManager.getDriver().switchTo().newWindow(WindowType.TAB);
         DriverManager.getDriver().get(newUrl);
