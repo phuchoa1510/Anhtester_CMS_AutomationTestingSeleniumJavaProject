@@ -29,8 +29,8 @@ public class DataProviderManager {
     public Object[][] getOrderData() {
         ExcelHelper excelHelper = new ExcelHelper();
         String path = PropertiesHelper.getValue("EXCEL_DATA_FILE_PATH");
-        excelHelper.setExcelFile(path, "Order");
-        return excelHelper.getDataHashTable(path, "Order", 1, excelHelper.getPhysicalNumberOfRows() - 1);
+        excelHelper.setExcelFile(path, "NewProduct");
+        return excelHelper.getDataHashTable(path, "NewProduct", 1, excelHelper.getPhysicalNumberOfRows() - 1);
     }
 
     @DataProvider(name = "getProductInfoData", parallel = false)

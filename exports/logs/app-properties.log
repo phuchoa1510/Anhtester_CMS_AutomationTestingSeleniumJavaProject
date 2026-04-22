@@ -7341,3 +7341,717 @@ Inhouse product
 [INFO] 20-04-2026 22:06:08 [main] LogUtils - Test case testGetProductInfo is passed.
 [INFO] 20-04-2026 22:06:08 [main] LogUtils - ==> Status: 1
 [INFO] 20-04-2026 22:06:08 [main] LogUtils - Kết thúc bộ test: Mon Apr 20 22:06:08 ICT 2026
+[INFO] 21-04-2026 20:00:50 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:00:50 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:00:50 ICT 2026
+[INFO] 21-04-2026 20:00:51 [main] LogUtils - Sheet name doesn't exist.
+[ERROR] 21-04-2026 20:00:51 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:00:51 [main] LogUtils - ==> Lý do: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getPhysicalNumberOfRows()" because "this.sheet" is null
+[INFO] 21-04-2026 20:00:51 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:00:51 ICT 2026
+[INFO] 21-04-2026 20:01:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:01:29 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:01:29 ICT 2026
+[INFO] 21-04-2026 20:01:30 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:01:30 [main] LogUtils - Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "this.sheet" is null
+[ERROR] 21-04-2026 20:01:31 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:01:31 [main] LogUtils - ==> Lý do: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "this.sheet" is null
+[INFO] 21-04-2026 20:01:31 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:01:31 ICT 2026
+[INFO] 21-04-2026 20:02:11 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:02:11 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:02:11 ICT 2026
+[INFO] 21-04-2026 20:02:12 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:02:12 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:02:12 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:02:15 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:02:15 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:02:15 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:02:17 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:02:17 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:02:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:02:17 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:02:17 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:02:18 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:02:18 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:02:18 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:02:19 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:02:19 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 20:02:19 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:02:21 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:02:21 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:02:21 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f667bbbcf4e300dc805579cf58cb057, clickElement {id=f.E7F73226B8787011BC24C907659516F6.d.217826EC8CC16131FFCCC074864A6520.e.327}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54564}, goog:processID: 9600, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54564/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f667bbbcf4e300dc805579cf58cb057)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 7f667bbbcf4e300dc805579cf58cb057
+[INFO] 21-04-2026 20:02:21 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:02:21 ICT 2026
+[INFO] 21-04-2026 20:03:22 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:03:22 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:03:22 ICT 2026
+[INFO] 21-04-2026 20:03:23 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:03:23 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:03:23 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:03:25 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:03:25 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:03:26 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:03:27 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:03:27 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:03:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:03:27 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:03:28 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:03:28 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:03:28 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:03:28 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:03:29 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:03:30 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:03:32 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:03:32 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:03:32 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:03:32 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:03:32 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8115ecddc336857312c68e2799ce25c, clickElement {id=f.C911A4AA296C7965F9440AAD58581874.d.875C93AD81D0468F352A06E5E0F624FE.e.404}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51119}, goog:processID: 16100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51119/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b8115ecddc336857312c68e2799ce25c)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: b8115ecddc336857312c68e2799ce25c
+[INFO] 21-04-2026 20:03:33 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:03:33 ICT 2026
+[INFO] 21-04-2026 20:15:46 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:15:46 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:15:46 ICT 2026
+[INFO] 21-04-2026 20:15:47 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:15:47 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:15:47 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:15:48 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:15:48 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:15:49 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:15:50 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:15:50 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:15:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:15:50 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:15:51 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:15:51 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:15:51 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:15:52 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:15:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:15:53 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:15:53 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:15:54 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:15:55 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:15:55 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:15:55 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:15:55 [main] LogUtils - UI Data: Name=Coca cola
+[ERROR] 21-04-2026 20:15:55 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:15:55 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Proceed to Checkout']"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63acdaff3ba39b4023c6610f56be5da0, findElement {using=xpath, value=//a[normalize-space()='Proceed to Checkout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60316}, goog:processID: 20164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60316/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63acdaff3ba39b4023c6610f56be5da0
+[INFO] 21-04-2026 20:15:55 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:15:55 ICT 2026
+[INFO] 21-04-2026 20:21:45 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:21:45 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:21:45 ICT 2026
+[INFO] 21-04-2026 20:21:46 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:21:46 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:21:46 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:21:47 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:21:47 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:21:48 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:21:49 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:21:49 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:21:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:21:49 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:21:49 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:21:50 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:21:50 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:21:50 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:21:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:21:51 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:21:52 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[WARN] 21-04-2026 20:21:52 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:21:53 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:21:54 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Buy Now']
+[INFO] 21-04-2026 20:21:55 [main] LogUtils - checkElementExist: false --- By.xpath: //div[@class='col active']
+[ERROR] 21-04-2026 20:21:56 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:21:56 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Trang giỏ hàng không hiển thị! expected [true] but found [false]
+[INFO] 21-04-2026 20:21:56 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:21:56 ICT 2026
+[INFO] 21-04-2026 20:22:48 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:22:48 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:22:48 ICT 2026
+[INFO] 21-04-2026 20:22:49 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:22:49 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:22:49 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:22:50 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:22:50 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:22:51 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:22:52 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:22:52 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:22:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:22:52 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:22:52 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:22:53 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:22:53 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:22:53 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:22:54 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:22:54 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:22:56 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Buy Now']
+[ERROR] 21-04-2026 20:22:56 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:22:56 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Proceed to Checkout']"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3cdacbf11b8a7f4cc7f67e284791fd3, findElement {value=//a[normalize-space()='Proceed to Checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50391}, goog:processID: 1216, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50391/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3cdacbf11b8a7f4cc7f67e284791fd3
+[INFO] 21-04-2026 20:22:57 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:22:57 ICT 2026
+[INFO] 21-04-2026 20:29:02 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:29:02 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:29:02 ICT 2026
+[INFO] 21-04-2026 20:29:03 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:29:03 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:29:03 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:29:05 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:29:05 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:29:05 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:29:07 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:29:07 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:29:08 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:29:08 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:29:08 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:29:09 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:29:09 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:29:09 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:29:09 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:29:11 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:29:11 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Buy Now']
+[INFO] 21-04-2026 20:29:13 [main] LogUtils - checkElementExist: false --- By.xpath: //div[@class='col active']
+[ERROR] 21-04-2026 20:29:13 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:29:13 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Trang giỏ hàng không hiển thị! expected [true] but found [false]
+[INFO] 21-04-2026 20:29:14 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:29:14 ICT 2026
+[INFO] 21-04-2026 20:31:49 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:31:49 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:31:49 ICT 2026
+[INFO] 21-04-2026 20:31:50 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:31:50 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:31:50 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:31:52 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:31:52 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:31:52 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:31:53 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:31:53 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:31:54 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:31:54 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:31:54 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:31:55 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:31:55 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:31:55 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:31:56 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:31:56 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:31:57 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[WARN] 21-04-2026 20:31:57 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:31:58 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Buy Now']
+[INFO] 21-04-2026 20:32:00 [main] LogUtils - checkElementExist: false --- By.xpath: //div[@class='col active']
+[ERROR] 21-04-2026 20:32:00 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:32:00 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Trang giỏ hàng không hiển thị! expected [true] but found [false]
+[INFO] 21-04-2026 20:32:01 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:32:01 ICT 2026
+[INFO] 21-04-2026 20:32:57 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:32:57 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:32:57 ICT 2026
+[INFO] 21-04-2026 20:32:59 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:32:59 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:32:59 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:33:00 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:33:00 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:33:01 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:33:02 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:33:02 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:33:02 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:33:02 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:33:02 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:33:03 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:33:03 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:33:03 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:33:03 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:33:04 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:33:05 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[WARN] 21-04-2026 20:33:05 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:33:06 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:33:07 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:33:07 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Buy Now']
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - checkElementExist: false --- By.xpath: //div[@class='col active']
+[ERROR] 21-04-2026 20:33:08 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:33:08 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Trang giỏ hàng không hiển thị! expected [true] but found [false]
+[INFO] 21-04-2026 20:33:08 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:33:08 ICT 2026
+[INFO] 21-04-2026 20:36:16 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:36:16 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:36:16 ICT 2026
+[INFO] 21-04-2026 20:36:17 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:36:17 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:36:17 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:36:19 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:36:19 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:36:19 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:36:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:36:21 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:36:21 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:36:21 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:36:21 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:36:22 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:36:22 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:36:22 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:36:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:36:23 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:36:24 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[ERROR] 21-04-2026 20:36:24 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[WARN] 21-04-2026 20:36:24 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:36:25 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:36:27 [main] LogUtils - Click on element By.xpath: //button[contains(@class, 'add-to-cart')]
+[ERROR] 21-04-2026 20:36:27 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:36:27 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "com.anhtester.ecommercecms.user.pages.CartPage.navigateToCartPage()" because "this.cartPage" is null
+[INFO] 21-04-2026 20:36:28 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:36:28 ICT 2026
+[INFO] 21-04-2026 20:39:42 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:39:42 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:39:42 ICT 2026
+[INFO] 21-04-2026 20:39:43 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:39:43 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:39:43 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:39:45 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:39:45 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:39:45 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:39:47 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:39:47 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:39:47 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:39:47 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:39:47 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:39:48 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:39:48 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:39:48 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:39:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:39:49 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:39:50 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[WARN] 21-04-2026 20:39:50 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:39:51 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 20:39:52 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 20:39:52 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 20:39:53 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:39:53 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "com.anhtester.ecommercecms.user.pages.CartPage.navigateToCartPage()" because "this.cartPage" is null
+[INFO] 21-04-2026 20:39:53 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:39:53 ICT 2026
+[INFO] 21-04-2026 20:40:42 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:40:42 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:40:42 ICT 2026
+[INFO] 21-04-2026 20:40:43 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:40:43 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:40:43 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:40:45 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:40:45 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:40:45 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:40:47 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:40:47 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:40:47 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:40:47 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:40:47 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:40:48 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:40:48 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:40:48 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:40:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:40:49 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 20:40:49 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:40:50 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:40:50 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:40:50 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [372aff5cb760e6242125311a552e95b3, clickElement {id=f.F5E58C9B05639A9B8B2DEA73EB72F679.d.FCB7968A3BFDCF0915D0E54D5CF5E58D.e.279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65433}, goog:processID: 16148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65433/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (372aff5cb760e6242125311a552e95b3)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 372aff5cb760e6242125311a552e95b3
+[INFO] 21-04-2026 20:40:51 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:40:51 ICT 2026
+[INFO] 21-04-2026 20:41:20 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:41:20 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 20:41:20 ICT 2026
+[INFO] 21-04-2026 20:41:21 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 20:41:21 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 20:41:21 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 20:41:22 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 20:41:23 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 20:41:23 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 20:41:24 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 20:41:24 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:41:25 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 20:41:25 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:41:25 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 20:41:26 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 20:41:26 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 20:41:26 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 20:41:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 20:41:27 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 20:41:28 [main] LogUtils - >>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...
+[INFO] 21-04-2026 20:41:29 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 20:41:30 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 20:41:30 [main] LogUtils - ==> Lý do: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f535580e40dd504259d68ac4e60336e8, clickElement {id=f.C6F68138BAE5344CAF1597AE8F957DB9.d.2D94CE28F133ECE7A911CC15EDBB8FFF.e.338}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56030}, goog:processID: 26456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56030/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f535580e40dd504259d68ac4e60336e8)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: f535580e40dd504259d68ac4e60336e8
+[INFO] 21-04-2026 20:41:30 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 20:41:30 ICT 2026
+[INFO] 21-04-2026 21:01:58 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:01:58 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:01:58 ICT 2026
+[INFO] 21-04-2026 21:01:59 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:01:59 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:02:00 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:02:01 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:02:01 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:02:02 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:02:03 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:02:03 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:02:03 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:02:03 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:02:04 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:02:04 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:02:04 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:02:04 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:02:05 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:02:06 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 21:02:06 [main] LogUtils - >>> Thử lại lần thứ 1 thất bại: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [284510ce51ae4f748b694e36159709ec, clickElement {id=f.EF1138407B8B8427CAAE4D6F6C524740.d.A4EC1BB9657920603D645173CE5FBBC7.e.229}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49675}, goog:processID: 11988, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49675/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (284510ce51ae4f748b694e36159709ec)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 284510ce51ae4f748b694e36159709ec
+[INFO] 21-04-2026 21:02:07 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:02:09 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 21:02:09 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:02:09 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "com.anhtester.ecommercecms.user.pages.CartPage.navigateToCartPage()" because "this.cartPage" is null
+[INFO] 21-04-2026 21:02:10 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:02:10 ICT 2026
+[INFO] 21-04-2026 21:07:25 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:07:25 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:07:25 ICT 2026
+[INFO] 21-04-2026 21:07:27 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:07:27 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:07:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:07:29 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:07:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:07:30 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:07:31 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:07:31 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:07:31 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:07:31 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:07:32 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:07:32 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:07:32 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:07:32 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:07:33 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:07:34 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 21:07:35 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:07:35 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 21:07:36 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:07:36 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "com.anhtester.ecommercecms.user.pages.CartPage.navigateToCartPage()" because "this.cartPage" is null
+[INFO] 21-04-2026 21:07:36 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:07:36 ICT 2026
+[INFO] 21-04-2026 21:11:09 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:11:09 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:11:09 ICT 2026
+[INFO] 21-04-2026 21:11:10 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:11:10 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:11:10 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:11:11 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:11:11 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:11:12 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:11:13 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:11:13 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:11:13 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:11:13 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:11:14 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:11:14 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:11:14 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:11:14 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:11:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:11:16 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 21:11:16 [main] LogUtils - >>> Thử lại lần thứ 1 thất bại: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [573e6a446ebacc27e0145f8acb09b5af, clickElement {id=f.F386FC4B2057FC19DA2F8DDC1B942904.d.4AA54E2BD578BFAEEA0662C45F6AC74A.e.234}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55844}, goog:processID: 21104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55844/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (573e6a446ebacc27e0145f8acb09b5af)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 573e6a446ebacc27e0145f8acb09b5af
+[INFO] 21-04-2026 21:11:19 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 21:11:20 [main] LogUtils - >>> Thử lại lần thứ 2 thất bại: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [573e6a446ebacc27e0145f8acb09b5af, clickElement {id=f.F386FC4B2057FC19DA2F8DDC1B942904.d.F5B7B7CDB5433EF9980C4B3A60C5374D.e.318}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55844}, goog:processID: 21104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55844/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (573e6a446ebacc27e0145f8acb09b5af)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 573e6a446ebacc27e0145f8acb09b5af
+[INFO] 21-04-2026 21:11:23 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:11:25 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 21:11:25 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:11:25 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "com.anhtester.ecommercecms.user.pages.CartPage.navigateToCartPage()" because "this.cartPage" is null
+[INFO] 21-04-2026 21:11:26 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:11:26 ICT 2026
+[INFO] 21-04-2026 21:14:09 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:09 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:14:09 ICT 2026
+[INFO] 21-04-2026 21:14:12 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:14:12 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:14:12 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:14:13 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:13 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:14:13 ICT 2026
+[INFO] 21-04-2026 21:14:14 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:14:14 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:15 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:14:15 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:14:15 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:14:15 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:14:16 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:14:16 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:14:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:14:17 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:14:17 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:14:17 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:14:17 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:18 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:14:18 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:14:18 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:14:19 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:14:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 21-04-2026 21:14:20 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:14:20 [main] LogUtils - ==> Lý do: java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" is null
+[ERROR] 21-04-2026 21:14:20 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:14:20 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.102)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30dcaa93a274f3e3174a1d1962541f1a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64681}, goog:processID: 11280, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64681/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30dcaa93a274f3e3174a1d1962541f1a
+[INFO] 21-04-2026 21:14:20 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:14:20 ICT 2026
+[INFO] 21-04-2026 21:14:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:14:20 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[WARN] 21-04-2026 21:14:21 [main] LogUtils - >>> Thử lại lần thứ 1 thất bại: stale element reference: stale element not found in the current frame
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [725f0c19fe51070e67a7fb1a72d4bb32, clickElement {id=f.56F7972D206B0E33144098E3AA5693AE.d.48D4042DBBE8D1F4EAAAD50E95DAE5D0.e.278}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52610}, goog:processID: 26204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52610/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (725f0c19fe51070e67a7fb1a72d4bb32)] -> xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']]
+Session ID: 725f0c19fe51070e67a7fb1a72d4bb32
+[INFO] 21-04-2026 21:14:24 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:14:26 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:14:27 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 21:14:27 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:14:27 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Proceed to Checkout']"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [725f0c19fe51070e67a7fb1a72d4bb32, findElement {value=//a[normalize-space()='Proceed to Checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52610}, goog:processID: 26204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52610/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 725f0c19fe51070e67a7fb1a72d4bb32
+[INFO] 21-04-2026 21:14:27 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:14:27 ICT 2026
+[INFO] 21-04-2026 21:14:39 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:39 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:14:39 ICT 2026
+[INFO] 21-04-2026 21:14:40 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:14:40 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:14:40 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:14:41 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:14:41 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:14:42 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:14:43 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:14:43 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:14:43 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:14:44 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:14:44 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:14:44 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:14:44 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:14:45 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:14:46 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:14:46 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 21:14:46 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:14:48 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[ERROR] 21-04-2026 21:14:48 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:14:48 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Proceed to Checkout']"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [225420615b3db43edcd90aebae2c2252, findElement {value=//a[normalize-space()='Proceed to Checkout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65418}, goog:processID: 27020, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65418/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 225420615b3db43edcd90aebae2c2252
+[INFO] 21-04-2026 21:14:49 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:14:49 ICT 2026
+[INFO] 21-04-2026 21:16:03 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:16:03 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:16:03 ICT 2026
+[INFO] 21-04-2026 21:16:04 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:16:05 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:16:05 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:16:06 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:16:06 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:16:07 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:16:08 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:16:08 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:16:08 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:16:08 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:16:08 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:16:09 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:16:09 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:16:09 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:16:10 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:16:11 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 21-04-2026 21:16:12 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:16:13 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[INFO] 21-04-2026 21:16:14 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Proceed to Checkout']
+[INFO] 21-04-2026 21:16:14 [main] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col active']
+[INFO] 21-04-2026 21:16:15 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Continue to Shipping']
+[INFO] 21-04-2026 21:16:15 [main] LogUtils - Click on element By.xpath: //form[@data-toggle='validator']/div/div/div[1]
+[INFO] 21-04-2026 21:16:16 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Delivery Info']
+[INFO] 21-04-2026 21:16:16 [main] LogUtils - Click on element By.xpath: //span/span[normalize-space()='Home Delivery']
+[INFO] 21-04-2026 21:16:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Payment']
+[INFO] 21-04-2026 21:16:17 [main] LogUtils - Set text  on element By.xpath: //textarea[@placeholder='Type your text']
+[INFO] 21-04-2026 21:16:17 [main] LogUtils - Click on element By.xpath: //span/span/span[normalize-space()='Cash on Delivery']
+[INFO] 21-04-2026 21:16:17 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='I agree to the']/preceding-sibling::span
+[INFO] 21-04-2026 21:16:21 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Complete Order']
+[INFO] 21-04-2026 21:16:22 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='My Panel']
+[INFO] 21-04-2026 21:16:22 [main] LogUtils - checkElementExist: false --- By.xpath: //h1[normalize-space()='Thank You for Your Order!']
+[ERROR] 21-04-2026 21:16:22 [main] LogUtils - Test case testOrderSuccess is failed.
+[ERROR] 21-04-2026 21:16:22 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Trang xác nhận đặt hàng không hiển thị! expected [true] but found [false]
+[INFO] 21-04-2026 21:16:23 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:16:23 ICT 2026
+[INFO] 21-04-2026 21:23:37 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:23:37 [main] LogUtils - Setup môi trường onStart: Tue Apr 21 21:23:37 ICT 2026
+[INFO] 21-04-2026 21:23:38 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 21-04-2026 21:23:38 [main] LogUtils - Total rows with data found: 1
+[INFO] 21-04-2026 21:23:38 [main] LogUtils - Launching Chrome browser...
+[INFO] 21-04-2026 21:23:39 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 21-04-2026 21:23:39 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 21-04-2026 21:23:40 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 21-04-2026 21:23:41 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 21-04-2026 21:23:41 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:23:41 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 21-04-2026 21:23:41 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:23:42 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 21-04-2026 21:23:42 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 21-04-2026 21:23:42 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 21-04-2026 21:23:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 21-04-2026 21:23:43 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 21-04-2026 21:23:44 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[ERROR] 21-04-2026 21:23:44 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:23:45 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 21-04-2026 21:23:45 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:23:45 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 21-04-2026 21:23:45 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 21-04-2026 21:23:45 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 21-04-2026 21:23:46 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 21-04-2026 21:23:46 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[INFO] 21-04-2026 21:23:47 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Proceed to Checkout']
+[INFO] 21-04-2026 21:23:47 [main] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col active']
+[INFO] 21-04-2026 21:23:48 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Continue to Shipping']
+[INFO] 21-04-2026 21:23:48 [main] LogUtils - Click on element By.xpath: //form[@data-toggle='validator']/div/div/div[1]
+[INFO] 21-04-2026 21:23:49 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Delivery Info']
+[INFO] 21-04-2026 21:23:49 [main] LogUtils - Click on element By.xpath: //span/span[normalize-space()='Home Delivery']
+[INFO] 21-04-2026 21:23:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Payment']
+[INFO] 21-04-2026 21:23:50 [main] LogUtils - Set text  on element By.xpath: //textarea[@placeholder='Type your text']
+[INFO] 21-04-2026 21:23:50 [main] LogUtils - Click on element By.xpath: //span/span/span[normalize-space()='Cash on Delivery']
+[INFO] 21-04-2026 21:23:50 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='I agree to the']/preceding-sibling::span
+[INFO] 21-04-2026 21:23:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Complete Order']
+[INFO] 21-04-2026 21:23:54 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Thank You for Your Order!']
+[INFO] 21-04-2026 21:23:54 [main] LogUtils - Get text of element By.xpath: //h2[@class='h5']/span ==> TEXT: 20260421-21234552
+[INFO] 21-04-2026 21:23:54 [main] LogUtils - Mã đơn hàng vừa đặt: 20260421-21234552
+[INFO] 21-04-2026 21:23:55 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='My Panel']
+[INFO] 21-04-2026 21:23:56 [main] LogUtils - Click on element By.xpath: //section/descendant::span[normalize-space() ='Purchase History']
+[INFO] 21-04-2026 21:23:57 [main] LogUtils - Get text of element By.xpath: //tbody/tr[1]/td[1]/a ==> TEXT: 20260421-21234552
+[INFO] 21-04-2026 21:23:57 [main] LogUtils - KẾT QUẢ:  ==> [PASS]
+[INFO] 21-04-2026 21:23:57 [main] LogUtils - Test case testOrderSuccess is passed.
+[INFO] 21-04-2026 21:23:57 [main] LogUtils - ==> Status: 1
+[INFO] 21-04-2026 21:23:57 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:23:57 ICT 2026

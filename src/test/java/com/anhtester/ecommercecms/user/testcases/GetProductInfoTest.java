@@ -44,16 +44,15 @@ public class GetProductInfoTest extends BaseTest {
                 com.anhtester.helpers.PropertiesHelper.getValue("USER_PASSWORD")
         );
 
+        productPage = WebUI.retryExecute(
+                () -> homePage.navigateToProductPage(targetProduct),
+                3,
+                () -> {
+                    WebUI.refreshPage();
+                    WebUI.waitForPageLoaded();
+                }
+        );
 
-        try {
-            productPage = homePage.navigateToProductPage(targetProduct);
-
-        }catch(Exception e){
-            LogUtils.warn(">>> Lần 1 thất bại do lỗi Web. Đang refresh và thử lại lần 2...");
-            WebUI.refreshPage(); // Refresh trang
-            WebUI.waitForPageLoaded();
-            productPage = homePage.navigateToProductPage(targetProduct);
-        }
          Assert.assertTrue(productPage.isProductPageDisplayed(targetProduct), "LỖI: Trang sản phẩm không hiển thị đúng!");
 
         productPage = homePage.navigateToProductPage(targetProduct);

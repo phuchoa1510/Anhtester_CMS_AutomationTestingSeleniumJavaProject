@@ -18,8 +18,7 @@ public class CartPage extends BasePage {
     private final By buttonCompleteOrder = By.xpath("//button[normalize-space()='Complete Order']");
 
     private final By orderConfirmMessage = By.xpath("//h1[normalize-space()='Thank You for Your Order!']");
-    private final By orderCodeDisplay = By.xpath("//h2/span");
-    private final By firstOrderCodeInHistory = By.xpath("//table//tbody/tr[1]/td[1]/a");
+    private final By orderCodeDisplay = By.xpath("//h2[@class='h5']/span");
 
     private final String addressOptionXpath = "//form[@data-toggle='validator']/div/div/div[%s]";
 
@@ -71,15 +70,6 @@ public class CartPage extends BasePage {
         return this;
     }
 
-    @Step("Go to Purchase History")
-    public CartPage goToPurchaseHistory() {
-        WebUI.openURL(PropertiesHelper.getValue("URL") + "/purchase_history");
-        WebUI.waitForPageLoaded();
-        return this;
-    }
-
-
-
     public boolean isOrderConfirmMessageDisplayed() {
         return WebUI.checkElementExist(orderConfirmMessage);
     }
@@ -88,7 +78,4 @@ public class CartPage extends BasePage {
         return WebUI.getElementText(orderCodeDisplay);
     }
 
-    public String getNewestOrderCode() {
-        return WebUI.getElementText(firstOrderCodeInHistory);
-    }
 }

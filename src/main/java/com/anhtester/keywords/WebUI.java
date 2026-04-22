@@ -18,6 +18,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 import java.util.List;
+import java.util.function.Supplier;
 
 import static com.anhtester.constants.DataConfig.*;
 
@@ -54,6 +55,12 @@ public class WebUI {
         String script = "arguments[0].style.border='3px solid " + color + "';";
         ((JavascriptExecutor) DriverManager.getDriver()).executeScript(script, DriverManager.getDriver().findElement(by));
     }
+
+    public static void clearElement(By by) {
+        WebElement element = DriverManager.getDriver().findElement(by);
+        element.clear();
+    }
+    public static void clearElement(By by, String color) {}
 
     public static WebElement waitForElementVisible(By by) {
         WebElement element = null;
@@ -432,5 +439,65 @@ public class WebUI {
         }
         LogUtils.info("Không tìm thấy phần tử sau " + maxRetries + " lần thử.");
         return false;
+    }
+
+    /**
+     * Hàm dùng chung để thử lại một hành động nào đó (có trả về kết quả)
+     *
+     * @param action         Hành động chính cần thực hiện
+     * @param maxRetries     Số lần thử tối đa
+     * @param recoveryAction Hành động phục hồi (như refresh page) nếu thất bại
+     * @param <T>            Kiểu dữ liệu trả về
+     * @return Kết quả của hành động
+     */
+    public static <T> T retryExecute(Supplier<T> action, int maxRetries, Runnable recoveryAction) {
+        int count = 0;
+        while (count < maxRetries) {
+            try {
+                return action.get();
+            } catch (Exception e) {
+                count++;
+                LogUtils.warn(">>> Thử lại lần thứ " + count + " thất bại: " + e.getMessage());
+
+                if (count >= maxRetries) {
+                    LogUtils.error(">>> Đã thử tối đa " + maxRetries + " lần nhưng vẫn thất bại.");
+                    throw e;
+                }
+
+                if (recoveryAction != null) {
+                    recoveryAction.run();
+                }
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Hàm dùng chung để thử lại một hành động nào đó (không trả về kết quả)
+     *
+     * @param action         Hành động chính cần thực hiện
+     * @param maxRetries     Số lần thử tối đa
+     * @param recoveryAction Hành động phục hồi nếu thất bại
+     */
+    public static void retryExecute(Runnable action, int maxRetries, Runnable recoveryAction) {
+        int count = 0;
+        while (count < maxRetries) {
+            try {
+                action.run();
+                return;
+            } catch (Exception e) {
+                count++;
+                LogUtils.warn(">>> Thử lại lần thứ " + count + " thất bại: " + e.getMessage());
+
+                if (count >= maxRetries) {
+                    LogUtils.error(">>> Đã thử tối đa " + maxRetries + " lần nhưng vẫn thất bại.");
+                    throw e;
+                }
+
+                if (recoveryAction != null) {
+                    recoveryAction.run();
+                }
+            }
+        }
     }
 }
