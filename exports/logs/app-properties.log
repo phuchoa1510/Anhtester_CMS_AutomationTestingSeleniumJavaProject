@@ -8055,3 +8055,213 @@ Session ID: 225420615b3db43edcd90aebae2c2252
 [INFO] 21-04-2026 21:23:57 [main] LogUtils - Test case testOrderSuccess is passed.
 [INFO] 21-04-2026 21:23:57 [main] LogUtils - ==> Status: 1
 [INFO] 21-04-2026 21:23:57 [main] LogUtils - Kết thúc bộ test: Tue Apr 21 21:23:57 ICT 2026
+[INFO] 26-04-2026 08:15:36 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:15:36 [main] LogUtils - Setup môi trường onStart: Sun Apr 26 08:15:36 ICT 2026
+[INFO] 26-04-2026 08:15:37 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 26-04-2026 08:15:38 [main] LogUtils - Total rows with data found: 4
+[INFO] 26-04-2026 08:15:38 [main] LogUtils - Launching Chrome browser...
+[INFO] 26-04-2026 08:15:43 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 26-04-2026 08:15:43 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:15:44 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login success with valid account
+[INFO] 26-04-2026 08:15:45 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 26-04-2026 08:15:45 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:46 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:46 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:46 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:46 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 26-04-2026 08:15:46 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 26-04-2026 08:15:47 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 26-04-2026 08:15:47 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 26-04-2026 08:15:47 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 26-04-2026 08:15:47 [main] LogUtils - >> Nhận diện: Đã đăng nhập vào USER DASHBOARD.
+[INFO] 26-04-2026 08:15:48 [main] LogUtils - KẾT QUẢ: Login success with valid account ==> [PASS]
+[INFO] 26-04-2026 08:15:48 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 26-04-2026 08:15:48 [main] LogUtils - ==> Status: 1
+[INFO] 26-04-2026 08:15:48 [main] LogUtils - Launching Chrome browser...
+[INFO] 26-04-2026 08:15:49 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 26-04-2026 08:15:49 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:15:49 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with wrong password
+[INFO] 26-04-2026 08:15:50 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 26-04-2026 08:15:50 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:50 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:50 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:51 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 26-04-2026 08:15:51 [main] LogUtils - Set text custome@example.com on element By.xpath: //input[@id='email']
+[INFO] 26-04-2026 08:15:51 [main] LogUtils - Set text 12345 on element By.xpath: //input[@id='password']
+[INFO] 26-04-2026 08:15:51 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - Get text of element By.xpath: //div[@role='alert'] ==> TEXT: Invalid login credentials
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - KẾT QUẢ: Login failed with wrong password ==> [PASS] (Hệ thống chặn đúng và hiển thị lỗi: Invalid login credentials)
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - ==> Status: 1
+[INFO] 26-04-2026 08:15:52 [main] LogUtils - Launching Chrome browser...
+[INFO] 26-04-2026 08:15:53 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 26-04-2026 08:15:53 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:15:53 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null email
+[INFO] 26-04-2026 08:15:54 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 26-04-2026 08:15:54 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:54 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:15:54 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:54 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:15:55 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 26-04-2026 08:15:55 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 26-04-2026 08:15:55 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 26-04-2026 08:15:55 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 26-04-2026 08:15:56 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 26-04-2026 08:15:57 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 26-04-2026 08:15:58 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 26-04-2026 08:15:59 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 26-04-2026 08:16:00 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 26-04-2026 08:16:01 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 26-04-2026 08:16:01 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 26-04-2026 08:16:02 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 26-04-2026 08:16:03 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 26-04-2026 08:16:04 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 26-04-2026 08:16:05 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 26-04-2026 08:16:06 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 26-04-2026 08:16:06 [main] LogUtils - KẾT QUẢ: Login failed with null email ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 26-04-2026 08:16:06 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 26-04-2026 08:16:06 [main] LogUtils - ==> Status: 1
+[INFO] 26-04-2026 08:16:06 [main] LogUtils - Launching Chrome browser...
+[INFO] 26-04-2026 08:16:07 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 26-04-2026 08:16:07 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:16:07 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null password
+[INFO] 26-04-2026 08:16:08 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 26-04-2026 08:16:08 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:16:08 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:16:08 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:16:08 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:16:09 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 26-04-2026 08:16:09 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 26-04-2026 08:16:09 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 26-04-2026 08:16:10 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 26-04-2026 08:16:10 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 26-04-2026 08:16:11 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 26-04-2026 08:16:12 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 26-04-2026 08:16:13 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 26-04-2026 08:16:14 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 26-04-2026 08:16:15 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 26-04-2026 08:16:15 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 26-04-2026 08:16:16 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 26-04-2026 08:16:17 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 26-04-2026 08:16:18 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 26-04-2026 08:16:19 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 26-04-2026 08:16:20 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 26-04-2026 08:16:20 [main] LogUtils - KẾT QUẢ: Login failed with null password ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 26-04-2026 08:16:20 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 26-04-2026 08:16:20 [main] LogUtils - ==> Status: 1
+[INFO] 26-04-2026 08:16:20 [main] LogUtils - Launching Chrome browser...
+[INFO] 26-04-2026 08:16:22 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccessFromProperties
+[INFO] 26-04-2026 08:16:22 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 26-04-2026 08:16:23 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 26-04-2026 08:16:23 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:16:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 26-04-2026 08:16:23 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:16:24 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 26-04-2026 08:16:24 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 26-04-2026 08:16:24 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 26-04-2026 08:16:24 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 26-04-2026 08:16:24 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 26-04-2026 08:16:26 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 26-04-2026 08:16:26 [main] LogUtils - >> Nhận diện: Đã đăng nhập vào USER DASHBOARD.
+[INFO] 26-04-2026 08:16:26 [main] LogUtils - Test case testLoginSuccessFromProperties is passed.
+[INFO] 26-04-2026 08:16:26 [main] LogUtils - ==> Status: 1
+[INFO] 26-04-2026 08:16:26 [main] LogUtils - Kết thúc bộ test: Sun Apr 26 08:16:26 ICT 2026
+[INFO] 07-05-2026 20:23:10 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 07-05-2026 20:23:10 [main] LogUtils - Setup môi trường onStart: Thu May 07 20:23:10 ICT 2026
+[INFO] 07-05-2026 20:23:12 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 07-05-2026 20:23:12 [main] LogUtils - Total rows with data found: 4
+[INFO] 07-05-2026 20:23:12 [main] LogUtils - Launching Chrome browser...
+[INFO] 07-05-2026 20:23:15 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 07-05-2026 20:23:15 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 07-05-2026 20:23:16 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login success with valid account
+[INFO] 07-05-2026 20:23:17 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 07-05-2026 20:23:17 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:18 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:18 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:18 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:19 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 07-05-2026 20:23:19 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 07-05-2026 20:23:19 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - >> Nhận diện: Đã đăng nhập vào USER DASHBOARD.
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - KẾT QUẢ: Login success with valid account ==> [PASS]
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - ==> Status: 1
+[INFO] 07-05-2026 20:23:20 [main] LogUtils - Launching Chrome browser...
+[INFO] 07-05-2026 20:23:21 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 07-05-2026 20:23:21 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 07-05-2026 20:23:21 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with wrong password
+[INFO] 07-05-2026 20:23:22 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 07-05-2026 20:23:22 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:22 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:22 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:23 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:23 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 07-05-2026 20:23:23 [main] LogUtils - Set text custome@example.com on element By.xpath: //input[@id='email']
+[INFO] 07-05-2026 20:23:23 [main] LogUtils - Set text 12345 on element By.xpath: //input[@id='password']
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - Get text of element By.xpath: //div[@role='alert'] ==> TEXT: Invalid login credentials
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - KẾT QUẢ: Login failed with wrong password ==> [PASS] (Hệ thống chặn đúng và hiển thị lỗi: Invalid login credentials)
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - ==> Status: 1
+[INFO] 07-05-2026 20:23:24 [main] LogUtils - Launching Chrome browser...
+[INFO] 07-05-2026 20:23:25 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 07-05-2026 20:23:25 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 07-05-2026 20:23:25 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null email
+[INFO] 07-05-2026 20:23:27 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 07-05-2026 20:23:27 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:27 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:27 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:28 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 07-05-2026 20:23:28 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 07-05-2026 20:23:28 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 07-05-2026 20:23:29 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 07-05-2026 20:23:29 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 07-05-2026 20:23:30 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 07-05-2026 20:23:31 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 07-05-2026 20:23:32 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 07-05-2026 20:23:33 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 07-05-2026 20:23:34 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 07-05-2026 20:23:34 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 07-05-2026 20:23:35 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 07-05-2026 20:23:36 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 07-05-2026 20:23:37 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 07-05-2026 20:23:38 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 07-05-2026 20:23:39 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 07-05-2026 20:23:39 [main] LogUtils - KẾT QUẢ: Login failed with null email ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 07-05-2026 20:23:39 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 07-05-2026 20:23:39 [main] LogUtils - ==> Status: 1
+[INFO] 07-05-2026 20:23:39 [main] LogUtils - Launching Chrome browser...
+[INFO] 07-05-2026 20:23:40 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 07-05-2026 20:23:40 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 07-05-2026 20:23:40 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null password
+[INFO] 07-05-2026 20:23:41 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 07-05-2026 20:23:41 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:42 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 07-05-2026 20:23:42 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:42 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 07-05-2026 20:23:42 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 07-05-2026 20:23:42 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 07-05-2026 20:23:43 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 07-05-2026 20:23:43 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 07-05-2026 20:23:43 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 07-05-2026 20:23:44 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 07-05-2026 20:23:45 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 07-05-2026 20:23:46 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 07-05-2026 20:23:47 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 07-05-2026 20:23:48 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 07-05-2026 20:23:48 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 07-05-2026 20:23:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 07-05-2026 20:23:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 07-05-2026 20:23:51 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 07-05-2026 20:23:52 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 07-05-2026 20:23:53 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 07-05-2026 20:23:53 [main] LogUtils - KẾT QUẢ: Login failed with null password ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 07-05-2026 20:23:53 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 07-05-2026 20:23:53 [main] LogUtils - ==> Status: 1
+[INFO] 07-05-2026 20:23:54 [main] LogUtils - Kết thúc bộ test: Thu May 07 20:23:54 ICT 2026

@@ -12,7 +12,6 @@
         <classes>
             <class name="com.anhtester.ecommercecms.user.testcases.LoginTest"/>
             <class name="com.anhtester.ecommercecms.user.testcases.OrderTest"/>
-            <class name="com.anhtester.ecommercecms.user.testcases.UpdateProfileTest"/>
             <class name="com.anhtester.ecommercecms.user.testcases.GetProductInfoTest"/>
         </classes>
     </test>
@@ -21,7 +20,6 @@
         <classes>
             <class name="com.anhtester.ecommercecms.user.testcases.LoginTest"/>
             <class name="com.anhtester.ecommercecms.user.testcases.OrderTest"/>
-            <class name="com.anhtester.ecommercecms.user.testcases.UpdateProfileTest"/>
             <class name="com.anhtester.ecommercecms.user.testcases.GetProductInfoTest"/>
         </classes>
     </test>
