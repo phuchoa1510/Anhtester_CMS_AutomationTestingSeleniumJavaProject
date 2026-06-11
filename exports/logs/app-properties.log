@@ -8265,3 +8265,5 @@ Session ID: 225420615b3db43edcd90aebae2c2252
 [INFO] 07-05-2026 20:23:53 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
 [INFO] 07-05-2026 20:23:53 [main] LogUtils - ==> Status: 1
 [INFO] 07-05-2026 20:23:54 [main] LogUtils - Kết thúc bộ test: Thu May 07 20:23:54 ICT 2026
+[INFO] 08-05-2026 19:08:04 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 08-05-2026 19:09:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
