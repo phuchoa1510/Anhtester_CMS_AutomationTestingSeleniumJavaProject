@@ -4,6 +4,10 @@ import com.anhtester.helpers.ExcelHelper;
 import com.anhtester.helpers.PropertiesHelper;
 import org.testng.annotations.DataProvider;
 
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.List;
+
 public class DataProviderManager {
 
     @DataProvider(name = "getLoginData", parallel = false)
@@ -22,7 +26,18 @@ public class DataProviderManager {
         ExcelHelper excelHelper = new ExcelHelper();
         String path = PropertiesHelper.getValue("EXCEL_DATA_FILE_PATH");
         excelHelper.setExcelFile(path, "Profile");
-        return excelHelper.getDataHashTable(path, "Profile", 1, excelHelper.getPhysicalNumberOfRows() - 1);
+        Object[][] allData = excelHelper.getDataHashTable(path, "Profile", 1, excelHelper.getPhysicalNumberOfRows() - 1);
+        List<Object[]> filteredList = new ArrayList<>();
+        for (Object[] row : allData) {
+            @SuppressWarnings("unchecked")
+            Hashtable<String, String> data = (Hashtable<String, String>) row[0];
+
+            String action = data.get("Action") == null ? "" : String.valueOf(data.get("Action"));
+            if ("Run".equalsIgnoreCase(action)) {
+                filteredList.add(row);
+            }
+        }
+        return filteredList.toArray(new Object[0][]);
     }
 
     @DataProvider(name = "getOrderData", parallel = false)
@@ -40,7 +55,6 @@ public class DataProviderManager {
         excelHelper.setExcelFile(path, "ProductInfo");
         return excelHelper.getDataHashTable(path, "ProductInfo", 1, excelHelper.getPhysicalNumberOfRows() - 1);
     }
-
 
 
 }

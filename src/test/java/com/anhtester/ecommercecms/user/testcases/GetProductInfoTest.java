@@ -19,7 +19,7 @@ import java.util.Hashtable;
 @Slf4j
 @Epic("Regression Test CMS")
 @Feature("Product Information")
-public class GetProductInfoTest extends BaseTest {
+public class    GetProductInfoTest extends BaseTest {
 
     HomePage homePage;
     ProductPage productPage;

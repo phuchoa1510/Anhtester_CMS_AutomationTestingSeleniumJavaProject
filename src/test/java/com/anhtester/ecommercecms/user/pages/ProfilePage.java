@@ -16,7 +16,7 @@ public class ProfilePage extends BasePage {
     private final By inputConfirmPassword = By.xpath("//input[@name='confirm_password']");
     private final By buttonUpdateProfile = By.xpath("//button[normalize-space()='Update Profile']");
 
-    private final By buttonBrowse =  By.xpath("//div[@class= 'input-group']/div[normalize-space()='Browse']");
+    private final By buttonBrowse = By.xpath("//div[@class= 'input-group']/div[normalize-space()='Browse']");
     private final By buttonSelectFile = By.xpath("//button[normalize-space()='Select File']");
     private final By buttonUploadNew = By.xpath("//a[normalize-space()='Upload New']");
     private final By buttonBrowseImage = By.xpath("//button[normalize-space()='Browse']");
@@ -35,7 +35,7 @@ public class ProfilePage extends BasePage {
     private final By inputStateSearch = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
     private final String optionStateXpath = "//span[@class='text'][normalize-space()='%s']";
     private final By inputCity = By.xpath("//button[@title='Select City']");
-    private final By  inputCitySearch = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
+    private final By inputCitySearch = By.xpath("//div[@class='dropdown-menu show']//input[@aria-label='Search']");
     private final String optionCityXpath = "//span[@class='text'][normalize-space()='%s']";
     private final By inputPostalCode = By.xpath("//input[@placeholder='Your Postal Code']");
     private final By inputPhone = By.xpath("//input[@placeholder='+880']");
@@ -51,12 +51,14 @@ public class ProfilePage extends BasePage {
     }
 
     @Step("Update basic profile information: Name={0}, Phone={1}")
-    public ProfilePage updateBasicInfo(String name, String yourphone,String image, String newPassword, String confirmPassword) {
+    public ProfilePage updateBasicInfo(String name, String yourphone, String imageName, String newPassword, String confirmPassword) {
         WebUI.clearElement(inputYourName);
         WebUI.setText(inputYourName, name);
         WebUI.clearElement(inputYourPhone);
         WebUI.setText(inputYourPhone, yourphone);
-        uploadAvatar(image);
+        if (imageName != null && !imageName.isEmpty()) {
+            uploadAvatar(imageName);
+        }
         WebUI.clearElement(inputNewPassword);
         WebUI.setText(inputNewPassword, newPassword);
         WebUI.clearElement(inputConfirmPassword);
@@ -76,7 +78,7 @@ public class ProfilePage extends BasePage {
         WebUI.waitForPageLoaded();
         WebUI.clickElement(buttonBrowseImage);
         WebUI.sleep(2);
-        String imageFilePath = PropertiesHelper.getValue("IMAGE_FILE_PATH") + imageName  ;
+        String imageFilePath = PropertiesHelper.getValue("IMAGE_FILE_PATH") + imageName;
         FileHelper.uploadFileWithRobot(imageFilePath);
         WebUI.waitForPageLoaded();
         By imageUploaded = By.xpath(String.format(imageUploadedXpath, imageName));
@@ -92,20 +94,20 @@ public class ProfilePage extends BasePage {
     }
 
     @Step("Add new address: {0}, {1}, {2}, {3}, {4}, {5}")
-    public ProfilePage addNewAddress(String address, String country,String state,String city, String postalCode, String phone) {
+    public ProfilePage addNewAddress(String address, String country, String state, String city, String postalCode, String phone) {
         WebUI.clickElement(buttonAddNewAddress);
         WebUI.setText(inputAddress, address);
         WebUI.clickElement(inputCountry);
         WebUI.setText(inputCountrySearch, country);
-        By optionCountry = By.xpath(String.format(optionCountryXpath,country));
+        By optionCountry = By.xpath(String.format(optionCountryXpath, country));
         WebUI.clickElement(optionCountry);
         WebUI.clickElement(inputState);
-        WebUI.setText(inputStateSearch,state);
-        By optionState = By.xpath(String.format(optionStateXpath,state));
+        WebUI.setText(inputStateSearch, state);
+        By optionState = By.xpath(String.format(optionStateXpath, state));
         WebUI.clickElement(optionState);
         WebUI.clickElement(inputCity);
         WebUI.setText(inputCitySearch, city);
-        By optionCity = By.xpath(String.format(optionCityXpath,city));
+        By optionCity = By.xpath(String.format(optionCityXpath, city));
         WebUI.clickElement(optionCity);
         WebUI.setText(inputPostalCode, postalCode);
         WebUI.setText(inputPhone, phone);

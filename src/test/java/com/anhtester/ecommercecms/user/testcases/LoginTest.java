@@ -22,6 +22,7 @@ public class LoginTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify login with multiple accounts from Excel using Hashtable")
     public void testLoginMultipleAccounts(Hashtable<String, String> data) {
+
         String scenario = data.get("ScenarioName");
         String email = data.get("Email");
         String password = data.get("Password");
@@ -37,21 +38,17 @@ public class LoginTest extends BaseTest {
             boolean isSuccess = LoginPage.isLoginSuccess();
             Assert.assertTrue(isSuccess, "LỖI [" + scenario + "]: Mong đợi đăng nhập THÀNH CÔNG nhưng không vào được Dashboard!");
             LogUtils.info("KẾT QUẢ: " + scenario + " ==> [PASS]");
-        }
-        else if (expectedResult.equals("failed")) {
+        } else if (expectedResult.equals("failed")) {
             if (LoginPage.isLoginFailed()) {
                 String actualError = LoginPage.getErrorMessage();
                 LogUtils.info("KẾT QUẢ: " + scenario + " ==> [PASS] (Hệ thống chặn đúng và hiển thị lỗi: " + actualError + ")");
-            }
-            else {
+            } else {
                 boolean isLoginNotSuccess = !LoginPage.isLoginSuccess();
                 Assert.assertTrue(isLoginNotSuccess,
-                    "LỖI [" + scenario + "]: Mong đợi BỊ CHẶN nhưng không thấy thông báo lỗi VÀ vẫn vào được Dashboard!");
+                        "LỖI [" + scenario + "]: Mong đợi BỊ CHẶN nhưng không thấy thông báo lỗi VÀ vẫn vào được Dashboard!");
                 LogUtils.info("KẾT QUẢ: " + scenario + " ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)");
             }
-        }
-
-        else {
+        } else {
             Assert.fail("LỖI: Cột 'ExpectedResult' trong Excel phải là 'success' hoặc 'failed'. Giá trị hiện tại: " + expectedResult);
         }
     }

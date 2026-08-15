@@ -1,5 +1,6 @@
 package com.anhtester.ecommercecms.admin.pages;
 
+import com.anhtester.keywords.WebUI;
 import org.openqa.selenium.By;
 
 public class AdminDashboardPage {
@@ -9,8 +10,18 @@ public class AdminDashboardPage {
     private By buttonAddNewProduct = By.xpath("//span[normalize-space()='Add New Product']");
 
 
-    public void navigateToAdminDashboardPage(){
+    public AdminDashboardPage clickMenuDashboard(){
+        WebUI.clickElement(menuDashboard);
+        return this;
+    }
 
+    public AdminDashboardPage clickMenuProduct(){
+        WebUI.clickElement(buttonAddNewProduct);
+        return this;
+    }
+    public AddNewProductPage clickAddNewProduct(){
+        WebUI.clickElement(buttonAddNewProduct);
+        return new AddNewProductPage();
     }
 
 }

@@ -31,6 +31,7 @@ public class OrderTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify that user can place an order successfully with dynamic products from Excel")
     public void testOrderSuccess(Hashtable<String, String> data) {
+
         String scenario = data.get("ScenarioName") == null ? "" : String.valueOf(data.get("ScenarioName"));
         String productName = data.get("ProductName") == null ? "" : String.valueOf(data.get("ProductName"));
         String addressIndex = data.get("AddressIndex") == null ? "1" : String.valueOf(data.get("AddressIndex"));
@@ -63,8 +64,8 @@ public class OrderTest extends BaseTest {
 
         String actualName = productPage.getProductName();
 
-        LogUtils.info("Expected Data: Name=" + productName );
-        LogUtils.info("UI Data: Name=" + actualName );
+        LogUtils.info("Expected Data: Name=" + productName);
+        LogUtils.info("UI Data: Name=" + actualName);
 
         Assert.assertTrue(actualName.toLowerCase().contains(productName.toLowerCase()), "LỖI: Tên sản phẩm không chứa từ khóa tìm kiếm!");
 
@@ -86,7 +87,7 @@ public class OrderTest extends BaseTest {
             String orderCode = cartPage.getOrderCode();
             LogUtils.info("Mã đơn hàng vừa đặt: " + orderCode);
 
-            basePage = new BasePage().navigateToDashboardPage();
+            basePage = new BasePage().navigateToUserDashboardPage();
             userDashboardPage.clickMenuPurchaseHistory();
             String newestOrderCode = purchaseHistoryPage.getNewestOrderCode();
             Assert.assertEquals(newestOrderCode, orderCode, "LỖI: Không tìm thấy mã đơn hàng vừa đặt!");

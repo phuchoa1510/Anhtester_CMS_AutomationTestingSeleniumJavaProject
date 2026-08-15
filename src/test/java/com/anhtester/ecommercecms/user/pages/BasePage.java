@@ -1,5 +1,6 @@
 package com.anhtester.ecommercecms.user.pages;
 
+import com.anhtester.ecommercecms.admin.pages.AdminDashboardPage;
 import com.anhtester.helpers.PropertiesHelper;
 import com.anhtester.keywords.WebUI;
 import io.qameta.allure.Step;
@@ -33,11 +34,17 @@ public class BasePage {
         return this;
     }
 
-    @Step("Navigate to Dashboard page")
-    public UserDashboardPage navigateToDashboardPage() {
+    @Step("Navigate to User Dashboard page")
+    public UserDashboardPage navigateToUserDashboardPage() {
         WebUI.clickElement(buttonMyPanel);
         WebUI.waitForPageLoaded();
         return new UserDashboardPage();
+    }
+    @Step("Navigate to Admin Dashboard page")
+    public AdminDashboardPage navigateToAdminDashboardPage() {
+        WebUI.clickElement(buttonMyPanel);
+        WebUI.waitForPageLoaded();
+        return new AdminDashboardPage();
     }
 
     @Step("Navigate to Home page")

@@ -8267,3 +8267,659 @@ Session ID: 225420615b3db43edcd90aebae2c2252
 [INFO] 07-05-2026 20:23:54 [main] LogUtils - Kết thúc bộ test: Thu May 07 20:23:54 ICT 2026
 [INFO] 08-05-2026 19:08:04 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
 [INFO] 08-05-2026 19:09:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:03:58 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:03:58 [main] LogUtils - Setup môi trường onStart: Tue Jun 23 13:03:58 ICT 2026
+[INFO] 23-06-2026 13:04:00 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 23-06-2026 13:04:00 [main] LogUtils - Total rows with data found: 1
+[INFO] 23-06-2026 13:04:00 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:01 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:01 [main] LogUtils - Setup môi trường onStart: Tue Jun 23 13:04:01 ICT 2026
+[INFO] 23-06-2026 13:04:02 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 23-06-2026 13:04:02 [main] LogUtils - Total rows with data found: 4
+[INFO] 23-06-2026 13:04:02 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:11 [main] LogUtils - Bắt đầu chạy test case: testGetProductInfo
+[INFO] 23-06-2026 13:04:11 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 23-06-2026 13:04:11 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:11 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:12 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Kiểm tra thông tin sản phẩm
+[INFO] 23-06-2026 13:04:12 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login success with valid account
+[INFO] 23-06-2026 13:04:14 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:16 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:16 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:16 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:16 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:17 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:17 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:04:17 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:04:17 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:04:17 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - >> Nhận diện: Đã đăng nhập vào USER DASHBOARD.
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - KẾT QUẢ: Login success with valid account ==> [PASS]
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:04:18 [main] LogUtils - Set text Dell on element By.xpath: //input[@id='search']
+[INFO] 23-06-2026 13:04:19 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:19 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 23-06-2026 13:04:19 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:19 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with wrong password
+[INFO] 23-06-2026 13:04:21 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:21 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:21 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:21 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:22 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:22 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:23 [main] LogUtils - Set text custome@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:04:23 [main] LogUtils - Set text 12345 on element By.xpath: //input[@id='password']
+[ERROR] 23-06-2026 13:04:24 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - Get text of element By.xpath: //div[@role='alert'] ==> TEXT: Invalid login credentials
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - KẾT QUẢ: Login failed with wrong password ==> [PASS] (Hệ thống chặn đúng và hiển thị lỗi: Invalid login credentials)
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:04:24 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:25 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 23-06-2026 13:04:25 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:25 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null email
+[INFO] 23-06-2026 13:04:27 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:27 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:28 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:28 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:28 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Set text Dell on element By.xpath: //input[@id='search']
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Set text  on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:04:29 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:04:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 23-06-2026 13:04:30 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-06-2026 13:04:31 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-06-2026 13:04:32 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-06-2026 13:04:33 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[ERROR] 23-06-2026 13:04:34 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[WARN] 23-06-2026 13:04:34 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-06-2026 13:04:35 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 23-06-2026 13:04:35 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-06-2026 13:04:36 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-06-2026 13:04:38 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-06-2026 13:04:39 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-06-2026 13:04:40 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-06-2026 13:04:41 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 23-06-2026 13:04:41 [main] LogUtils - KẾT QUẢ: Login failed with null email ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 23-06-2026 13:04:41 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 23-06-2026 13:04:41 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:04:41 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:42 [main] LogUtils - Bắt đầu chạy test case: testLoginMultipleAccounts
+[INFO] 23-06-2026 13:04:42 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:42 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Login failed with null password
+[INFO] 23-06-2026 13:04:43 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:43 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[ERROR] 23-06-2026 13:04:44 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong ==> TEXT: $100,000,000.00
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Get text of element By.xpath: //div/small[normalize-space()= 'Sold by:']/parent::div ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - Expected Data: Name=Dell, Price=1.0E8, Seller=Inhouse product
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - UI Data: Name=Dell, Price=1.0E8, Seller=Inhouse product
+[INFO] 23-06-2026 13:04:44 [main] LogUtils - KẾT QUẢ: Kiểm tra thông tin sản phẩm ==> [PASS]
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Test case testGetProductInfo is passed.
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Kết thúc bộ test: Tue Jun 23 13:04:45 ICT 2026
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Set text  on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:04:45 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[WARN] 23-06-2026 13:04:46 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-06-2026 13:04:47 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-06-2026 13:04:48 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-06-2026 13:04:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-06-2026 13:04:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-06-2026 13:04:51 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[WARN] 23-06-2026 13:04:51 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 23-06-2026 13:04:52 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 23-06-2026 13:04:53 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 23-06-2026 13:04:54 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 23-06-2026 13:04:55 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 23-06-2026 13:04:56 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[INFO] 23-06-2026 13:04:56 [main] LogUtils - KẾT QUẢ: Login failed with null password ==> [PASS] (Hệ thống đã chặn và không vào được Dashboard)
+[INFO] 23-06-2026 13:04:56 [main] LogUtils - Test case testLoginMultipleAccounts is passed.
+[INFO] 23-06-2026 13:04:56 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:04:56 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:04:57 [main] LogUtils - Bắt đầu chạy test case: testLoginSuccessFromProperties
+[INFO] 23-06-2026 13:04:57 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:04:58 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:04:58 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:59 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:04:59 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:59 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:04:59 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:04:59 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:05:00 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - >> Nhận diện: Đã đăng nhập vào USER DASHBOARD.
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - Test case testLoginSuccessFromProperties is passed.
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:05:01 [main] LogUtils - Kết thúc bộ test: Tue Jun 23 13:05:01 ICT 2026
+[INFO] 23-06-2026 13:06:37 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:06:37 [main] LogUtils - Setup môi trường onStart: Tue Jun 23 13:06:37 ICT 2026
+[INFO] 23-06-2026 13:06:38 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 23-06-2026 13:06:38 [main] LogUtils - Total rows with data found: 1
+[INFO] 23-06-2026 13:06:38 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:06:40 [main] LogUtils - Bắt đầu chạy test case: testOrderSuccess
+[INFO] 23-06-2026 13:06:40 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:06:40 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: 
+[INFO] 23-06-2026 13:06:42 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:06:42 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:06:42 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:06:42 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:06:42 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:06:43 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:06:43 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:06:43 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:06:43 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:06:45 [main] LogUtils - Set text Coca cola on element By.xpath: //input[@id='search']
+[INFO] 23-06-2026 13:06:46 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Coca cola']
+[INFO] 23-06-2026 13:06:46 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 23-06-2026 13:06:47 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Coca cola
+[INFO] 23-06-2026 13:06:47 [main] LogUtils - Expected Data: Name=Coca cola
+[INFO] 23-06-2026 13:06:47 [main] LogUtils - UI Data: Name=Coca cola
+[INFO] 23-06-2026 13:06:47 [main] LogUtils - Set text 2 on element By.xpath: //input[@name='quantity']
+[INFO] 23-06-2026 13:06:47 [main] LogUtils - Click on element By.xpath: //span[normalize-space() = 'Add to cart']
+[INFO] 23-06-2026 13:06:48 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Proceed to Checkout']
+[INFO] 23-06-2026 13:06:48 [main] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col active']
+[INFO] 23-06-2026 13:06:50 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Continue to Shipping']
+[INFO] 23-06-2026 13:06:50 [main] LogUtils - Click on element By.xpath: //form[@data-toggle='validator']/div/div/div[1]
+[INFO] 23-06-2026 13:06:50 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Delivery Info']
+[INFO] 23-06-2026 13:06:51 [main] LogUtils - Click on element By.xpath: //span/span[normalize-space()='Home Delivery']
+[INFO] 23-06-2026 13:06:52 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Continue to Payment']
+[INFO] 23-06-2026 13:06:52 [main] LogUtils - Set text  on element By.xpath: //textarea[@placeholder='Type your text']
+[INFO] 23-06-2026 13:06:52 [main] LogUtils - Click on element By.xpath: //span/span/span[normalize-space()='Cash on Delivery']
+[INFO] 23-06-2026 13:06:52 [main] LogUtils - Click on element By.xpath: //span[normalize-space()='I agree to the']/preceding-sibling::span
+[INFO] 23-06-2026 13:06:56 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Complete Order']
+[INFO] 23-06-2026 13:06:56 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Thank You for Your Order!']
+[INFO] 23-06-2026 13:06:56 [main] LogUtils - Get text of element By.xpath: //h2[@class='h5']/span ==> TEXT: 20260623-13064717
+[INFO] 23-06-2026 13:06:56 [main] LogUtils - Mã đơn hàng vừa đặt: 20260623-13064717
+[INFO] 23-06-2026 13:06:57 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='My Panel']
+[INFO] 23-06-2026 13:06:58 [main] LogUtils - Click on element By.xpath: //section/descendant::span[normalize-space() ='Purchase History']
+[INFO] 23-06-2026 13:06:59 [main] LogUtils - Get text of element By.xpath: //tbody/tr[1]/td[1]/a ==> TEXT: 20260623-13064717
+[INFO] 23-06-2026 13:06:59 [main] LogUtils - KẾT QUẢ:  ==> [PASS]
+[INFO] 23-06-2026 13:06:59 [main] LogUtils - Test case testOrderSuccess is passed.
+[INFO] 23-06-2026 13:06:59 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:06:59 [main] LogUtils - Kết thúc bộ test: Tue Jun 23 13:06:59 ICT 2026
+[INFO] 23-06-2026 13:07:09 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:07:09 [main] LogUtils - Setup môi trường onStart: Tue Jun 23 13:07:09 ICT 2026
+[INFO] 23-06-2026 13:07:10 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 23-06-2026 13:07:10 [main] LogUtils - Total rows with data found: 1
+[INFO] 23-06-2026 13:07:11 [main] LogUtils - Launching Chrome browser...
+[INFO] 23-06-2026 13:07:12 [main] LogUtils - Bắt đầu chạy test case: testGetProductInfo
+[INFO] 23-06-2026 13:07:12 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:07:13 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: Kiểm tra thông tin sản phẩm
+[INFO] 23-06-2026 13:07:15 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 23-06-2026 13:07:15 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:07:15 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 23-06-2026 13:07:15 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:07:15 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 23-06-2026 13:07:16 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 23-06-2026 13:07:16 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 23-06-2026 13:07:16 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 23-06-2026 13:07:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 23-06-2026 13:07:18 [main] LogUtils - Set text Dell on element By.xpath: //input[@id='search']
+[INFO] 23-06-2026 13:07:20 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:07:20 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:07:21 [main] LogUtils - Set text Dell on element By.xpath: //input[@id='search']
+[ERROR] 23-06-2026 13:07:26 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Products']/parent::div/descendant::div[normalize-space()='Dell']
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Get text of element By.xpath: //h1 ==> TEXT: Dell
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Get text of element By.xpath: //div[normalize-space()='Price:']/parent::div/following-sibling::div//strong ==> TEXT: $100,000,000.00
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Get text of element By.xpath: //div/small[normalize-space()= 'Sold by:']/parent::div ==> TEXT: Sold by:
+Inhouse product
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Expected Data: Name=Dell, Price=1.0E8, Seller=Inhouse product
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - UI Data: Name=Dell, Price=1.0E8, Seller=Inhouse product
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - KẾT QUẢ: Kiểm tra thông tin sản phẩm ==> [PASS]
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Test case testGetProductInfo is passed.
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - ==> Status: 1
+[INFO] 23-06-2026 13:07:38 [main] LogUtils - Kết thúc bộ test: Tue Jun 23 13:07:38 ICT 2026
+[INFO] 23-06-2026 13:07:51 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 23-06-2026 13:07:51 [main] LogUtils - Setup môi trường onStart: Tue Jun 23 13:07:51 ICT 2026
+[INFO] 23-06-2026 13:07:52 [main] LogUtils - Sheet name doesn't exist.
+[ERROR] 23-06-2026 13:07:52 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 23-06-2026 13:07:52 [main] LogUtils - ==> Lý do: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getPhysicalNumberOfRows()" because "this.sheet" is null
+[INFO] 23-06-2026 13:07:53 [main] LogUtils - Kết thúc bộ test: Tue Jun 23 13:07:53 ICT 2026
+[INFO] 24-06-2026 11:24:05 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:24:05 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:24:05 ICT 2026
+[INFO] 24-06-2026 11:24:07 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:24:07 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:24:07 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:24:11 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:24:11 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:24:12 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:24:14 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:24:14 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:24:14 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:24:14 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:24:15 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:24:15 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:24:15 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:24:15 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:24:17 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:24:18 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:24:18 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:24:19 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:24:19 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:24:19 [main] LogUtils - Click on element By.xpath: //div[@class= 'input-group']/div[normalize-space()='Browse']
+[INFO] 24-06-2026 11:24:20 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 24-06-2026 11:24:20 [main] LogUtils - Click on element By.xpath: //a[normalize-space()='Upload New']
+[INFO] 24-06-2026 11:24:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Browse']
+[INFO] 24-06-2026 11:24:22 [main] LogUtils - Uploading file: D:WorkspaceProjectAutomationAnhtester_CMS_AutomationTestingSeleniumJavaProjectsrc	estesources	estdata/
+[INFO] 24-06-2026 11:24:23 [main] LogUtils - Upload file successfully!
+[INFO] 24-06-2026 11:24:23 [main] LogUtils - checkElementExist: true --- By.xpath: //div[normalize-space()='']
+[INFO] 24-06-2026 11:24:23 [main] LogUtils - checkElementExist: false --- By.xpath: //div[@class='uppy-StatusBar-statusPrimary']
+[ERROR] 24-06-2026 11:24:33 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //button[normalize-space()='Select File']
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //div[@title='']
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //button[normalize-space()='Add Files']
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c33701103e774a7142f59c0f81d6e65, findElements {using=xpath, value=//div[normalize-space()='']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54219}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c33701103e774a7142f59c0f81d6e65
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:24:36 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c33701103e774a7142f59c0f81d6e65, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54219}, goog:processID: 20364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54219/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c33701103e774a7142f59c0f81d6e65
+[INFO] 24-06-2026 11:24:36 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:24:36 ICT 2026
+[INFO] 24-06-2026 11:34:14 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:34:14 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:34:14 ICT 2026
+[INFO] 24-06-2026 11:34:15 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:34:15 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:34:15 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:34:17 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:34:17 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:34:18 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:34:20 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:34:20 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:34:20 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:34:20 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:34:20 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:34:21 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:34:21 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:34:21 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:34:23 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:34:24 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:34:24 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:34:25 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:34:25 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:34:25 [main] LogUtils - Set text  on element By.xpath: //input[@name='new_password']
+[INFO] 24-06-2026 11:34:25 [main] LogUtils - Set text  on element By.xpath: //input[@name='confirm_password']
+[INFO] 24-06-2026 11:34:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 24-06-2026 11:34:27 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 24-06-2026 11:34:27 [main] LogUtils - Get text of element By.xpath: //span[@data-notify='message'] ==> TEXT: Your Profile has been updated successfully!
+[ERROR] 24-06-2026 11:34:27 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:34:27 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Message thành công không khớp! expected [] but found [Your Profile has been updated successfully!]
+[INFO] 24-06-2026 11:34:28 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:34:28 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:34:28 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:34:28 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateAddress
+[INFO] 24-06-2026 11:34:30 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:34:30 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:34:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:34:30 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:34:30 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:34:31 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:34:31 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:34:31 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:34:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:34:34 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:34:34 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:34:34 [main] LogUtils - Click on element By.xpath: //div[normalize-space()='Add New Address']
+[INFO] 24-06-2026 11:34:35 [main] LogUtils - Set text  on element By.xpath: //textarea[@placeholder='Your Address']
+[INFO] 24-06-2026 11:34:35 [main] LogUtils - Click on element By.xpath: //button[@title='Select your country']
+[INFO] 24-06-2026 11:34:35 [main] LogUtils - Set text  on element By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //span[@class='text'][normalize-space()='']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //button[@title='Select State']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //span[@class='text'][normalize-space()='']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //button[@title='Select City']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //div[@class='dropdown-menu show']//input[@aria-label='Search']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //span[@class='text'][normalize-space()='']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //input[@placeholder='Your Postal Code']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element Visible. By.xpath: //input[@placeholder='+880']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Timeout waiting for the element to be clickable. By.xpath: //button[normalize-space()='Save']
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdda15a18485e2b27966bee59d5c246b, executeScript {args=[], script=return document.readyState}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56758}, goog:processID: 13268, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56758/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdda15a18485e2b27966bee59d5c246b
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:34:39 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fdda15a18485e2b27966bee59d5c246b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56758}, goog:processID: 13268, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56758/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdda15a18485e2b27966bee59d5c246b
+[INFO] 24-06-2026 11:34:39 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:34:39 ICT 2026
+[INFO] 24-06-2026 11:44:26 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:44:26 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:44:26 ICT 2026
+[INFO] 24-06-2026 11:44:27 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:44:27 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:44:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:44:29 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:44:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:44:30 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:44:32 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:44:32 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:33 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:33 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:33 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:34 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:44:34 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:44:34 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:44:35 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:44:37 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:44:37 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:44:37 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:44:38 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:44:39 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:44:40 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:44:41 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:44:42 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:44:42 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:44:42 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateBasicInfo]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:44:43 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:44:44 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:44:44 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:44:44 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateAddress
+[INFO] 24-06-2026 11:44:45 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:44:45 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:46 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:46 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:46 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:46 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:44:46 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:44:47 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:44:48 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:44:49 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:44:50 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:44:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:44:51 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:44:52 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:44:53 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:44:54 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:44:55 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:44:55 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:44:55 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateAddress]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:44:55 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:44:56 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:44:56 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:44:56 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateEamail
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:44:58 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:44:59 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:44:59 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:45:00 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:45:02 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:45:02 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:45:02 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:45:03 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:45:04 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:45:05 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:45:06 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:45:07 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:45:07 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:45:07 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateEamail]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:45:08 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:45:08 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:45:08 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:45:08 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateInfo
+[INFO] 24-06-2026 11:45:10 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:45:10 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:45:10 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:45:10 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:45:10 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:45:11 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:45:11 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:45:11 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:45:13 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:45:14 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:45:14 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:45:14 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:45:15 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:45:16 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:45:17 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:45:19 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:45:20 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:45:20 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:45:20 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateInfo]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:45:20 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:45:20 ICT 2026
+[INFO] 24-06-2026 11:47:26 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:47:26 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:47:26 ICT 2026
+[INFO] 24-06-2026 11:47:27 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:47:27 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:47:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:47:29 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:47:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:47:30 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:47:31 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:47:31 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:31 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:31 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:31 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:32 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:47:32 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:47:32 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:47:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:47:35 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:47:35 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:47:35 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:47:36 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:47:36 [main] LogUtils - Set text  on element By.xpath: //input[@name='new_password']
+[INFO] 24-06-2026 11:47:36 [main] LogUtils - Set text  on element By.xpath: //input[@name='confirm_password']
+[INFO] 24-06-2026 11:47:38 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 24-06-2026 11:47:38 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 24-06-2026 11:47:38 [main] LogUtils - Get text of element By.xpath: //span[@data-notify='message'] ==> TEXT: Your Profile has been updated successfully!
+[ERROR] 24-06-2026 11:47:38 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:47:38 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Message thành công không khớp! expected [] but found [Your Profile has been updated successfully!]
+[INFO] 24-06-2026 11:47:39 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:47:39 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:47:39 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:47:39 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateAddress
+[INFO] 24-06-2026 11:47:41 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:47:41 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:41 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:41 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:42 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:42 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:47:42 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:47:42 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:47:44 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:47:45 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:47:45 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:47:45 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:47:47 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:47:48 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:47:49 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:47:50 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:47:51 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:47:51 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:47:51 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateAddress]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:47:51 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:47:52 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:47:52 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:47:52 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateEamail
+[INFO] 24-06-2026 11:47:54 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:47:54 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:54 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:47:54 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:54 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:47:55 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:47:55 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:47:55 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:47:57 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:47:59 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:47:59 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[WARN] 24-06-2026 11:47:59 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 1
+[WARN] 24-06-2026 11:48:00 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 2
+[WARN] 24-06-2026 11:48:01 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 3
+[WARN] 24-06-2026 11:48:02 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 4
+[WARN] 24-06-2026 11:48:03 [main] LogUtils - Không tìm thấy phần tử. Thử lại lần 5
+[INFO] 24-06-2026 11:48:04 [main] LogUtils - Không tìm thấy phần tử sau 5 lần thử.
+[ERROR] 24-06-2026 11:48:04 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:48:04 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI [UpdateEamail]: Cập nhật thất bại ! expected [true] but found [false]
+[INFO] 24-06-2026 11:48:04 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:48:05 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:48:05 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:48:05 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateInfo
+[INFO] 24-06-2026 11:48:06 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[ERROR] 24-06-2026 11:48:06 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:48:06 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed1a3c4cc7be3ab1f274b29ef82bd60, executeScript {args=[], script=return document.readyState}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49797}, goog:processID: 10276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49797/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed1a3c4cc7be3ab1f274b29ef82bd60
+[ERROR] 24-06-2026 11:48:06 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:48:06 [main] LogUtils - ==> Lý do: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ed1a3c4cc7be3ab1f274b29ef82bd60, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\vanco\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49797}, goog:processID: 10276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49797/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed1a3c4cc7be3ab1f274b29ef82bd60
+[INFO] 24-06-2026 11:48:06 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:48:06 ICT 2026
+[INFO] 24-06-2026 11:51:21 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:51:21 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:51:21 ICT 2026
+[INFO] 24-06-2026 11:51:22 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:51:22 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:51:22 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:51:24 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:51:24 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:51:25 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:51:27 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:51:27 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:51:27 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:51:27 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:51:28 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:51:28 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:51:28 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:51:29 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:51:30 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - Set text  on element By.xpath: //input[@name='new_password']
+[INFO] 24-06-2026 11:51:32 [main] LogUtils - Set text  on element By.xpath: //input[@name='confirm_password']
+[INFO] 24-06-2026 11:51:34 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 24-06-2026 11:51:34 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 24-06-2026 11:51:34 [main] LogUtils - Get text of element By.xpath: //span[@data-notify='message'] ==> TEXT: Your Profile has been updated successfully!
+[ERROR] 24-06-2026 11:51:34 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:51:34 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Message thành công không khớp! expected [] but found [Your Profile has been updated successfully!]
+[INFO] 24-06-2026 11:51:35 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:51:36 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:51:36 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:51:36 [main] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 24-06-2026 11:51:36 [main] LogUtils - ==> Status: 1
+[INFO] 24-06-2026 11:51:36 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:51:37 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:51:37 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:51:37 [main] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 24-06-2026 11:51:37 [main] LogUtils - ==> Status: 1
+[INFO] 24-06-2026 11:51:37 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:51:38 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:51:38 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:51:38 [main] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 24-06-2026 11:51:38 [main] LogUtils - ==> Status: 1
+[INFO] 24-06-2026 11:51:38 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:51:38 ICT 2026
+[INFO] 24-06-2026 11:55:26 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:55:26 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:55:26 ICT 2026
+[INFO] 24-06-2026 11:55:27 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:55:27 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:55:27 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:55:29 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:55:29 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:55:30 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:55:32 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:55:32 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:55:32 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:55:32 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:55:32 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:55:33 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:55:33 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:55:33 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:55:35 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:55:36 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:55:36 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:55:37 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:55:37 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:55:37 [main] LogUtils - Set text  on element By.xpath: //input[@name='new_password']
+[INFO] 24-06-2026 11:55:37 [main] LogUtils - Set text  on element By.xpath: //input[@name='confirm_password']
+[INFO] 24-06-2026 11:55:39 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 24-06-2026 11:55:39 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 24-06-2026 11:55:39 [main] LogUtils - Get text of element By.xpath: //span[@data-notify='message'] ==> TEXT: Your Profile has been updated successfully!
+[ERROR] 24-06-2026 11:55:39 [main] LogUtils - Test case testUpdateProfile is failed.
+[ERROR] 24-06-2026 11:55:39 [main] LogUtils - ==> Lý do: java.lang.AssertionError: LỖI: Message thành công không khớp! expected [] but found [Your Profile has been updated successfully!]
+[INFO] 24-06-2026 11:55:39 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:55:39 ICT 2026
+[INFO] 24-06-2026 11:56:54 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:56:54 [main] LogUtils - Setup môi trường onStart: Wed Jun 24 11:56:54 ICT 2026
+[INFO] 24-06-2026 11:56:55 [main] LogUtils - Excel Path: src/test/resources/testdata/DataCMS.xlsx
+[INFO] 24-06-2026 11:56:55 [main] LogUtils - Total rows with data found: 4
+[INFO] 24-06-2026 11:56:55 [main] LogUtils - Launching Chrome browser...
+[INFO] 24-06-2026 11:56:56 [main] LogUtils - Bắt đầu chạy test case: testUpdateProfile
+[INFO] 24-06-2026 11:56:56 [main] LogUtils - Current Directory: D:\Workspace\ProjectAutomation\Anhtester_CMS_AutomationTestingSeleniumJavaProject\
+[INFO] 24-06-2026 11:56:57 [main] LogUtils - >>> BẮT ĐẦU TEST CASE: UpdateBasicInfo
+[INFO] 24-06-2026 11:56:59 [main] LogUtils - Open URL:  https://cms.anhtester.com
+[INFO] 24-06-2026 11:56:59 [main] LogUtils - checkElementExist: true --- By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:56:59 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Ok. I Understood']
+[INFO] 24-06-2026 11:56:59 [main] LogUtils - checkElementExist: true --- By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:56:59 [main] LogUtils - Click on element By.xpath: //i[@class='la la-close fs-20']
+[INFO] 24-06-2026 11:57:00 [main] LogUtils - Click on element By.xpath: //a[text()='Login']
+[INFO] 24-06-2026 11:57:00 [main] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 24-06-2026 11:57:00 [main] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 24-06-2026 11:57:02 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - Click on element By.xpath: //div[@class='d-flex align-items-start']//span[@class='aiz-side-nav-text'][normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Manage Profile']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - Set text  on element By.xpath: //input[@name='name']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - Set text 123456789 on element By.xpath: //input[@name='phone']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - Set text  on element By.xpath: //input[@name='new_password']
+[INFO] 24-06-2026 11:57:04 [main] LogUtils - Set text  on element By.xpath: //input[@name='confirm_password']
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - Click on element By.xpath: //button[normalize-space()='Update Profile']
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - Tìm thấy phần tử ở lần thử thứ 1
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - KẾT QUẢ: UpdateBasicInfo ==> [PASS]
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - Test case testUpdateProfile is passed.
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - ==> Status: 1
+[INFO] 24-06-2026 11:57:06 [main] LogUtils - Kết thúc bộ test: Wed Jun 24 11:57:06 ICT 2026
